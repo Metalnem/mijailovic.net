@@ -1,2 +1,1 @@
-# mijailovic.net
-My personal blog
+My personal blog.
