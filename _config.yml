@@ -1,1 +1,10 @@
+title: Nemanja Mijailovic's Blog
+
+baseurl: ""
+url: "https://mijailovic.net"
+github_username: metalnem
+
+markdown: kramdown
+theme: minima
+
 exclude: [CNAME, LICENSE, README.md]
