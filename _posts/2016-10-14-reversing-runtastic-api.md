@@ -13,7 +13,7 @@ First, let's see which HTTP requests application is making. To do such a thing f
 
 After configuring the device to connect to Burp, we can now try to sync the activities. When you swipe the screen to do that, application starts making bunch of HTTP requests, but only two of them are to Runtastic servers. We can see that request number 12 is the one that asks the server for the latest activities. It's passing the access_token parameter via the query parameter, so that must be the way that the request is authenticated. Let's back up a little bit and see how to obtain it.
 
-![](sync.png)
+![](/assets/img/2016-10-14-sync.png)
 
 ## Login process
 
@@ -41,7 +41,7 @@ If the credentials are correct, the server will respond with the user ID and acc
 
 Now we are going to try to replicate the request without the application to see if we can repeat the login process. After playing for a few minutes with the Burp Suite, I discovered one really nice feature called Repeater. In the HTTP history tab, you can right-click on any request and send it to Repeater, from which you can resend the request as many times as you want, with all its associated headers and query parameters. You can also play with the request in different ways. You can modify the body of the request and add/remove/modify headers, for example (we can use that to see which request headers were required, and which were optional). After testing every header, I discovered that X-Date, X-Auth-Token and X-App-Key were needed to successfully complete the login.
 
-![](repeater.png)
+![](/assets/img/2016-10-14-repeater.png)
 
 If we try to change the date or the app key, but use the same auth token, server will reject our request. That probably means auth token calculation is somehow combining at least date and app key. App key is always the same (at.runtastic.gpssportapp for iOS Runtastic application) and we can always determine current date, so we only have to figure out how to calculate auth key based on those two values. If we take a closer look at auth token, we can see that it contains 40 bytes of hex data, which is 20 bytes of actual data. The usual way of combining multiple values into fixed size output is by using a hash function, and 20 bytes is the output size of SHA1 function. Hash functions can be called directly, or as a part of some [MAC](https://en.wikipedia.org/wiki/Message_authentication_code) construction that takes secret key as an additional parameter. Most widely used MAC is [HMAC](https://en.wikipedia.org/wiki/Hash-based_message_authentication_code). Armed with this knowledge, I tried to do few obvious things, like concatenating the date and the app key and hashing them, calling HMAC with app key as secret key and date as data to be authenticated, etc. I had no luck in my attempts, which meant I was going to have to reverse the application binary to see how it's generating the auth token.
 
@@ -49,7 +49,7 @@ If we try to change the date or the app key, but use the same auth token, server
 
 I'm using Runtastic application on iOS, and to reverse the iOS app you need jailbroken device, but that was not an option for me. Since I have the most experience with .NET development, next step was to try to reverse Runtastic app for the Windows Phone. I hit the wall there too, because all Windows Phone applications are encrypted and the phone is doing the decryption, so there was no way to that without the actual phone (not sure if it's easy or possible even with the phone). My next attempt was to see if Windows Store on desktop has the Runtastic application, because Windows Store applications are also .NET applications. After searching for Runtastic, I got the following results:
 
-![](windows.png)
+![](/assets/img/2016-10-14-windows.png)
 
 There was no Runtastic running application, but I figured that all of them are probably using the same authentication process, so I installed Runtastic Six Pack. After that I tried to load it's main dll (Runtastic.SixPack.WindowsPhone.dll) in [dotPeek](https://www.jetbrains.com/decompiler/), which is my favorite .NET decompiler. Unfortunately, dotPeek couldn't load the dll. What was happening there? It turned out that applications targeting Windows 10 are compiled to native code using .NET native technology, and that was the reason I couldn't decompile it in dotPeek, because it can only decompile managed applications. Description for the application confirmed that - it's only available on Windows 10 version 10240.0 or higher. Now I had to find out if any of the remaining Runtastic applications in the list could be decompiled. Runtastic PushUps PRO has Windows 8.1 or higher as a requirement, so I purchased it. This applications had a lot of dlls, but only few of them looked promising. Among them were:
 
