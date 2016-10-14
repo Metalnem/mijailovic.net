@@ -7,4 +7,4 @@ github_username: metalnem
 markdown: kramdown
 theme: minima
 
-exclude: [CNAME, LICENSE, README.md]
+exclude: [CNAME, Gemfile, LICENSE, README.md]
