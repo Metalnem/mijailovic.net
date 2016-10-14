@@ -2,7 +2,6 @@
 layout: post
 title:  "Reversing Runtastic API"
 date:   2016-10-14 19:15:00 +0200
-categories: jekyll update
 ---
 # Reversing Runtastic API
 
