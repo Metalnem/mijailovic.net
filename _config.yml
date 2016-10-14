@@ -4,6 +4,8 @@ baseurl: ""
 url: "https://mijailovic.net"
 github_username: metalnem
 
+permalink: /:year/:month/:day/:title/
+
 markdown: kramdown
 theme: minima
 
