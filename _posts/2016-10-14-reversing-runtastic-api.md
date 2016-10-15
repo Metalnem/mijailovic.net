@@ -22,11 +22,11 @@ We will log out from the application and monitor outgoing requests to see how th
 
 ```json
 {
-   "email":"imateapot@mailinator.com",
-   "additionalAttributes":[
-      "accessToken"
-   ],
-   "password":"imateapot"
+  "email": "imateapot@mailinator.com",
+  "additionalAttributes": [
+    "accessToken"
+  ],
+  "password": "imateapot"
 }
 ```
 
@@ -34,9 +34,9 @@ If the credentials are correct, the server will respond with the user ID and acc
 
 ```json
 {
-   "userId":"96196607",
-   "accessToken":"3f446efae2405f02bd16444fb328adab2da3a50944f33a4c720b9e3ccb61717c",
-   "uidt":"133d21f2228e8a0107c1cb003c0fe1897fc8450c"
+  "userId": "96196607",
+  "accessToken": "3f446efae2405f02bd16444fb328adab2da3a50944f33a4c720b9e3ccb61717c",
+  "uidt": "133d21f2228e8a0107c1cb003c0fe1897fc8450c"
 }
 ```
 
@@ -64,12 +64,12 @@ I loaded them all into dotPeek and started looking for code that is generating t
 ```csharp
 public static string GetAuthorisationToken()
 {
-	return BitConverter.ToString(new SHA1Managed().ComputeHash(
-		Encoding.UTF8.GetBytes(string.Format("--{0}--{1}--{2}--",
-			(object) NetworkSettings.Instance.AppKey,
-			(object) NetworkSettings.Instance.AppSecret,
-			(object) DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")))
-	)).Replace("-", "").ToLower();
+  return BitConverter.ToString(new SHA1Managed().ComputeHash(
+    Encoding.UTF8.GetBytes(string.Format("--{0}--{1}--{2}--",
+      (object) NetworkSettings.Instance.AppKey,
+      (object) NetworkSettings.Instance.AppSecret,
+      (object) DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")))
+  )).Replace("-", "").ToLower();
 }
 ```
 
@@ -78,21 +78,21 @@ That's it! Application was using both date and app key to generate the SHA1 hash
 ```csharp
 switch (GeneralSettings.Instance.AppType)
 {
-	case AppType.PushUpsW8:
-		this.AppKey = "com.runtastic.windows.pushup.pro";
-		this.AppSecret = "H55779eb12238015988c9badf27cf5b5f11faff341ea9722b8d178290323477f";
-		this.ApplicationName = "com_runtastic_pushups";
-		break;
-	case AppType.SitUpsW8:
-		this.AppKey = "com.runtastic.windows.situp.pro";
-		this.AppSecret = "L7164e6f012971b4fba49a297ee1c0487366f548c2723b7576a0f84c3ef4384f";
-		this.ApplicationName = "com_runtastic_situps";
-		break;
-	case AppType.SquatsW8:
-		this.AppKey = "com.runtastic.windows.squats.pro";
-		this.AppSecret = "Zb237812f511a03cff619ef4bff891289771ee62f76537c46abdd2fe9c606b53";
-		this.ApplicationName = "com_runtastic_squats";
-		break;
+  case AppType.PushUpsW8:
+    this.AppKey = "com.runtastic.windows.pushup.pro";
+    this.AppSecret = "H55779eb12238015988c9badf27cf5b5f11faff341ea9722b8d178290323477f";
+    this.ApplicationName = "com_runtastic_pushups";
+    break;
+  case AppType.SitUpsW8:
+    this.AppKey = "com.runtastic.windows.situp.pro";
+    this.AppSecret = "L7164e6f012971b4fba49a297ee1c0487366f548c2723b7576a0f84c3ef4384f";
+    this.ApplicationName = "com_runtastic_situps";
+    break;
+  case AppType.SquatsW8:
+    this.AppKey = "com.runtastic.windows.squats.pro";
+    this.AppSecret = "Zb237812f511a03cff619ef4bff891289771ee62f76537c46abdd2fe9c606b53";
+    this.ApplicationName = "com_runtastic_squats";
+    break;
 }
 ```
 
@@ -112,23 +112,23 @@ Now that we can actually execute the sync request, let's see what data is server
 
 ```json
 {
-   "perPage":"100",
-   "syncedUntil":"1475918625000",
-   "moreItemsAvailable":"false",
-   "sessions":[
-      {
-         "id":"1414523234",
-         "gpsTraceAvailable":"true"
-      },
-      {
-         "id":"1414523238",
-         "gpsTraceAvailable":"true"
-      },
-      {
-         "id":"1414523236",         
-         "gpsTraceAvailable":"true"
-      }
-   ]
+  "perPage": "100",
+  "syncedUntil": "1475918625000",
+  "moreItemsAvailable": "false",
+  "sessions": [
+    {
+      "id": "1414523234",
+      "gpsTraceAvailable": "true"
+    },
+    {
+      "id": "1414523238",
+      "gpsTraceAvailable": "true"
+    },
+    {
+      "id": "1414523236",
+      "gpsTraceAvailable": "true"
+    }
+  ]
 }
 ```
 
@@ -158,10 +158,10 @@ The server responds with this:
 
 ```json
 {
-   "data":{
-      "id":"57f8bd3371c40cf4244c467c",
-      "type":"run_session"
-   }
+  "data": {
+    "id": "57f8bd3371c40cf4244c467c",
+    "type": "run_session"
+  }
 }
 ```
 
