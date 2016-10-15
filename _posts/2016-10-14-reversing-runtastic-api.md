@@ -18,7 +18,7 @@ After configuring the device to connect to Burp, we can now try to sync the acti
 
 ## Login process
 
-We will log out from the application and monitor outgoing requests to see how the application is logging in. First thing that application does is posting the following JSON data to https://appws.runtastic.com/webapps/services/auth/login:
+We will log out from the application and monitor outgoing requests to see how the application is logging in. First thing that application does is posting the following JSON data to <https://appws.runtastic.com/webapps/services/auth/login>:
 
 ```json
 {
@@ -132,7 +132,7 @@ Now that we can actually execute the sync request, let's see what data is server
 }
 ```
 
-After retrieving the list of activities, application is making a new request for each one of them to retrieve the GPS data. For the first activity in the list applications makes a POST request to https://appws.runtastic.com/webapps/services/runsessions/v2/1414523234/details?access_token=3f446efae2405f02bd16444fb328adab2da3a50944f3314c720b9e3ccb61717c, and the server responds with JSON data that contains the trace field with the following value:
+After retrieving the list of activities, application is making a new request for each one of them to retrieve the GPS data. For the first activity in the list applications makes a POST request to <https://appws.runtastic.com/webapps/services/runsessions/v2/1414523234/details?access_token=3f446efae2405f02bd16444fb328adab2da3a50944f3314c720b9e3ccb61717c>, and the server responds with JSON data that contains the trace field with the following value:
 
 ```
 AAAABgAAAVcPriMIQaPD2EIzPTBDAXwSAAAAAAAAAAAAAAAAAAAAAAAAAAABVw+uJvBBo8PhQjM9
@@ -148,11 +148,11 @@ The trace field looks like it's GPS data for the activity, encoded in some way. 
 
 If you open an activity in the web application, you can find the options menu there, which contains options to export the data in several formats. If you select the gpx export, your web browser will download the exported file from the following URL:
 
-https://www.runtastic.com/en/users/96196607/sport-sessions/57f8bd3371c40cf4244c467c.gpx
+<https://www.runtastic.com/en/users/96196607/sport-sessions/57f8bd3371c40cf4244c467c.gpx>
 
 The number 96196607 is the user ID, which we already have from the login response. The string 57f8bd3371c40cf4244c467c looks like some king of activity ID, but it's not the same as the ID we already have. Is there a way to convert the real ID into the ID needed to export the data? Let's look at the requests that are being made when we select the activity from the list of all activities. One of them is to the following URL:
 
-https://hubs.runtastic.com/samples/v2/users/96196607/samples/1414541859?include=trace_collection
+<https://hubs.runtastic.com/samples/v2/users/96196607/samples/1414541859?include=trace_collection>
 
 The server responds with this:
 
@@ -169,7 +169,7 @@ That is exactly what we need! The ID in the response is the same as the gpx file
 
 ## Web application login
 
-This part was pretty straightforward. If you follow the network traffic after clicking the login button, you will see the POST request to the https://www.runtastic.com/en/d/users/sign_in, with the following form data:
+This part was pretty straightforward. If you follow the network traffic after clicking the login button, you will see the POST request to the <https://www.runtastic.com/en/d/users/sign_in>, with the following form data:
 
 ```
 user[email]:imateapot@mailinator.com
