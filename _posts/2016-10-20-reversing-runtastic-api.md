@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reversing Runtastic API"
-date: 2016-10-14 20:21:00 +0200
+date: 2016-10-20 18:00:00 -0600
 ---
 # Reversing Runtastic API
 
