@@ -178,7 +178,7 @@ authenticity_token:NTEttM7LEVDRFmVKlyb6PQeaNFixCfp5738vaZTm0ao=
 grant_type:password
 ```
 
-In the response, server will give us cookie called `_runtastic_session`, that we will attach to every request as an authentication.
+In the response, server will give us cookie called **_runtastic_session**, that we will attach to every request as an authentication.
 
 ## Summary
 
