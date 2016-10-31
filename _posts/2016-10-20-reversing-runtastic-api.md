@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Reversing Runtastic API"
-date: 2016-10-14 20:21:00 +0200
-published: false
+date: 2016-10-20 18:00:00 -0600
 ---
 # Reversing Runtastic API
 
@@ -178,7 +177,7 @@ authenticity_token:NTEttM7LEVDRFmVKlyb6PQeaNFixCfp5738vaZTm0ao=
 grant_type:password
 ```
 
-In the response, server will give us cookie called `_runtastic_session`, that we will attach to every request as an authentication.
+In the response, server will give us cookie called **_runtastic_session**, that we will attach to every request as an authentication.
 
 ## Summary
 
