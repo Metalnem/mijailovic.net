@@ -189,4 +189,4 @@ At this moment I had everything I need to automate the backup process. The steps
 - Find the export URL for each activity
 - Download all the files and zip them
 
-Complete program written in Go can be found [here](https://github.com/Metalnem/runtastic-cli).
+Complete program written in Go can be found [here](https://github.com/Metalnem/runtastic).
