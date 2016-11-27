@@ -1,0 +1,5 @@
+Rate limiting nije za api nego za export
+
+8: As you might remember, one part of the activity data returned from the server was the GPS trace field (which I could have used to extract the activity data), but I chose to ignore it back then because there
+was a much easier way to export the activity.
+265: Malo bolje
