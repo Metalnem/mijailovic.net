@@ -265,9 +265,10 @@ at the first 8 bytes. The remaining 8 bytes looked familiar, so I downloaded the
 00 00 01 29 73 b8 c9 a8 c2 93 ee e3 42 23 1c b0 42 09 0e 80 00 00 00 00 00 00 00 00 17 70 00 00 00 01 00 00 00 02
 ```
 
-The last 8 bytes of the heart rate trace were the same as the bytes 26-33 in the GPS trace. That meant the only useful info in the
-heart rate data was the single byte with the actual heart rate. With this knowledge, I had every information I needed to manually
-export my activities.
+The last 8 bytes of the heart rate data were the same as the bytes 26-33 in the GPS trace (total time and total distance).
+This meant that the only useful info in the heart rate data was the single byte with the actual heart rate, because time,
+total time and total distance could already be found in GPS trace. With this knowledge, I had every information I needed to
+manually export my activities.
 
 ## Final words
 
