@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Decoding Runtastic GPS trace"
+date: 2016-11-28 18:10:00 +0200
 ---
 # Decoding Runtastic GPS trace
 
