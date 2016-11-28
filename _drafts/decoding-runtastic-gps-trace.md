@@ -9,9 +9,9 @@ As you might remember, one part of the activity data returned from the server wa
 and extract the activity data, but I chose to ignore it back then because there
 was a much easier way to export the activity. That changed few days after the Runtastic Archiver application was completed. I was running
 the application to backup my latest runs, when I suddenly started getting errors that some expected headers in HTTP responses were missing.
-It turned out that server introduced some kind of rate limiting for export requests. First activity was always successfully downloaded, but
+It turned out that server introduced some kind of rate limiting for export requests. First activity was successfully downloaded every time, but
 the next one always failed. After experimenting with delays between requests, I discovered that the Runtastic server was allowing only one
-request every 10 seconds. Such long delay was unacceptable. For example, if you run 5 times per week, and you were using Runtastic
+request every 10 seconds. Delay that long was unacceptable. For example, if you run 5 times per week, and you were using Runtastic
 for the last 4 years, you would have around 1000 activities, and your backup process would be almost 3 hours long. Web application was no
 exception to the rate limiting - if you tried to export multiple activities in a short period of time, all files, with the exception
 of the first one, would contain only **access denied** string. At that moment I had no other choice but to get back to encoded GPS trace
@@ -91,8 +91,8 @@ Hex representation of the latitude was 0x42333d30, which matched bytes 12, 13, 1
 16, 17, 18 and 19.
 
 Time was slightly different. There are various ways to serialize date and time, but the most common one is
-[unix time](https://en.wikipedia.org/wiki/Unix_time). I used [Epoch Unix Time Stamp Converter](http://www.unixtimestamp.com/index.php)
-for converting time found in gpx file to unix time. Time from the first data point was converted to 1473436853, which is 0x57d2dcb5 in hex.
+[Unix time](https://en.wikipedia.org/wiki/Unix_time). I used [Epoch Unix Time Stamp Converter](http://www.unixtimestamp.com/index.php)
+for converting time found in gpx file to Unix time. Time from the first data point was converted to 1473436853, which is 0x57d2dcb5 in hex.
 But that value was nowhere to be found in the trace. Because I still haven't decoded the first 8 bytes, I tried to read them as one
 64-bit integer. The result I got was number 1473436853000, which was the Unix time I needed. The only difference from standard
 representation was that it was actually number of milliseconds instead of seconds.
@@ -167,7 +167,7 @@ decimal, 0x47 and 0x42 were 71 and 66, respectively. I opened the mobile applica
 I actually found two additional ones that the web application was missing - elevation gain and elevation loss. Elevation gain for this
 run was 71m, and elevation loss was 66m. Neat!
 
-That left me with only two unknown bytes, but they didn't seem interesting, nor relevant at the moment, I decided to ignore them completely.
+That left me with only two unknown bytes, but they didn't seem interesting, nor relevant at the moment, so I decided to ignore them completely.
 
 ## Exporting heart rate data
 
