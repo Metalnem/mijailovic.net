@@ -95,7 +95,7 @@ Time was slightly different. There are various ways to serialize date and time, 
 for converting time found in gpx file to Unix time. Time from the first data point was converted to 1473436853, which is 0x57d2dcb5 in hex.
 But that value was nowhere to be found in the trace. Because I still haven't decoded the first 8 bytes, I tried to read them as one
 64-bit integer. The result I got was number 1473436853000, which was the Unix time I needed. The only difference from standard
-representation was that it was actually number of milliseconds instead of seconds.
+representation was that it was actually the number of milliseconds instead of seconds.
 
 At this moment I had everything I needed to export the activity. I modified my original program to decode the values I needed and to
 manually create the gpx file. Runtastic web application successfully accepted the file when I tried to upload it, so everything was good.
@@ -131,8 +131,8 @@ extracted first and last five rows of the unknown data:
 This looked much more promising, because I could see some interesting patterns here. First two bytes were the same almost all the time,
 so I ignored them at first. After them came four groups of four bytes each. First group looked like floating-point numbers, second and
 third group looked like monotonically increasing integers, and fourth group was always zero. There are only a few possible values that
-are always increasing during the run - total time and total distance. If some of the unknown values were really total time or total
-distance, final row should contain final distance and duration of the run. Those values for my run looked like this:
+are always increasing during the run - total time and total distance. If some of the unknown values were indeed total time or total
+distance, final row would contain final distance and duration of the run. Those values for my run looked like this:
 
 ```
 Distance: 10.03km
@@ -143,9 +143,9 @@ Max. Speed: 14.47 km/h
 Total Steps: 9040
 ```
 
-After converting first group of bytes (0x4150cbb7) to float, the result was number 13.0497. That value looked like speed - it was below
-the maximum and above the average speed. To confirm that value was really the speed, I converted all the values in the file and found
-the maximum one - it was indeed 14.47.
+After converting the first group of bytes in the last row (0x4150cbb7) to float, the result was number 13.0497.
+That value looked like speed - it was below the maximum and above the average speed. To confirm that value was really the speed,
+I converted all the values in the file and found the maximum one - it was indeed 14.47.
 
 Second group (0x002ee402) was 3073026 in decimal. That didn't look very familiar. It certainly didn't look like total distance, so maybe
 it was total duration expressed in some different way? 51:13 is exactly 3073 seconds, so the second group of bytes was total duration
@@ -172,7 +172,7 @@ That left me with only two unknown bytes, but they didn't seem interesting, nor 
 ## Exporting heart rate data
 
 One thing that was still missing was the heart rate data. I'm not using a heart rate monitor, so I searched the internet for some gpx
-file that had heart rate data included, because I was lazy to read the gpx file format specification. I quickly found this file:
+file that had heart rate data included (I was lazy to read the gpx file format specification). I quickly found this file:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -275,4 +275,4 @@ manually export my activities.
 [Runtastic Archiver](https://github.com/Metalnem/runtastic) was updated to use the GPS trace and heart rate data from the Runtastic API.
 The API was extracted into separate Go package, so if anybody wants to use it, it can be imported using `github.com/metalnem/runtastic/api`
 import path. Hopefully, this way of exporting activities should work for the foreseeable future, because this time Runtastic can't
-actually do much, short of preventing it's users from using the application.
+actually do much, short of preventing its users from using the application.
