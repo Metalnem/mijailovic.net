@@ -5,7 +5,8 @@ title: "Decoding Runtastic GPS trace"
 # Decoding Runtastic GPS trace
 
 I've written about reversing Runtastic API in my [previous post]({{ site.baseurl }}{% post_url 2016-10-20-reversing-runtastic-api %}).
-As you might remember, one part of the activity data returned from the server was the GPS trace field, which I ignored back then because there
+As you might remember, one part of the activity data returned from the server was the GPS trace field. I could have tried to decode it
+and extract the activity data, but I chose to ignore it back then because there
 was a much easier way to export the activity. That changed few days after the Runtastic Archiver application was completed. I was running
 the application to backup my latest runs, when I suddenly started getting errors that some expected headers in HTTP responses were missing.
 It turned out that server introduced some kind of rate limiting for export requests. First activity was always successfully downloaded, but
