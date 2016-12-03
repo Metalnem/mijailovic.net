@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/metalnem
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mijailovic.net
+  * I am metalnem (https://keybase.io/metalnem) on keybase.
+  * I have a public key with fingerprint 4CB3 928F D5D7 A79C 1ECC  4A3E 17BE C86C 284D 503C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012d341a2116f2c5c6e3f2d78a6af0b9a626fa95029cae32d4a82b902915214dd80a",
+            "fingerprint": "4cb3928fd5d7a79c1ecc4a3e17bec86c284d503c",
+            "host": "keybase.io",
+            "key_id": "17bec86c284d503c",
+            "kid": "01012d341a2116f2c5c6e3f2d78a6af0b9a626fa95029cae32d4a82b902915214dd80a",
+            "uid": "107d38287c58dc145397e7ef4c567519",
+            "username": "metalnem"
+        },
+        "service": {
+            "hostname": "mijailovic.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1480766112,
+    "expire_in": 157680000,
+    "prev": "748a5dcb442359f85f4dbaed9a22412aaffffdd565dd33b29f707543d01a8943",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMItAnicrVJpSBVRFH5mC9mmUARt0GTR8njMvXNnewUtPyyoqMQWynreufeOjvpm
+Xu/N08SMEIp+FJGJESVYgRBiki1KRmVY9FJ/iJGVmQZt0EK0mBJYd1r+9bPz53LP
++b7vfOdw2iYl+1KSlG/FlYfjc3YltbeejPu2rWqsKRUMh5YIwVKhgP16WCFlMTdU
+YFEhKIhABJBKCGAIgGJCIhOFSSakqoYVbIqGjhWomFiXRagTzCRIEdagofMvkCFA
+lGoiFvyCadm5LBqJWrbLZRExJB1qJpWpilWdAEYIwhIDqsGIphCoISqLEuHEPCfm
+Mbg5A8dYwHJ4jn9Cv+z9A/+ffcd/9xFVKmlQU4msUQKQLOkqU5mJiKyoMtA9YIxF
+bRxmHB1mLi60WVgo8ws8W2QR5i3Wm+QvwsrHVqHDKwGbuZwdiTquQ5xCXstz3Ugs
+6HHdkogHLmZG6I9MyLBsyjfJGUUsGrMcWwgCjiSu5ekCpImqogAA/QLbE7GiLGR5
+CFlVNJGH14cVcUkVaVimxEAISrJuarKJqIEZ1TGECECMTR6UyopMqSQZUDdVUZWR
+REWANR1JgjfYbtsRgiq3iXO5ZMzKtbEbjzKh7Pat7NG+pBTf2DGjvAvzpYxP/Xt3
+y1eN++FuqjnxdfpQunFky4a3e5uPV50JXRc3r/z8cc252oqFs5dorXVUSetefeya
+v129GFrAtn4fGp7bdUH4kPmCrZ/RII2cXJcxz6q+Me1l/NXqmz3hd8veBGbhhPvl
+e9pO5cqTBNr3fErf60R507KpqY33R9al55z9URXek+Uf9WxO2f7+xVVld7vzu/tw
+ZtbDlqbt5tLe06/KM7py++YO1q8dajiwoz6waFsjLm27NHS1fPKdQzmnJmS8qwhs
+6mgeyWyl36zizv6Vn5InDvc8yn5/r6eyrTe16ebG6OucxEDnxhUPFpyvPjhmwL3s
+TKutHDzaODMxXHeiY37N08HHl9rbPm3IPNvyE+IjTuo=
+=NcS4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/metalnem
+
+==================================================================
