@@ -11,3 +11,6 @@ markdown: kramdown
 theme: minima
 
 exclude: [CNAME, Gemfile, LICENSE, README.md]
+
+gems:
+  - jekyll-feed
