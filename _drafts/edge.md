@@ -168,7 +168,7 @@ It was iPod Touch 4th Generation, with the ancient iOS 6.1.6. Remember this?
 
 Edge Magazine app required at least iOS 7, but I decided to try to install it anyway.
 Somehow it had still been displayed in the app store. When I tried to download it, I was informed that
-it didn'd support my iOS version, but I was offered to install older version of the app instead. Good enough for me!
+it didn't support my iOS version, but I was offered to install older version of the app instead. Good enough for me!
 
 Now that I had the application installed, I could proceed with the jailbreak process. It was a very painful
 experience. There are two available tools for jailbreaking iOS 6.1.6, p0sixspwn and Redsn0w. I found
@@ -282,7 +282,7 @@ were located, hoping that I would see something interesting in their vicinity.
 There was a string *SavedPasswords* right next to them. Could it be that the password
 is being saved somewhere? I connected via SSH to the device again, this time searching
 for files containing the string *SavedPassword*. I had one hit! The file was called
-com.futurenet.edgemagazine.plist. If looked promising, because plist is the default
+`com.futurenet.edgemagazine.plist`. If looked promising, because plist is the default
 configuration file format in Apple software system. I copied it to my Mac using Cyberduck,
 because Mac OS has a nice viewer for plist files. Looking through the contents of the file
 I found this:
