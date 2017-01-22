@@ -74,7 +74,7 @@ ticket: 00649540014842485615877d5f10fdbf6313623950
 uid: 05681280014840428595874b26b8ab4f9991495580
 ```
 
-Server will respond with *status* field initially set to -1. After that, Client sends the getDownloadUrl
+Server will respond with *status* field initially set to -1. After that, client sends the getDownloadUrl
 repeatedly, until the server responds with *status* set to 1. I never established
 how it finally decides to let you in.
 
