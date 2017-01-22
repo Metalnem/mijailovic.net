@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Removing Edge Magazine DRM"
+date: 2017-01-22 17:40:00 -0600
 ---
 # Removing Edge Magazine DRM
 
@@ -164,7 +165,7 @@ already jailbroken. While I was looking through online ads, I suddenly remembere
 had an old iPod Touch that she stopped using some time ago, so it was available for me to play with.
 It was iPod Touch 4th Generation, with the ancient iOS 6.1.6. Remember this?
 
-![](/assets/img/ios.png)
+![](/assets/img/2017-01-22-ios.png)
 
 Edge Magazine app required at least iOS 7, but I decided to try to install it anyway.
 Somehow it was still being displayed in the app store. When I tried to download it, I was informed that
@@ -196,7 +197,7 @@ but on the Mac OS X I still haven't tried any alternative. Google search quickly
 which looked well-designed, so I downloaded it. I connected to the device with the default root credentials
 (*alpine* is the default root password on every iPhone) and navigated to the folder I found.
 
-![](/assets/img/file-system.png)
+![](/assets/img/2017-01-22-file-system.png)
 
 I assumed the application was in the folio.app directory (it had the app extension, after all).
 The folder had a bunch of files and folders that looked like some kind of application resources.
@@ -224,7 +225,7 @@ for retrieving Objective-C information from the analyzed files, which was useful
 a novice like me. I downloaded Hopper and opened the application binary in it.
 First screen that I encountered looked very intimidating.
 
-![](/assets/img/hopper.png)
+![](/assets/img/2017-01-22-hopper.png)
 
 Fortunately, Hopper's user interface was relatively intuitive, even though it contained
 a lot of information. On the left side you can see the list of all functions and strings
@@ -288,7 +289,7 @@ configuration file format in Apple software system. I copied it to my Mac using 
 because Mac OS has a nice viewer for plist files. Looking through the contents of the file
 I found this:
 
-![](/assets/img/password.png)
+![](/assets/img/2017-01-22-password.png)
 
 The password was the concatenation of the strings that I found before, with some of the
 characters removed: **"F0rd** bCCIvo **\*t3h** GwKUC **%3p1c** SjPJ **&h0nkY!"**
