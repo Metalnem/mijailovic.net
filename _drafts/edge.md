@@ -289,7 +289,9 @@ I found this:
 
 ![](/assets/img/password.png)
 
-I was overjoyed! The password worked on downloaded PDFs, of course.
+The password was the concatenation of the strings that I found before, with some of the
+characters removed: **"F0rd** bCCIvo **\*t3h** GwKUC **%3p1c** SjPJ **&h0nkY!"**
+I was overjoyed! It goes without saying that the password worked on downloaded PDFs.
 
 ## Unlocking and combining the individual PDF pages
 
