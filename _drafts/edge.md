@@ -192,7 +192,7 @@ so I just did a grep search for *edge*. That gave me multiple results in the dir
 root directory of the app. I could have just started exploring directory from the terminal, but I prefer
 doing that in graphical interface. While I was still using Windows, I liked [WinSCP](https://winscp.net/eng/index.php),
 but on the Mac OS X I still haven't tried any alternative. Google search quickly found [Cyberduck](https://cyberduck.io/),
-which looked very nice. I connected to the device with the default root credentials (`alpine` is the default root password
+which looked very nice. I connected to the device with the default root credentials (*alpine* is the default root password
 on every iPhone) and navigated to the folder I found.
 
 ![](/assets/img/file-system.png)
