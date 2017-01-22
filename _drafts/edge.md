@@ -10,10 +10,10 @@ a few years ago, when their website was closed. The magazine continued its life 
 format only. I really liked the content they produced, so I decided to purchase a one year subscription for the
 digital version.
 
-Every time I buy some digital content online, the first thing I do is to make its backup and make
+Every time I buy some digital content online, the first thing I do is creating backup of it and making
 sure that I can use it without the official client application (if it exists). Most of the
-technical literature I buy now comes in PDF format without DRM (InformIT, O'Reilly, No Starch Press). Amazon
-Kindle books come with DRM that is easy to remove, and the same thing applies to Audible books. For the
+technical literature I buy comes in PDF format without DRM (InformIT, O'Reilly, No Starch Press). Amazon
+Kindle books come with DRM that is easy to remove, and the same thing goes for Audible books. For the
 Dark Horse Comics I wrote a little [tool](https://github.com/Metalnem/dark-horse-downloader) that converts
 their proprietary format into CBZ, which is a format that every comic book reader supports. Digital
 version of the Edge Magazine came with its own app, so there was no way to backup the magazines.
@@ -25,11 +25,11 @@ First step towards that goal was to reverse the application's API.
 
 I've written about reversing private APIs in the post
 [Reversing Runtastic API]({{ site.baseurl }}{% post_url 2016-10-20-reversing-runtastic-api %}), so I won't get
-into the details here. I'll just give you a tour of the API, with the annotated requests and responses.
+into the details again. I'll just give you a tour of the API, with the annotated requests and responses.
 API server is located at <https://api.futr.efs.foliocloud.net>. All requests are POST requests,
 with the URL encoded parameters. Responses are JSON formatted.
 
-The exchange starts by client sending the request to the **/createAnonymousUser/** endpoint.
+The exchange starts with client sending the request to the **/createAnonymousUser/** endpoint.
 Request contains hard-coded *appKey* and *secretKey* parameters.
 
 ```
@@ -55,7 +55,7 @@ api_params: {"identifier":"imateapot@mailinator.com","password":"imateapot"}
 uid: 05681280014840428595874b26b8ab4f9991495580
 ```
 
-Server responds with the download ticket number. That's strange response for a login request.
+Server responds with the download ticket number. That's unusual response for a login request.
 
 ```json
 {  
@@ -65,8 +65,8 @@ Server responds with the download ticket number. That's strange response for a l
 }
 ```
 
-This is the moment where things get interesting. After the login request is completed and
-the client received a download ticket, login process is only halfway done. Next step
+This is the moment where things get interesting. When the login request is completed and
+the client receives a download ticket, login process is only halfway done. Next step
 is to call the **/getDownloadUrl/** endpoint with the download ticket.
 
 ```
@@ -74,9 +74,9 @@ ticket: 00649540014842485615877d5f10fdbf6313623950
 uid: 05681280014840428595874b26b8ab4f9991495580
 ```
 
-Server will respond with *status* field initially set to -1. Client sends the getDownloadUrl
-repeatedly after that until the server responds with *status* set to 1. I never discovered
-how it finally decides that it should let you in.
+Server will respond with *status* field initially set to -1. After that, Client sends the getDownloadUrl
+repeatedly, until the server responds with *status* set to 1. I never established
+how it finally decides to let you in.
 
 ```json
 {  
@@ -88,15 +88,15 @@ how it finally decides that it should let you in.
 ```
 
 Congratulations, you are logged in! Your status is now attached on the server to the ID
-you received in the initial request. Next step is to download list of all products that
+you received in the initial request. Next step is to download list of all issues that
 you purchased. That is done via **/getPurchasedProductList/** endpoint.
 
 ```
 uid: 05681280014840428595874b26b8ab4f9991495580
 ```
 
-Server responds with the list of all available issues with bunch of metadata. Only one
-field is relevant to us, and that is SKU. It contains the unique name of a magazine issue.
+Server responds with the list of all available issues, along with a bunch of metadata that is of no interest to us. Only one
+field is of relevance, and that is SKU. It contains the unique name of a magazine issue.
 
 ```json
 {  
@@ -134,7 +134,7 @@ That's it! When you have the download link, you can download the file without an
 I didn't include its real value in the example response.
 
 After downloading the file for one of the issues that I had purchased, I discovered that it consists of
-bunch of PDF files named *page-0.pdf*, *page-1.pdf*, etc. That confirmed my theory from the beginning.
+bunch of PDF files named *page-0.pdf*, *page-1.pdf*, etc. That confirmed my initial theory.
 I was happy because all that was left was to somehow merge the files. Unfortunately, when I tried to open
 one of the PDFs, I was asked to provide the password. That came unexpected!
 
@@ -150,24 +150,24 @@ to be harder than expected.
 ## iOS jailbreaking
 
 Edge Magazine app was available only on iOS and Android,
-so decompiling .NET like I did in the case of Runtastic app was out. What was even worse, there was
+so decompiling .NET like I did in the case of Runtastic app was not an option. What was even worse, there was
 no standalone app on Android. Edge Magazine is downloaded via Google Play Newsstand, so I couldn't
 just download the APK file and decompile it. That left native iOS application as my only choice. To extract the
 binary from the phone, I had to jailbreak it.
 
-My iPhone had the latest available iOS version, for which the jailbreak was not available. Even if was
-available, I would never jailbreak my primary cell phone, so I had to find some other solution. I had
+My iPhone had the latest available iOS version, for which the jailbreak was not available. Even if it was
+available, I would be reluctant to jailbreak my primary cell phone. I had
 an old iPad with the iOS 9.3.5 installed on it, but I soon discovered that all available jailbreak methods
 supported only iOS up to 9.3.3. Versions 9.3.4 and 9.3.5 were actually minor updates specifically
 designed to prevent known jailbreak methods. The only solution left was to buy some cheap old iPhone, preferably
 already jailbroken. While I was looking through online ads, I suddenly remembered that my girlfriend
-had an iPod Touch that she stopped using some time ago, so it was available for me to play with.
+had an old iPod Touch that she stopped using some time ago, so it was available for me to play with.
 It was iPod Touch 4th Generation, with the ancient iOS 6.1.6. Remember this?
 
 ![](/assets/img/ios.png)
 
 Edge Magazine app required at least iOS 7, but I decided to try to install it anyway.
-Somehow it had still been displayed in the app store. When I tried to download it, I was informed that
+Somehow it was still being displayed in the app store. When I tried to download it, I was informed that
 it didn't support my iOS version, but I was offered to install older version of the app instead. Good enough for me!
 
 Now that I had the application installed, I could proceed with the jailbreak process. It was a very painful
@@ -175,25 +175,26 @@ experience. There are two available tools for jailbreaking iOS 6.1.6, p0sixspwn 
 a tutorial on [iPhone Hacks](http://www.iphonehacks.com/2014/03/jailbreak-ios-6-1-6-redsn0w-p0sixspwn.html)
 webpage, but both tools failed spectacularly on my Mac, one by requiring some really old version of iTunes,
 and other by giving me some unknown errors. I tried them both on Windows 7 virtual machine, where I already
-had some old iTunes installed, but that also failed. This time one of the jailbreak tools just crashed every time, and
-the other continued to give me errors. I finally managed to jailbreak my iPod Touch using some other laptop with Windows 10 installed.
+had some old iTunes installed, but that also failed. This time one of the jailbreak tools simply crashed every time, and
+the other continued to give me errors. I finally managed to jailbreak my iPod Touch using some other laptop with Windows 10
+ installed and one of the previously mentioned tools.
+
+ Jailbroken device was only one of the many steps in the process of extracting the binary.
+ Next thing I had to do was to enable remote access to the device by installing
+ [OpenSSH](https://cydia.saurik.com/package/openssh/). If you want to access terminal directly
+ on the device, you can install [MobileTerminal](https://cydia.saurik.com/package/mobileterminal/) too.
 
 ## Extracting the binary
 
-Jailbroken device was only one of the many steps in the process of extracting the binary.
-Next thing I had to do was to enable remote access to the device by installing
-[OpenSSH](https://cydia.saurik.com/package/openssh/). If you want to access terminal directly
-on the device, you can install [MobileTerminal](https://cydia.saurik.com/package/mobileterminal/) too.
-
-With all the prerequisites installed, I started looking for the binary location.
+With all the prerequisites installed, I was back on track and started looking for the location of the application's binary.
 I was not familiar with the iOS file system hierarchy,
 so I just did a grep search for *edge*. That gave me multiple results in the directory
 `/private/etc/var/mobile/Applications/A043BAFC-8C87-40B1-BA0E-A8A673F377F0`. That looked like the
-root directory of the app. I could have just started exploring directory from the terminal, but I prefer
-doing that in graphical interface. While I was still using Windows, I liked [WinSCP](https://winscp.net/eng/index.php),
+root directory of the app. I could have just started exploring the directory from the terminal, but I preferred
+doing that in graphical interface. Back when I was using Windows, I liked [WinSCP](https://winscp.net/eng/index.php),
 but on the Mac OS X I still haven't tried any alternative. Google search quickly found [Cyberduck](https://cyberduck.io/),
-which looked very nice. I connected to the device with the default root credentials (*alpine* is the default root password
-on every iPhone) and navigated to the folder I found.
+which looked well designed, so I downloaded it. I connected to the device with the default root credentials
+(*alpine* is the default root password on every iPhone) and navigated to the folder I found.
 
 ![](/assets/img/file-system.png)
 
@@ -203,7 +204,7 @@ Among them was one file called folio, with the size of about 15MB. That was prob
 
 But you can't just copy the binary and disassemble it. All the applications on the iOS are encrypted,
 so I had to find a way to decrypt it. There are several available decryption tools and I randomly
-chose to use [Clutch](https://github.com/KJCracks/Clutch). Current version supported only iOS 8 or newer.
+picked [Clutch](https://github.com/KJCracks/Clutch). Current version supported only iOS 8 or newer.
 Luckily, the app was hosted on GitHub and all of the previous releases were still there. I found the one
 that supported iOS 6.1.6 and copied it to the device. It was super simple to use, so I had the binary
 decrypted and copied to my machine in no time. I was ready for the disassembling.
@@ -220,8 +221,8 @@ affordable solutions for the hobbyist hackers are [Hopper](https://www.hopperapp
 and [Binary Ninja](https://binary.ninja/). I've heard a lot of good things about both,
 but the prevailing factor in my decision to choose Hopper was that it had the support
 for retrieving Objective-C information from the analyzed files, which was useful for
-a novice in the field like me. I downloaded Hopper and opened the application binary in it.
-First screen that I encountered after that looked very intimidating.
+a novice like me. I downloaded Hopper and opened the application binary in it.
+First screen that I encountered looked very intimidating.
 
 ![](/assets/img/hopper.png)
 
@@ -237,15 +238,15 @@ I assumed that the function doing that would contain PDF in its name, so I did a
 for *PDF* in the Proc. pane. There were hundreds of functions doing PDF operations. Instead
 of looking through that large list, I tried to narrow down the search by searching for *password*.
 That helped a lot, because the results could fit on the screen this time. Skimming through the
-list I quickly noticed the function CGPDFdocumentUnlockWithPassword. The name said everything.
+list I quickly noticed the function *CGPDFdocumentUnlockWithPassword*. The name said everything.
 
 I was not interested in the function itself, but rather in the parameters it received.
 One of them probably had to be the password. *Is Referenced By* section proved helpful
 by showing that the function was called in two places, located at
 addresses 0x3dc3b6 and 0x3dc428. I navigated to the first one. That call to
-CGPDFdocumentUnlockWithPassword was located inside one huge function. I started going
-through it line by line. First thing I noticed was that the function was using bunch
-of weird looking strings in blocks of instructions looking like this:
+*CGPDFdocumentUnlockWithPassword* was located inside one huge function. I started going
+through it line by line. First thing I noticed was that the function was using a bunch
+of weird looking strings in blocks of instructions, looking like this:
 
 ```
 003dc01e    movw    r6, #0x2ddc    ; @"\\\"F0rdbCCI", :lower16:(0x5cee08 - 0x3dc02c)
@@ -261,12 +262,12 @@ of weird looking strings in blocks of instructions looking like this:
 003dc152    movt    r0, #0x1f      ; @"SjPJ&h0nkY!\\\"", :upper16:(0x5cee38 - 0x3dc15c)
 ```
 
-These strings looked like they were being combined into a password. First started with the
+These strings looked like they were being combined into a password. First one started with the
 escaped quote, and the last one ended with the exclamation mark and escaped quote. I tried
 concatenating them in various ways in attempt to form a valid password for the PDF files,
-but had no luck in doing that. At this point I knew that finding the password was just
+but had no luck. At this point I knew that finding the password was just
 a matter of time. I could have invested some time in learning the basics of ARM v7 assembly,
-but I wanted to try few more things that, because I felt that I was very close to a solution.
+but I wanted to try a few more things before that, because I felt that I was very close to a solution.
 
 I opened the Strings pane and navigated to the place where the four strings of interest
 were located, hoping that I would see something interesting in their vicinity.
@@ -295,7 +296,7 @@ I was overjoyed! It goes without saying that the password worked on downloaded P
 
 ## Unlocking and combining the individual PDF pages
 
-My job was now still just partly done. What I had at the moment were individual PDF pages and the
+My job was still only partially done. What I had at the moment were individual PDF pages and the
 password that could decrypt them, but I still had to write the application that would produce
 single PDF that combined the decrypted pages. I started looking for PDF libraries written in Go. After some time, I
 stumbled upon [UniDoc](http://unidoc.io/). Among the features listed on the features page there were
