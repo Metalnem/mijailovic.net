@@ -5,7 +5,7 @@ title: "Removing Edge Magazine DRM"
 # Removing Edge Magazine DRM
 
 [Edge Magazine](https://www.myfavouritemagazines.co.uk/gaming/edge-magazine-subscription/) is one of the oldest
-gaming magazines in the world. It is famous for the quality of its reviews, all of them available online up until
+gaming magazines in the world. It is famous for the quality of its reviews, all of which were available online up until
 a few years ago, when their website was closed. The magazine continued its life in print and digital subscription
 format only. I really liked the content they produced, so I decided to purchase a one year subscription for the
 digital version.
@@ -16,9 +16,9 @@ technical literature I buy comes in PDF format without DRM (InformIT, O'Reilly, 
 Kindle books come with DRM that is easy to remove, and the same thing goes for Audible books. For the
 Dark Horse Comics I wrote a little [tool](https://github.com/Metalnem/dark-horse-downloader) that converts
 their proprietary format into CBZ, which is a format that every comic book reader supports. Digital
-version of the Edge Magazine came with its own app, so there was no way to backup the magazines.
+version of the Edge Magazine came with its own app, and there was no known way to backup the magazines.
 Application didn't have any interactivity, so I assumed that it was just a viewer for PDF, EPUB or some
-other book format. If that was true, there must have been some way to extract the content from it.
+other book format. If that was true, there had to be some way to extract the content from it.
 First step towards that goal was to reverse the application's API.
 
 ## Reversing the API
@@ -177,12 +177,12 @@ webpage, but both tools failed spectacularly on my Mac, one by requiring some re
 and other by giving me some unknown errors. I tried them both on Windows 7 virtual machine, where I already
 had some old iTunes installed, but that also failed. This time one of the jailbreak tools simply crashed every time, and
 the other continued to give me errors. I finally managed to jailbreak my iPod Touch using some other laptop with Windows 10
- installed and one of the previously mentioned tools.
+installed and one of the previously mentioned tools.
 
- Jailbroken device was only one of the many steps in the process of extracting the binary.
- Next thing I had to do was to enable remote access to the device by installing
- [OpenSSH](https://cydia.saurik.com/package/openssh/). If you want to access terminal directly
- on the device, you can install [MobileTerminal](https://cydia.saurik.com/package/mobileterminal/) too.
+Jailbroken device was only one of the many steps in the process of extracting the binary.
+Next thing I had to do was to enable remote access to the device by installing
+[OpenSSH](https://cydia.saurik.com/package/openssh/). If you want to access terminal directly
+on the device, you can install [MobileTerminal](https://cydia.saurik.com/package/mobileterminal/) too.
 
 ## Extracting the binary
 
@@ -191,9 +191,9 @@ I was not familiar with the iOS file system hierarchy,
 so I just did a grep search for *edge*. That gave me multiple results in the directory
 `/private/etc/var/mobile/Applications/A043BAFC-8C87-40B1-BA0E-A8A673F377F0`. That looked like the
 root directory of the app. I could have just started exploring the directory from the terminal, but I preferred
-doing that in graphical interface. Back when I was using Windows, I liked [WinSCP](https://winscp.net/eng/index.php),
+doing that in some GUI. Back when I was using Windows, I liked [WinSCP](https://winscp.net/eng/index.php),
 but on the Mac OS X I still haven't tried any alternative. Google search quickly found [Cyberduck](https://cyberduck.io/),
-which looked well designed, so I downloaded it. I connected to the device with the default root credentials
+which looked well-designed, so I downloaded it. I connected to the device with the default root credentials
 (*alpine* is the default root password on every iPhone) and navigated to the folder I found.
 
 ![](/assets/img/file-system.png)
