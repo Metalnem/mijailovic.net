@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Removing DRM from all Future plc magazines"
-date: 2017-03-05 18:25:00 -0600
+date: 2017-03-05 18:25:00 +0200
 ---
 # Removing DRM from all Future plc magazines
 
