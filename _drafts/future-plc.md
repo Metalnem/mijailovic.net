@@ -6,7 +6,7 @@ title: "Removing DRM from all Future plc magazines"
 
 While I was working on removing DRM from Edge magazine, the Edge application for iOS was constantly bombarding me with
 ads for different magazines from the same publisher. That got my attention, because I previously noticed
-that Edge magazine didn't have its own webpage (I purchased my yearly subscription using
+that Edge magazine didn't even have its own webpage (I purchased my yearly subscription using
 [MyFavouriteMagazines](https://www.myfavouritemagazines.co.uk/) store).
 One more thing I found interesting was that the application's REST API looked quite generic.
 So, what if all other magazines from Future Publishing were using the same API and download format?
@@ -30,7 +30,7 @@ didn't have the option for buying single digital issue (only quarterly and yearl
 Luckily, single issues were being offered as in-app purchases.
 
 I purchased one issue of each of the previously mentioned magazines and tried running my
-Edge magazine downloader too see if maybe it would work automagically. Nothing happened, of course. I could still
+Edge magazine downloader to see if maybe it would work automagically. Nothing happened, of course. I could still
 see the list of Edge magazine issues only. Does the API have in the requests something that is specific to the magazine
 it's working with? Then I remembered the *appKey* and *secretKey* parameters - they were probably different for
 each application. I fired up the Burp Suite and confirmed that was indeed the case.
@@ -44,7 +44,9 @@ the app, which proved useful - the list of purchases was empty this time. Then i
 actually never logged in with my MyFavouriteMagazines credentials during the in-app purchases,
 so they had to be tied to my iTunes account instead! Indeed, this time in the library section of the app, there was a big
 "Restore iTunes Purchases" button. Pressing the button triggered a network call to Apple servers, and my purchase
-was restored. This was not good. Because I purchased my subscription of Edge magazine on MyFavouriteMagazines, it was tied to my account there.
+was restored.
+
+This was not good. Because I purchased my subscription of Edge magazine on MyFavouriteMagazines, it was tied to my account there.
 But in-app purchases were stored in my Apple account only (I didn't even need MyFavouriteMagazines account).
 Was there any way to make my application work with this scenario in mind? There were some good news and some bad news.
 The good news was that the workaround exists. The bad news was that it's not very useful for the most computer users.
@@ -123,15 +125,15 @@ store to see if there are some additional magazines there. Here is the combined 
 [Total Guitar](https://www.myfavouritemagazines.co.uk/music/total-guitar-magazine-subscription/#digital)  
 [Windows Help & Advice](https://www.myfavouritemagazines.co.uk/All-Magazines/Windows-Help-Advice-Print.html#digital)  
 
-You can purchase the subscription for the most of the magazines using the web store. Unfortunately, there are
+You can purchase subscriptions for the most of the magazines using the web store. Unfortunately, there are
 several magazines whose subscriptions are available only as an in-app purchases. Also,
 [Official Xbox Magazine](https://itunes.apple.com/gb/app/xbox-the-official-magazine-uk/id451445772) and
 [PlayStation Official Magazine](https://itunes.apple.com/gb/app/playstation-official-magazine/id451455977)
-didn't have the app in the US iTunes store, so I had to create UK account to download them.
+didn't even have the app in the US iTunes store, so I had to create UK account to download them.
 
 Now that I had the the list of all available magazines, I was ready to extract all appKey/secretKey combinations.
 There was no way to automate this. At the very least, I had to download all the apps manually.
-After one hour of downloading all the apps and one more hour of starting each of them while the phone is proxying the request
+After one hour of downloading all the apps and one more hour of starting each of them while the phone is proxying the requests
 to Burp Suite on my desktop, I finally had all appKey/secretKey combinations.
 
 All secret keys were 32 byte hexadecimal values. Maybe there were SHA256 hashes? Even though
@@ -243,4 +245,4 @@ than 1300 pages long) and libraries that are working with it are very limited in
 I tried removing the links using Adobe Acrobat and observing changes in the resulting file. It
 was completely rewritten by the single change. It looks to me that each object in the file has
 a stream number and there are no gaps between them, but I didn't have the time to investigate more.
-This is obviously not very crucial thing to implement, but I would still be very nice thing to have.
+This is obviously not a crucial thing to implement, but I would still be very nice thing to have.
