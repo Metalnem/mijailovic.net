@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Removing DRM from all Future plc magazines"
+date: 2017-03-05 18:25:00 -0600
 ---
 # Removing DRM from all Future plc magazines
 
@@ -228,7 +229,7 @@ There is one interesting thing that is unique to the iOS application. Each downl
 the PDF files, but also a bunch of high-res images and videos. They are made available via embedded
 links that look like this:
 
-![](/assets/links.png)
+![](/assets/img/2017-03-05-links.png)
 
 After clicking the link, image or video is displayed in the app as an overlay. This is made possible
 by the fact that the app can register custom media handlers and display the images
