@@ -64,8 +64,8 @@ painful steps in the process. Unfortunately, I don't have anything better to off
 
 The lesson here is that
 you should always purchase Future Publishing magazines directly on the MyFavouriteMagazines store if you
-care about making backups or reading your magazine in some other reader. Purchases you made on the web store are available on all your devices (both iOS and Android),
-so that's another point in favor of the web store.
+care about making backups or reading your magazine in some other reader. Purchases you made on the web store
+are available on all your devices (both iOS and Android), so that's another point in favor of the web store.
 
 After making my application work with the UID parameter, I was finally able to test if it's working
 with three magazines that I purchased. I was expecting that it would fail on the PDF decryption step, because I assumed
