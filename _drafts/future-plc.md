@@ -5,14 +5,14 @@ title: "Removing DRM from all Future plc magazines"
 # Removing DRM from all Future plc magazines
 
 While I was working on removing DRM from Edge magazine, the Edge application for iOS was constantly bombarding me with
-ads for different magazines from the same publisher. That piqued my interest, because I noticed previously
+ads for different magazines from the same publisher. That got my attention, because I previously noticed
 that Edge magazine didn't have its own webpage (I purchased my yearly subscription using
 [MyFavouriteMagazines](https://www.myfavouritemagazines.co.uk/) store).
 One more thing I found interesting was that the application's REST API looked quite generic.
-What if all other magazines from Future Publishing were using the same API and download format?
+So, what if all other magazines from Future Publishing were using the same API and download format?
 If that was the case, I could make my DRM removal application work with all of them.
 
-My initial goal when writing the application was to be able to create the backup of the issues that I purchased and
+My initial goal while writing the application was to be able to create the backup of the Edge magazine issues that I myself purchased and to
 also have the option to read them in the application of my choice. I didn't expect that other people
 would find it useful, because I assumed there weren't that many digital subscribers, especially
 in the time of great free online gaming portals such as [Kotaku](http://www.kotaku.com)
@@ -23,11 +23,13 @@ I started testing my hypothesis with their most popular magazines first.
 
 ## Initial experiments
 
-I started measuring popularity using the most sophisticated scientific method available to the humanity - counting
-the number of Twitter followers. PC Gamer, Guitar World and Total Film had hundreds of thousands of
+I started measuring popularity using the most sophisticated scientific method available to the humanity - comparing
+the numbers of Twitter followers. PC Gamer, Guitar World and Total Film had hundreds of thousands of
 followers, so I downloaded iOS app for each of them. MyFavouriteMagazines web store
 didn't have the option for buying single digital issue (only quarterly and yearly subscriptions were available).
-Luckily, single issues were being offered as in-app purchases. I purchased one issue of each and tried running my
+Luckily, single issues were being offered as in-app purchases.
+
+I purchased one issue of each of the previously mentioned magazines and tried running my
 Edge magazine downloader too see if maybe it would work automagically. Nothing happened, of course. I could still
 see the list of Edge magazine issues only. Does the API have in the requests something that is specific to the magazine
 it's working with? Then I remembered the *appKey* and *secretKey* parameters - they were probably different for
@@ -35,13 +37,15 @@ each application. I fired up the Burp Suite and confirmed that was indeed the ca
 I replaced the hard-coded keys for Edge with keys for PC Gamer that I just retrieved, but the I still couldn't see the
 issue I just purchased. What was going on? I inspected the traffic from the mobile app again, but I couldn't see
 anything unusual. The iOS app was making the same request that I was making in my application, but the difference
-was the iOS app was actually receiving correct list of purchases. I was confused. My only idea was to reinstall
+was the iOS app was actually receiving correct list of purchases. I was confused.
+
+My only idea was to reinstall
 the app, which proved useful - the list of purchases was empty this time. Then it dawned on me I was
-actually never logged in with my MyFavouriteMagazines credentials,
-so the purchases had to be tied to my iTunes account! Indeed, this time in my library there was a big
+actually never logged in with my MyFavouriteMagazines credentials during the in-app purchases,
+so they had to be tied to my iTunes account instead! Indeed, this time in the library section of the app, there was a big
 "Restore iTunes Purchases" button. Pressing the button triggered a network call to Apple servers, and my purchase
-was restored. This was not good. Because I purchased my subscription on MyFavouriteMagazines, it was tied to my account there.
-In-app purchases were stored in your Apple account only (you didn't even have to have MyFavouriteMagazines account).
+was restored. This was not good. Because I purchased my subscription of Edge magazine on MyFavouriteMagazines, it was tied to my account there.
+But in-app purchases were stored in my Apple account only (I didn't even need MyFavouriteMagazines account).
 Was there any way to make my application work with this scenario in mind? There were some good news and some bad news.
 The good news was that the workaround exists. The bad news was that it's not very useful for the most computer users.
 
@@ -56,11 +60,12 @@ I added an additional command line parameter to my application to confirm that. 
 but how do you extract the UID from the phone in an user-friendly way? You could always install Burp Suite, configure
 your phone to use it as a proxy, follow the application traffic and extract the UID parameter from any request's HTTP body.
 The problem with that solution is that only tech-savvy users would manage to do that, because there are just to many
-painful steps in the process. Unfortunately, I don't have anything better to offer. The lesson here is that
+painful steps in the process. Unfortunately, I don't have anything better to offer.
+
+The lesson here is that
 you should always purchase Future Publishing magazines directly on the MyFavouriteMagazines store if you
-care about making backups or reading your magazine in some other reader. One more factor to consider is
-that the purchases you made on the web store are available on all your devices (both iOS and Android),
-so that's another thing in favor of the web store.
+care about making backups or reading your magazine in some other reader. Purchases you made on the web store are available on all your devices (both iOS and Android),
+so that's another point in favor of the web store.
 
 After making my application work with the UID parameter, I was finally able to test if it's working
 with three magazines that I purchased. I was expecting that it would fail on the PDF decryption step, because I assumed
@@ -157,7 +162,7 @@ Here is the configuration file for the **PlayStation Official Magazine (UK)**:
 ```
 
 This file is shipped with the application, along with other application resources, so there was
-not way to see how these values were generated. It was time to move on.
+no way to see how these values were generated. It was time to move on.
 
 ## Testing
 
@@ -186,14 +191,14 @@ func TestNewSession(t *testing.T) {
 }
 ```
 
-These few few lines of code enabled me to find out if all appKey/secretKey combinations
+These few lines of code enabled me to find out if all appKey/secretKey combinations
 are working in less than 5 seconds. After adding the command line parameter for
 selecting the magazine you want to work with, my application was complete.
 
 ## Future improvements
 
 You can download fully functional Future plc downloader [here](https://github.com/Metalnem/future-plc-downloader).
-Nevertheless, there are still a lot of improvements that I plan to implement some time in the future.
+Nevertheless, there are still a lot of improvements that I plan to implement at some point in the future.
 
 ### GUI
 
@@ -213,11 +218,11 @@ create at least a Windows version of the application.
 
 Each of the magazines has several free issues. I wanted to use them to test the complete process
 of generating the final PDF. After some testing I discovered that the API for free
-issues is slightly different, so I left that part for some later time.
+issues is slightly different, so I left that part for some other time.
 
 ### Removing media links
 
-There is one interesting thing unique to the iOS application. Each downloaded magazine contains not just
+There is one interesting thing that is unique to the iOS application. Each downloaded magazine contains not just
 the PDF files, but also a bunch of high-res images and videos. They are made available via embedded
 links that look like this:
 
