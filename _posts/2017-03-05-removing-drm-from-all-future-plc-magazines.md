@@ -3,8 +3,6 @@ layout: post
 title: "Removing DRM from all Future plc magazines"
 date: 2017-03-05 18:25:00 +0200
 ---
-# Removing DRM from all Future plc magazines
-
 While I was working on removing DRM from Edge magazine, the Edge application for iOS was constantly bombarding me with
 ads for different magazines from the same publisher. That got my attention, because I previously noticed
 that Edge magazine didn't even have its own webpage (I purchased my yearly subscription using
@@ -150,16 +148,16 @@ Here is the configuration file for the **PlayStation Official Magazine (UK)**:
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>EFS_APP_KEY</key>
-	<string>BWaG8ASaR6uXjr7wjM2wjQ</string>
-	<key>EFS_CDN_SERVER_ADDRESS</key>
-	<string>http://media.futr.efs.foliocloud.net</string>
-	<key>EFS_DEBUG_MODE</key>
-	<string>NO</string>
-	<key>EFS_SECRET_KEY</key>
-	<string>cde4fcb6f6d4dba10b3e52e8bb05ec51</string>
-	<key>EFS_SERVER_ADDRESS</key>
-	<string>https://api.futr.efs.foliocloud.net</string>
+  <key>EFS_APP_KEY</key>
+  <string>BWaG8ASaR6uXjr7wjM2wjQ</string>
+  <key>EFS_CDN_SERVER_ADDRESS</key>
+  <string>http://media.futr.efs.foliocloud.net</string>
+  <key>EFS_DEBUG_MODE</key>
+  <string>NO</string>
+  <key>EFS_SECRET_KEY</key>
+  <string>cde4fcb6f6d4dba10b3e52e8bb05ec51</string>
+  <key>EFS_SERVER_ADDRESS</key>
+  <string>https://api.futr.efs.foliocloud.net</string>
 </dict>
 </plist>
 ```
@@ -179,18 +177,18 @@ speedup in most cases. The resulting testing code looks like this:
 
 ```go
 func TestNewSession(t *testing.T) {
-	for _, mag := range magazines {
-		t.Run(mag.name, func(t *testing.T) {
-			t.Parallel()
+  for _, mag := range magazines {
+    t.Run(mag.name, func(t *testing.T) {
+      t.Parallel()
 
-			ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
-			defer cancel()
+      ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+      defer cancel()
 
-			if _, err := NewSession(ctx, mag); err != nil {
-				t.Fatal(err)
-			}
-		})
-	}
+      if _, err := NewSession(ctx, mag); err != nil {
+        t.Fatal(err)
+      }
+    })
+  }
 }
 ```
 
