@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Removing Edge Magazine DRM"
-date: 2017-01-22 17:40:00 -0600
+date: 2017-01-22 17:40:00 +0200
 ---
-# Removing Edge Magazine DRM
-
 [Edge Magazine](https://www.myfavouritemagazines.co.uk/gaming/edge-magazine-subscription/) is one of the oldest
 gaming magazines in the world. It is famous for the quality of its reviews, all of which were available online up until
 a few years ago, when their website was closed. The magazine continued its life in print and digital subscription

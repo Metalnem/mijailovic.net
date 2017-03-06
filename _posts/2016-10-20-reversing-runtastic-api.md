@@ -3,8 +3,6 @@ layout: post
 title: "Reversing Runtastic API"
 date: 2016-10-20 18:00:00 -0600
 ---
-# Reversing Runtastic API
-
 Unlike other popular running applications (Strava, Endomondo, Runkeeper), Runtastic doesn't offer you an option to export all your running data at once. If you want to create a backup of your data or switch to another application, you have to export your activities one by one using the web interface, which is quite a slow process. Because I wanted to have backup of my data, and also automate the backup process, I decided to reverse the API that Runtastic application is using, and to write a nice little program to archive all of my activities.
 
 ## Intercepting network traffic

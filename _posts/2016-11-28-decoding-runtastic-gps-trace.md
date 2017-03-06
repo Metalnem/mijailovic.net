@@ -3,8 +3,6 @@ layout: post
 title: "Decoding Runtastic GPS trace"
 date: 2016-11-28 18:10:00 +0200
 ---
-# Decoding Runtastic GPS trace
-
 I've written about reversing Runtastic API in my [previous post]({{ site.baseurl }}{% post_url 2016-10-20-reversing-runtastic-api %}).
 As you might remember, one part of the activity data returned from the server was the GPS trace field. I could have tried to decode it
 and extract the activity data, but I chose to ignore it back then because there
