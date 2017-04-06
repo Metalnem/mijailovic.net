@@ -9,7 +9,7 @@ Dan Luu praised this book in his post
 I've read [Introduction to Algorithms](https://www.amazon.com/dp/0262033844/)
 and [The Algorithm Design Manual](https://www.amazon.com/dp/1848000693/)
 previously, so I thought that I was done reading general algorithms
-books, but I decided it wouldn't hurt me too much if I read this one,
+books, but I decided it wouldn't hurt if I read this one,
 too. It was a great decision, because now I have
 a new favorite algorithms book.
 
@@ -18,11 +18,11 @@ Selection of topics is slightly unusual (in a very good way) for
 this type of book. For example, it starts with elementary number
 theory, used as a tool for describing the RSA algorithm. Divide
 and conquer chapter explains Fast Fourier Transform, and it was
-the best explanation of FFT I've seen so far. Every chapter starts
+the clearest explanation of FFT I've seen so far. Every chapter starts
 with some basic building blocks and finally shows how they are
 used to build more complex algorithms, which I think is a great approach.
 
-This book is maybe not great choice for a first book on algorithms, because
+This book maybe not be the greatest choice for a first book to read on algorithms, because
 it usually gives only high-level descriptions, without some details
 necessary for their implementation. It's also not as rigorous as Cormen,
 but that's not really a bad thing.
@@ -34,14 +34,14 @@ It is probably the most comprehensive history of the inner workings
 of Nazi Germany in the period of 1933-1939, from the Hitler's
 rise to power to the invasion on Poland.
 
-Every aspect of the German life is described with incredible amount
+Every aspect of the German way of life at that time is described with incredible amount
 of details. You will learn how democracy gradually eroded before it
 disappeared completely, how every organized resistance was crushed in the way,
 how the persecution of the Jews evolved through time,
 and how the Nazi state affected every part
 of the cultural life: literature, music, architecture, cinema,
 religion, etc. You will also learn a lot about German economy in
-the period. Evans debunks the myth of the German economic miracle,
+this period. Evans debunks the myth of the German economic miracle,
 displays the corruption of the Nazi bureaucracy and how the leaders
 systematically plundered not just the Jews, but also all German citizens.
 
@@ -55,7 +55,7 @@ in the period, it is absolutely worth your time.
 Federal judge Richard G. Kopf recommended this book in the
 [Fault Lines Summer Reading List 2016](http://mimesislaw.com/fault-lines/fault-lines-summer-reading-list-2016/10675).
 Fault Lines was the place with the best legal writing on the
-internet and I completely trusted the authors with the book
+internet and I completely trusted the authors regarding the book
 recommendations. First book that I read from this list was
 [Just Mercy: A Story of Justice and Redemption](https://www.amazon.com/dp/081298496X/),
 (you should read it immediately if you care at all about
@@ -66,7 +66,7 @@ something new in his life and became a doctor in the Colorado
 State Penitentiary supermax prison, which is a part of the
 large prison complex that includes infamous
 [ADX Florence](https://www.nytimes.com/2015/03/29/magazine/inside-americas-toughest-federal-prison.html).
-The book is hilarious, despite the fact that the life
+The book manages to be hilarious, despite the fact that the life
 in federal prison is a serious business. There were many moments when
 I just couldn't stop laughing. I started writing down best prisoners' quotes,
 but I soon gave up, because there were just too many of them. The book shows the human
@@ -120,7 +120,7 @@ both fundamental and technical analysis and showing bunch of
 investing techniques that don't work. He is of course correct, but I
 was more interested in reading about what actually works.
 
-Second part of the book is about investment strategies that work, and
+Second part of the book is about investment strategies that do work, and
 it is really good. It describes strategies for all types of investments:
 short-term and long-term, safe and risky, etc. At the end, everything boils down
 to using index funds, which didn't even exist at the time the first
@@ -140,7 +140,7 @@ Here are some that I really like:
 
 **[Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/dp/1449373321/)**
 
-I don't know where I first heard of this book, but I was really
+I can't remember where I first heard of this book, but I was really
 excited about it. I couldn't wait for it come out of early-access
 program, so I purchased it as soon as all chapters were completed.
 It was one of the best technical books I have read in the last few years.
@@ -165,7 +165,7 @@ distributed computing more than ever before. Go read it now.
 After reading the popular UX
 [teardown](http://www.useronboard.com/how-supermariorun-onboards-new-users/)
 of Super Mario Run, I noticed on the website that the author
-actually wrote a book on the topic. The best way to describe it
+actually wrote a book on the topic. The perfect way to describe it
 is this picture from the book itself:
 
 ![](user-onboarding.png)
@@ -179,7 +179,7 @@ consider buying the complete course (if the price is too high for
 you, you are probably not the right audience for it). At the end
 of the book you will find a carefully selected list of resources
 (I watched and enjoyed several videos from that list).
-If the book sounds expensive to you, you should at least read the
+If the book seems expensive, you should at least read the
 teardowns on the website. After doing that, you will want to buy the book.
 
 **[Marriage, a History: How Love Conquered Marriage](https://www.amazon.com/dp/B002I1XRZY/)**
@@ -198,11 +198,11 @@ out that it's hard to even define marriage. Sometimes it's defined
 statistically, by measuring the most common functions it performs.
 Sadly, other parts of the book were not interesting to me. The
 book itself is well-written, but the marriage in the last two
-millennia is just not interesting institution at all. It used
-to be equivalent to today's business mergers in Roman times,
-the idea of romantic love in marriage started only in 19th century,
+millennia is just not interesting institution at all. In Roman times it used
+to be equivalent to today's business mergers,
+the idea of romantic love in marriage started in 19th century,
 and the "traditional" marriage, with bread-winner husband and
-stay-at-home wife, appeared only in the fifties.
+stay-at-home wife, appeared only in the '50s.
 
 Again, I can't say anything bad about the book itself. It
 contains a lot of information, but I guess I was not
@@ -211,7 +211,7 @@ as interested in the topic as much as I thought.
 **[Locked In: The True Causes of Mass Incarceration](https://www.amazon.com/dp/B01L6SLKK8/)**
 
 The United States is home to 5% of the world's population, but if
-houses 25% of its prisoners. Everybody agrees that the reform
+houses 25% of the world's prisoners. Everybody agrees that the reform
 is needed, but almost everybody has a different opinion on how
 it should be done, and almost everybody is wrong. John Pfaff writes
 a lot about common misconceptions, and I first became familiar with
@@ -219,7 +219,7 @@ his work through his excellent article
 [The War on Drugs and Prison Growth](http://ir.lawnet.fordham.edu/faculty_scholarship/651/).
 While reading this great
 [interview](http://mimesislaw.com/fault-lines/cross-john-pfaff-challenging-conventional-wisdom-to-end-overincarceration/13253)
-with him I discovered that he is writing a book on the topic
+I discovered that he is writing a book on the topic
 and I immediately preordered it.
 
 The book finally came out on February 7th. It is incredibly well
@@ -238,7 +238,7 @@ gives the Pfaff's explanation of the prison growth and the real
 reforms that would help solving the mass incarceration problem.
 Pfaff's theory is that the real cause of the problem is increased
 prosecutorial toughness. The other part of the problem, that most
-people are ignoring, is that more than half of all people in
+people are not aware of, is that more than half of all people in
 state prisons have been convicted of a violent crime. Unfortunately,
 the magic wand that would solve the prison problem does not exists.
 There will no bill that legislators could sign and thus end the
@@ -282,7 +282,7 @@ It's the collection of crazy stories from the Old Testament, seen through
 the eyes of Alan Moore, Neil Gaiman, Dave Gibbons and others.
 Stories are of varying quality. Some of them are quite good,
 but that's usually because the original stories from the Bible
-are ridiculous to begin with (Book of Job is my favorite example).
+are absurd to begin with (Book of Job is my favorite example).
 I'm not really competent to say anything about the quality of the
 drawings and visual style; you might want to read the review from someone who
 actually knows something about graphic novels. Anyway, this is a
@@ -351,7 +351,7 @@ A Box of Bunny Suicides is a literal box containing the first two
 books in bunny suicides series,
 [The Books of Bunny Suicides](https://www.amazon.com/dp/0452285186/) and
 [Return of the Bunny Suicides](https://www.amazon.com/dp/034083403X/).
-Each of them is absolutely hilarious. You will read both of them in less
+Each of them is absolutely hilarious. You will "read" both of them in less
 than half an hour. Highly recommended.
 
 ![](bunny-suicides.jpg)
