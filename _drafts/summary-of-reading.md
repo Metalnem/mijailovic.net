@@ -34,7 +34,7 @@ It is probably the most comprehensive history of the inner workings
 of Nazi Germany in the period of 1933-1939, from the Hitler's
 rise to power to the invasion on Poland.
 
-Every aspect of the German way of life at that time is described with incredible amount
+Every aspect of life in Germany at that time is described with incredible amount
 of details. You will learn how democracy gradually eroded before it
 disappeared completely, how every organized resistance was crushed in the way,
 how the persecution of the Jews evolved through time,
