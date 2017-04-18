@@ -25,3 +25,40 @@ always remember the difference between i.e. and e.g. after reading
 Grammar Girl's book helped me a lot and I can't recommend it enough.
 If you are into audiobooks, be sure to pick up the audiobook version,
 because her narration is as great as the content itself.
+
+**[Spelunky (Boss Fight Books Book 11)](https://www.amazon.com/dp/B01CYVHYSS/)**
+
+Spelunky is a procedurally generated platformer created by Derek Yu.
+It was one of the most critically acclaimed games of the last decade.
+Even though I love the roguelike genre (I've spent hundreds of hours
+in The Binding of Isaac, Nuclear Throne and Galak-Z), I've never played
+Spelunky, but that didn't prevent me from reading the book about it.
+
+Spelunky book was written by the game's author himself. I didn't have
+very high expectations for it (Derek is a game designer, not a
+professional writer, after all), but after only a few pages I knew
+I was in for a treat. Derek presents the complete history of the game
+and talks about his game-design philosophy. In today's world, where
+you can get achievement for literally starting the game, games that
+don't hold your hand every step of the way give you back hope. On
+every page of this book I found some idea that made me think "This is how
+games should be made!". This book quote best sums up Spelunky's philosophy:
+
+>We can't have everything that we want all at once, though.
+We can't know what to expect and also be surprised.
+We can't be free from frustration and also be challenged.
+
+Spelunky is built on simple ideas. Derek explains how the
+levels are generated and how game characters behave. One would
+think that understanding these systems would take away something
+from game enjoyment, but it's the complete opposite. Many of the
+game's "bugs" resulted in some fascinating new way to beat the game
+([Solo Eggplant Run](https://www.youtube.com/watch?v=LGrPeu5NWk0)
+by Bananasaurus Rex was particularly impressive and nerve-racking).
+Spelunky can be completed in
+[less than two minutes]((https://www.youtube.com/watch?v=s2pG2loLdmY)),
+but it takes hundreds of hours to master it.
+
+You don't have to know anything about the game to enjoy this book.
+Whether you are a gamer, a game-designer, or just a programmer, this
+book absolutely belongs on your bookshelf.
