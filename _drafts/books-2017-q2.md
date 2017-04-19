@@ -62,3 +62,38 @@ but it takes hundreds of hours to master it.
 You don't have to know anything about the game to enjoy this book.
 Whether you are a gamer, a game-designer, or just a programmer, this
 book absolutely belongs on your bookshelf.
+
+**[Production-Ready Microservices: Building Standardized Systems Across an Engineering Organization](https://www.amazon.com/dp/1491965975/)**
+
+Microservices are all the rage these days, so I wanted to become more
+familiar with some of the best practices in the field. This book had
+some good reviews and was relatively short. Besides that, Susan J. Fowler
+is probably a microservices expert, having previously worked on microservices
+standardization at Uber, and currently working as an engineer on the in
+infrastructure team at Stripe (she is also an Editor in Chief of
+[Increment](https://increment.com/), which you should totally read)).
+That lead me to believe she would certainly have some unique insights
+to offer. Unfortunately, this book fell short of my expectations.
+
+Central theme of Production-Ready Microservices is building available
+services, which require the following goals to be met: stability,
+reliability, scalability, fault tolerance, catastrophe-preparedness,
+performance, monitoring, and documentation. If you already know how
+to achieve them, this book doesn't offer you anything new. If you don't,
+it will not help you implementing any of them. Some of the important
+topics were only mentioned in passing. For example,
+service discovery has one dedicated paragraph; you can't really do
+anything with that. Besides that, all of the book's
+topics had been previously described more in-depth in both
+[SRE Book](https://landing.google.com/sre/book.html) and
+[The Cloud Book](http://the-cloud-book.com/).
+Even though the book is very short, it's not really packed with content; James
+Hamilton talks about the most important ideas behind internet-scale services in
+[less than twenty pages](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/).
+One great thing about this book are checklists at
+the end of each chapter, but even they are inferior to checklists from
+The Cloud Book.
+
+Susan's heart is at the right place, but the book could have been a
+lot better. She did much better job with the [Increment](https://increment.com/).
+Go read it instead.
