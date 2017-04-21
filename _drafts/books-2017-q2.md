@@ -71,7 +71,7 @@ some good reviews and was relatively short. Besides that, Susan J. Fowler
 is probably a microservices expert, having previously worked on microservices
 standardization at Uber, and currently working as an engineer on the in
 infrastructure team at Stripe (she is also an Editor in Chief of
-[Increment](https://increment.com/), which you should totally read)).
+[Increment](https://increment.com/), which you should totally read).
 That lead me to believe she would certainly have some unique insights
 to offer. Unfortunately, this book fell short of my expectations.
 
