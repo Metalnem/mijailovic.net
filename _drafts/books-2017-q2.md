@@ -35,9 +35,9 @@ in The Binding of Isaac, Nuclear Throne and Galak-Z), I've never played
 Spelunky, but that didn't prevent me from reading the book about it.
 
 Spelunky book was written by the game's author himself. I didn't have
-very high expectations for it (Derek is a game designer, not a
-professional writer, after all), but after only a few pages I knew
-I was in for a treat. Derek presents the complete history of the game
+very high expectations for it, but after only a few pages I knew
+I was in for a treat. He is a game designer, but his writing puts a lot of
+professional writers to shame. Derek presents the complete history of the game
 and talks about his game-design philosophy. In today's world, where
 you can get achievement for literally starting the game, games that
 don't hold your hand every step of the way give you back hope. On
