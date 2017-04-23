@@ -97,3 +97,30 @@ The Cloud Book.
 Susan's heart is at the right place, but the book could have been a
 lot better. She did much better job with the [Increment](https://increment.com/).
 Go read it instead.
+
+**[Distributed systems for fun and profit](http://book.mixu.net/distsys/single-page.html)**
+
+Distributed systems are incredibly hard to get right; just read any of the
+Kyle Kingsbury's [Jepsen](http://jepsen.io/analyses) analyses and you'll
+see what I'm talking about. Even though there is a lot of literature on
+the topic, most of it is in the form of academic papers, thus making it
+hard for beginners to get started in the field. During one of his Jepsen
+talks, Kyle mentioned this free online book as a good introduction to distributed
+systems. I already had it bookmarked for more than a year, but now I finally had
+some real motivation to read it.
+
+This book only touches the surface of distributed systems. It's also very short:
+less than 100 printed pages. Nevertheless, it still talks about all the important
+stuff: CAP theorem and FLP impossibility, time and order, consistency models
+and protocols, CRDTs, etc. Each chapter provides a high-level overview of a single topic.
+You will not be able to implement any of the described algorithms, but don't worry:
+each of the key papers in the field is mentioned, so you'll know where to find a
+more serious treatment. Even though the book is aimed at beginners, I think some
+parts of it you can understand only if you have some previous knowledge. For example,
+2PC and Paxos are described briefly, but there is no way you could understand what is
+really going on if this is the first time you encounter these two protocols.
+
+You will not become an expert after reading this book, but at least you will get to
+know the most important ideas behind modern distributed systems. It is also short,
+so there is no excuse for not reading it. If you like it, you should also consider
+reading Kyle's [notes on distributed systems](https://github.com/aphyr/distsys-class).
