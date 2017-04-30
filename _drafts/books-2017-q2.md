@@ -124,3 +124,38 @@ You will not become an expert after reading this book, but at least you will get
 know the most important ideas behind modern distributed systems. It is also short,
 so there is no excuse for not reading it. If you like it, you should also consider
 reading Kyle's [notes on distributed systems](https://github.com/aphyr/distsys-class).
+
+**[Hitler's Hangman: The Life of Heydrich](https://www.amazon.com/dp/B0063CU63K/)**
+
+Reinhard Heydrich was one of the most sinister and dangerous Nazi officials. He was
+a chief of the Reich Security Main Office, Reich Protector of Bohemia and Moravia, and
+creator of infamous Einsatzgruppen. Even though he was one of the key architects of
+the Final Solution, he is not as widely recognized by the general public as Heinrich
+Himmler, for example. Part of the reason for that is probably that he never received
+much attention in literature of the Third Reich. This book attempts to collect all the
+known information about Heydrich into a single, readable volume: everything from his early
+childhood to his assassination in Operation Anthropoid.
+
+Nothing in his childhood indicated what he would eventually become. Initially, he
+was not even a model Nazi: he was dismissed from the German navy, which devastated
+him and threatened to end his career. The key moment in his life came after that,
+when he landed a job in the SS. It's extraordinary how some moments can shape the
+history of humanity. He was not qualified for the job in the intelligence organization,
+but because he was reading a lot of crime fiction at the time, he was able to impress
+Himmler who was even less qualified. This book is full of similarly interesting details
+about him. For example, did you know he was flying combat missions for Luftwaffe and
+was once hit by the Soviet fire behind enemy lines, but somehow managed to escape?
+Or that his assassination could have been a complete failure? Heydrich actually died
+of sepsis during his recovery in the hospital, where penicillin shot could have saved him
+had it been used at the time. For these little pieces of knowledge alone, this book is
+worth reading. But that's not all: you'll learn about his meteoritic rise through
+Nazi ranks, history of the Final Solution, his terror rule in the Czechoslovakia,
+and the constant fight for power between him and other Nazi figures.
+
+Hitler's Hangman is a great read, but not without flaws. Good part of the book describes
+general history of security organizations and Nazi terror in Germany. If you are a seasoned
+World War II reader, you are probably familiar with most of it. Also, I did not get as much
+insight into Heydrich's personality as I have hoped, but because I learned so many new things
+from this book, that's not a huge problem. If you are like me and want to learn as much as
+possible about Third Reich, you should absolutely read this book. If you are just a casual
+reader, you might want to skip it and read some of the great general histories of the Third Reich.
