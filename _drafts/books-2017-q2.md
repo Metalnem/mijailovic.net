@@ -159,3 +159,42 @@ insight into Heydrich's personality as I have hoped, but because I learned so ma
 from this book, that's not a huge problem. If you are like me and want to learn as much as
 possible about Third Reich, you should absolutely read this book. If you are just a casual
 reader, you might want to skip it and read some of the great general histories of the Third Reich.
+
+**[I Will Teach You To Be Rich](https://www.amazon.com/dp/B004WL4BW6/)**
+
+I usually stay away from all self-help or get-rich-quickly books, but this one is different.
+Judging this book only by the title, you would be tempted to put it in the same category with
+thousands of other garbage books on the same topic, but you would be wrong—Ramit Sethi actually
+knows what he's talking about. I first became familiar with him when I read two of his interviews
+with [Patrick McKenzie](http://www.kalzumeus.com/):
+[Ramit Sethi and Patrick McKenzie on Getting Your First Consulting Client](http://www.kalzumeus.com/2012/09/17/ramit-sethi-and-patrick-mckenzie-on-getting-your-first-consulting-client/) and
+[Ramit Sethi and Patrick McKenzie On Why Your Customers Would Be Happier If You Charged More](http://www.kalzumeus.com/2012/09/21/ramit-sethi-and-patrick-mckenzie-on-why-your-customers-would-be-happier-if-you-charged-more/).
+He had some great advice for running the consulting business, which lead me to think his
+book might actually be good.
+
+Despite what the title says, this book is not about getting rich in the way people usually
+think about it—it's about managing your money responsibly (don't get me wrong, you will have
+hundreds of thousands of dollars saved for your retirement if you follow his advice from the
+book, but that's not the first thing people have in mind when talking about getting rich).
+Everything in this book has been said elsewhere before, but Ramit combines all of that
+and talks about money in a way everybody can understand. One would think that in the 21st
+century managing your credit cards responsibly, putting the money in 401(k) and investing
+money into index funds would be common knowledge, but that's not the case in practice.
+Ramit tries to correct that. You will learn everything you need to know about credit cards,
+checking and savings accounts, 401(k) and Roth IRA, index and lifecycle funds, buying a house
+or a car, and much, much else. You will also learn that investing is not about picking stocks,
+and that only by using an index fund for investing, you will automatically be ahead of most professionals
+that actively manage funds.
+
+Everything is nicely summarized at the end of each chapter,
+so you can easily come back and remind yourself when needed. This book could have been
+much shorter, but because everything in it is incredibly important, I don't mind it that much:
+he had to get the point across, and that means he had to be detailed sometimes or say things
+repeatedly. As a nice bonus, he also talks about his personal financial setup: which credit
+cards he's using, which banks he's using and what types of accounts he has, how does he
+split money between accounts automatically, etc.
+
+This book is mostly focused on readers living in the US, but that doesn't mean you shouldn't
+read it if you are living somewhere else. Most of the advice applies everywhere in the
+world—you can manage your debt, use an online bank, save money, or get a raise wherever you
+live. Highly recommended.
