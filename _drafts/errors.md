@@ -88,7 +88,7 @@ type gpsPoint struct {
 ```
 
 ```go
-func parseDataPoint(input io.Reader) (*gpsPoint, error) {
+func parse(input io.Reader) (*gpsPoint, error) {
   var point gpsPoint
 
   if err := binary.Read(input, binary.BigEndian, &point.Longitude); err != nil {
@@ -129,7 +129,7 @@ func (r *reader) read(data interface{}) {
 ```
 
 ```go
-func parseDataPoint(input io.Reader) (*gpsPoint, error) {
+func parse(input io.Reader) (*gpsPoint, error) {
   var point gpsPoint
   r := reader{r: input}
 
