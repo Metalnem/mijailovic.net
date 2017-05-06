@@ -143,3 +143,23 @@ func parse(input io.Reader) (*point, error) {
   return &p, nil
 }
 ```
+
+## Add context to your errors
+
+```go
+if err != nil {
+  return err
+}
+```
+
+```go
+if err != nil {
+  return fmt.Errorf("something failed: %v", err)
+}
+```
+
+```go
+if err != nil {
+  return errors.Wrap(err, "something failed")
+}
+```
