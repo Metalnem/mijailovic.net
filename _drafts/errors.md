@@ -74,3 +74,75 @@ func WriteFile(filename string, data []byte, perm os.FileMode) error {
   return err
 }
 ```
+
+## Don't clutter your code with err != nil checks
+
+```go
+type gpsPoint struct {
+	Longitude     float32
+	Latitude      float32
+	Distance      int32
+	ElevationGain int16
+	ElevationLoss int16
+}
+```
+
+```go
+func parseDataPoint(input io.Reader) (*gpsPoint, error) {
+  var point gpsPoint
+
+  if err := binary.Read(input, binary.BigEndian, &point.Longitude); err != nil {
+    return nil, err
+  }
+
+  if err := binary.Read(input, binary.BigEndian, &point.Latitude); err != nil {
+    return nil, err
+  }
+
+  if err := binary.Read(input, binary.BigEndian, &point.Distance); err != nil {
+    return nil, err
+  }
+
+  if err := binary.Read(input, binary.BigEndian, &point.ElevationGain); err != nil {
+    return nil, err
+  }
+
+  if err := binary.Read(input, binary.BigEndian, &point.ElevationLoss); err != nil {
+    return nil, err
+  }
+
+  return &point, nil
+}
+```
+
+```go
+type reader struct {
+  r   io.Reader
+  err error
+}
+
+func (r *reader) read(data interface{}) {
+  if r.err == nil {
+    r.err = binary.Read(r.r, binary.BigEndian, data)
+  }
+}
+```
+
+```go
+func parseDataPoint(input io.Reader) (*gpsPoint, error) {
+  var point gpsPoint
+  r := reader{r: input}
+
+  r.read(&point.Longitude)
+  r.read(&point.Latitude)
+  r.read(&point.Distance)
+  r.read(&point.ElevationGain)
+  r.read(&point.ElevationLoss)
+
+  if r.err != nil {
+    return nil, r.err
+  }
+
+  return &point, nil
+}
+```
