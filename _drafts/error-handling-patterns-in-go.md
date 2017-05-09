@@ -5,7 +5,7 @@ title: "Error handling patterns in Go"
 One of the main strengths of the Go programming language is its error model.
 It's not my favorite—that would be something like
 [this](http://joeduffyblog.com/2016/02/07/the-error-model/)-but it's still
-one of the best on the market. Much has been written previously about best
+one of the best on the market. Much has been already written about best
 practices for error handling in Go
 ([Error handling and Go](https://blog.golang.org/error-handling-and-go) and
 [Don’t just check errors, handle them gracefully](https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully)
@@ -122,7 +122,7 @@ func WriteFile(filename string, data []byte) (err error) {
 }
 ```
 
-The code is almost exactly the same as in the first example, but
+The code looks almost the same as in the first example, but
 this time it's actually correct. I was thinking about making a
 public package that exports this function, but decided against
 it because the function is not good enough abstraction to be
@@ -240,7 +240,7 @@ func parse(input io.Reader) (*point, error) {
 ```
 
 This is much better: main code path is no more obfuscated and you can
-see at the first what the function is doing. The bad thing about this
+see at the first glance what the function is doing. The bad thing about this
 technique is that you can't generalize it—you have to define a wrapper
 type for each function. The good thing is that it's applicable to both
 io.Reader and io.Writer, and lots of other read/write functions in the
