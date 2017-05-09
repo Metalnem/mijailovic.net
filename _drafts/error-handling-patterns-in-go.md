@@ -4,7 +4,7 @@ title: "Error handling patterns in Go"
 ---
 One of the main strengths of the Go programming language is its error model.
 It's not my favorite—that would be something like
-[this](http://joeduffyblog.com/2016/02/07/the-error-model/)-but it's still
+[this](http://joeduffyblog.com/2016/02/07/the-error-model/)—but it's still
 one of the best on the market. Much has been already written about best
 practices for error handling in Go
 ([Error handling and Go](https://blog.golang.org/error-handling-and-go) and
