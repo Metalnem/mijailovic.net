@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Error handling patterns in Go"
+date: 2017-05-09 16:45:00 +0200
 ---
 One of the main strengths of the Go programming language is its error model.
 It's not my favorite—that would be something like
