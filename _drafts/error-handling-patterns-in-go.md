@@ -247,9 +247,9 @@ type for each function. The good thing is that it's applicable to both
 io.Reader and io.Writer, and lots of other read/write functions in the
 standard library.
 
-If you ever find yourself in situation where error handling is the main
-part of your code, consider using this approach to make your functions
-shorter and easier to understand.
+If you ever find yourself in situation where too much of your code is
+devoted to error handling, consider using this approach to make your
+functions shorter and easier to understand.
 
 ## Add context to your errors
 
