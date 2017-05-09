@@ -300,6 +300,6 @@ because it also offers New and Errorf functions.
 
 I really like this package and it's usually the first dependency I pull
 for my new projects (I'll leave the discussion about whether it's worth
-depending on another package for something simple like this for some
+depending on another package for something as simple as this for some
 other time). In my opinion, this package should have been the part of
 the standard library in the first place.
