@@ -207,7 +207,8 @@ This code looks horrible—even looking at it is causing me pain. This is
 where monadic error handling comes to the rescue: just define a helper
 structure that holds the actual io.Reader and the last error encountered
 so far, and a read function that calls underlying Read only if previously
-there were no errors. Here's the complete example:
+there were no errors. You only check for errors once, when all the reads
+are completed. Here's the complete example:
 
 ```go
 type reader struct {
