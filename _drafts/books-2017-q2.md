@@ -198,3 +198,6 @@ This book is mostly focused on readers living in the US, but that doesn't mean y
 read it if you are living somewhere else. Most of the advice applies everywhere in the
 world—you can manage your debt, use an online bank, save money, or get a raise wherever you
 live. Highly recommended.
+
+**[Style: Lessons in Clarity and Grace](https://www.amazon.com/dp/0134080416/)**  
+**[Unwanted Advances: Sexual Paranoia Comes to Campus](https://www.amazon.com/dp/B01LYS5X4O/)**  
