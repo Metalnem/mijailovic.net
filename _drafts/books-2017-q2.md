@@ -201,3 +201,4 @@ live. Highly recommended.
 
 **[Style: Lessons in Clarity and Grace](https://www.amazon.com/dp/0134080416/)**  
 **[Unwanted Advances: Sexual Paranoia Comes to Campus](https://www.amazon.com/dp/B01LYS5X4O/)**  
+**[High Performance Browser Networking](https://hpbn.co/)**  
