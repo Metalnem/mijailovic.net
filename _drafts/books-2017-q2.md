@@ -188,11 +188,13 @@ that actively manage funds.
 
 Everything is nicely summarized at the end of each chapter,
 so you can easily come back and remind yourself when needed. This book could have been
-much shorter, but because everything in it is incredibly important, I don't mind it that much:
-he had to get the point across, and that means he had to be detailed sometimes or say things
-repeatedly. As a nice bonus, he also talks about his personal financial setup: which credit
-cards he's using, which banks he's using and what types of accounts he has, how does he
-split money between accounts automatically, etc.
+much shorter (you could essentially just read
+[this comment](https://news.ycombinator.com/item?id=10114707)
+for investing the right way), but because everything in it is incredibly
+important, I don't mind it that much: he had to get the point across, and that means he had
+to be detailed sometimes or say things repeatedly. As a nice bonus, he also talks about his
+personal financial setup: which credit cards he's using, which banks he's using and what
+types of accounts he has, how does he split money between accounts automatically, etc.
 
 This book is mostly focused on readers living in the US, but that doesn't mean you shouldn't
 read it if you are living somewhere else. Most of the advice applies everywhere in the
