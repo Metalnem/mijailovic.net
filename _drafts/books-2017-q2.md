@@ -201,6 +201,54 @@ read it if you are living somewhere else. Most of the advice applies everywhere 
 world—you can manage your debt, use an online bank, save money, or get a raise wherever you
 live. Highly recommended.
 
-**[Style: Lessons in Clarity and Grace](https://www.amazon.com/dp/0134080416/)**  
+**[Style: Lessons in Clarity and Grace](https://www.amazon.com/dp/0134080416/)**
+
+I read The Elements of Style about half a year ago, immediately after starting this blog.
+It's classic and indispensable resource that has stood the test of time, but it is only
+a starting point for aspiring writers. I needed a more comprehensive and detailed style
+guide. Grammar Girl's book was a nice addition, and Garner's Modern English Usage is
+fantastic reference, but for more lessons on writing style, I had to look elsewhere.
+[Matt Might](http://matt.might.net/) recommended this book multiple times. You really can't
+go wrong following Matt's advice, so reading it was a natural choice.
+
+The book starts with the quote from Matthew Arnold:
+
+>Have something to say, and say it as clearly as you can. That is the only secret of style.
+
+This is Style in a nutshell. Despite what many people believe, there is nothing bad in
+writing short and clear sentences. How many times have you struggled with textbooks
+and papers, thinking you are not smart enough to understand what the writer had to say?
+But it was not really your fault—even the most advanced ideas can be expressed clearly,
+and this book will show you how to achieve that clarity. Good writing happens on multiple
+levels (read [this](http://blog.bennettandbennett.com/2015/09/2015-78-a-taxonomy-of-bad-writing/)
+excellent article for a great summary of where writing can go wrong) and Style talks about
+each of them. It starts with basic correctness, advances to coherence on local
+and global level, and finally finishes with chapters on shape and elegance. Every advice
+is simple and practical. Here are just a few examples:
+
+>Make main characters the subjects of sentences.
+Make important actions verbs.
+Put old information before new information.
+
+It sounds simple and obvious, but it's often overlooked in practice. I also often
+fall into a trap of writing too many words just for the sake of it. Advices like
+this now make me think twice before I try to use a redundant word:
+
+>Delete words that mean little or nothing.
+Delete words implied by other words.
+Replace a phrase with a word.
+
+Each lesson has fantastic summary at the end, so you can easily come back at any
+time and remind yourself of the most important principles. You can also put your
+newly found knowledge into action by doing exercises, which are really fun.
+Unfortunately, terrible navigation in the digital version (VitalSource Bookshelf)
+of the book prevented me from doing them in my first reading. Don't repeat my mistake
+and get the paper book to get the most out of it.
+
+Like in any other profession, you can't become an expert overnight. You have to
+put a lot of time into writing to really improve it. Just reading books is not
+enough, but it's still necessary, and this one is the single best resource on
+writing well I've found so far. Read it multiple times to absorb all it has to offer.
+
 **[Unwanted Advances: Sexual Paranoia Comes to Campus](https://www.amazon.com/dp/B01LYS5X4O/)**  
 **[High Performance Browser Networking](https://hpbn.co/)**  
