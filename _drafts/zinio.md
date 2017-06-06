@@ -8,7 +8,7 @@ could also download Zinio magazines. I had no idea what Zinio is, so I
 visited their [website](https://www.zinio.com/) to learn more about their
 platform. They call themselves "The World's Largest Newsstand" and offer
 over 5500 magazines (including all of the
-[Future plc magazines](https://mijailovic.net/2017/03/05/removing-drm-from-all-future-plc-magazines/)).
+[Future plc magazines]({{ site.baseurl }}{% post_url 2017-03-05-removing-drm-from-all-future-plc-magazines %})).
 Such a huge number of magazines instantly made them into a potential target
 for a DRM removal tool. I couldn't find any existing tool that could convert
 Zinio magazines into PDF (or any other format), so I assumed they had some
@@ -35,7 +35,7 @@ their Windows desktop app from Microsoft Store. Using
 [Everything](https://www.voidtools.com/), I quickly found the folder containing
 the issue I just downloaded:
 
-![](listing.png)
+![](/assets/img/listing.png)
 
 To my eye, that sure looks an awful lot like a bunch of PDF files—Zinio app is
 yet another glorified PDF reader after all. I tried to open one of the files,
@@ -208,11 +208,11 @@ download, decrypt and merge individual files into a single PDF.
 After opening the generated PDF file, I noticed an ugly blue square at the upper-left
 corner of each page:
 
-![](annotations.png)
+![](/assets/img/annotations.png)
 
 Each page apparently had an useless annotation containing the page number. You might
 remember that I had similar problem with annotations
-[before](https://mijailovic.net/2017/03/05/removing-drm-from-all-future-plc-magazines/)),
+[before]({{ site.baseurl }}{% post_url 2017-03-05-removing-drm-from-all-future-plc-magazines %})),
 but this time they were much more obtrusive; I had to find a way to remove them.
 
 As I mentioned in my previous posts, I'm using [UniDoc](http://unidoc.io/) for
