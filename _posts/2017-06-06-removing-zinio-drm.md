@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Removing Zinio DRM"
+date: 2017-06-06 19:30:00 +0200
 ---
 Someone sent me an email a few weeks ago asking me if my
 [Future plc downloader](https://github.com/Metalnem/future-plc-downloader)
