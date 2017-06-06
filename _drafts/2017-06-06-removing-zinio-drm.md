@@ -52,7 +52,7 @@ Native and can be trivially decompiled. This time I used
 [dnSpy](https://github.com/0xd4d/dnSpy), which is my new favorite tool
 for decompiling .NET applications (it's lightning fast and has great search
 capabilities, among many other great features). I loaded the Zinio app assembly
-and searched it for "password". The search returned just a few results, and one of
+and searched for "password". The search returned only a few results, and one of
 them was this function in the *ZinioReaderWin8.Util.CryptoUtils* class:
 
 ```csharp
