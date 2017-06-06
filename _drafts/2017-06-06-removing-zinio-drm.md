@@ -177,7 +177,7 @@ the following response:
 ```
 
 Remember the XML document containing the encrypted PDF password? This is it. It also
-contains the *hostName* and *issueAssetDir*, which when combined give us the
+contains the *hostName* and *issueAssetDir*; when combined, they give us the
 folder where PDF pages are located. I was slightly surprised when I found
 out that the PDF files don't require any authentication. That worried me a little,
 because if the password was same for all the magazines, my program would allow users
@@ -196,9 +196,9 @@ and the ciphertext. That meant my decryption key was wrong. I compared my implem
 with the original C# code multiple times, but couldn't find anything wrong in my code.
 
 Finally, after dozens of unsuccessful attempts, an idea came to my mind: what if the
-key derivation is platform dependent? I decompiled the .NET desktop version of the app,
+key derivation is platform dependent? Maybe the problem was that I decompiled the .NET desktop version of the app,
 but reversed the API using the iOS app (I have Windows only in virtual machine, so I try
-to use it only when necessary). After replacing "Zinio iReader" with the "ZinioWin8"
+to use it only when necessary)? After replacing "Zinio iReader" with the "ZinioWin8"
 in the *applicationName* parameter, everything was working: decryption resulted in a
 nice 32-byte hex-encoded string! Few more hours of coding and my application could
 download, decrypt and merge individual files into a single PDF.
@@ -219,7 +219,7 @@ As I mentioned previously, I'm using [UniDoc](http://unidoc.io/) for
 decrypting and merging individual PDF pages. I was hoping that the library could
 also remove annotations. Examples section on their website didn't have what I
 needed. Unfortunately, their API [documentation](https://godoc.org/github.com/unidoc/unidoc/pdf)
-is almost useless: most of the functions didn't have any documentation at all, which is a shame,
+is next to useless: most of the functions didn't have any documentation at all, which is a shame,
 because the library itself is really useful. I started looking for any type or function
 that looked like it could have anything to do with annotations.
 
@@ -244,12 +244,11 @@ if err != nil {
 
 Documentation for *GetPage* says it returns *PdfObject*, not *PdfPage*, but there
 is another function called *GetPageAsPdfPage* that actually returns *PdfPage*.
-Well, that is a very confusing API, but let's try it. But now *AddPage* call
+Well, that is a very confusing API, but let's try it. Now *AddPage* call
 couldn't compile, because it only accepts a *PdfObject* and not a *PdfPage*.
 How to get the *PdfObject* out of the *PdfPage*? Obviously, by trying each available
 method until the program compiles! Calling *GetPageAsIndirectObject* did the job,
-whatever indirect object was. The program was still doing the same thing, but
-now I had a richer API for manipulating the page. I started looking through
+whatever indirect object was. I started looking through
 autocompletion suggestions and found a field called *Annots*. Let's set it to
 null! My final code looked like this:
 
