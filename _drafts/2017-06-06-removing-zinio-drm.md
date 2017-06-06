@@ -2,7 +2,7 @@
 layout: post
 title: "Removing Zinio DRM"
 ---
-Few weeks ago someone sent me an email asking me if my
+Someone sent me an email a few weeks ago asking me if my
 [Future plc downloader](https://github.com/Metalnem/future-plc-downloader)
 could also download Zinio magazines. I had no idea what Zinio is, so I
 visited their [website](https://www.zinio.com/) to learn more about their
@@ -43,7 +43,7 @@ but I got the result I expected: encrypted PDF files, we meet again!
 
 ## Decompiling Zinio app
 
-I usually start with reversing the API, but this time I changed the
+I usually start with reversing the network API, but this time I changed the
 process and started with decompiling the app first, because trying to decrypt
 the files is way more fun. Zinio
 [app](https://www.microsoft.com/en-us/store/p/zinio/9wzdncrfj34b) targets
@@ -51,8 +51,8 @@ both Windows 8.1 and Windows 10, which means it's not compiled using .NET
 Native and can be trivially decompiled. This time I used
 [dnSpy](https://github.com/0xd4d/dnSpy), which is my new favorite tool
 for decompiling .NET applications (it's lightning fast and has great search
-capabilities, among other nice features). I loaded the Zinio app assembly and
-searched for "password". The search returned just a few results, and one of
+capabilities, among many other great features). I loaded the Zinio app assembly
+and searched it for "password". The search returned just a few results, and one of
 them was this function in the *ZinioReaderWin8.Util.CryptoUtils* class:
 
 ```csharp
@@ -70,15 +70,15 @@ public static string GetPdfPassword(string cipher, string password, string devic
 }
 ```
 
-This looked like a very quick game over for Zinio. This function tells us that
-the PDF password is encrypted with
+This looked like it would be a very quick game over for Zinio. This
+function tells us that the PDF password is encrypted with
 [AES-CBC](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation)
 using the 128-bit key derived from parameters called *deviceId* and *uuid*
 (initialization vector is passed via *cipher* parameter). But where are
 all these parameters coming from? *GetPdfPassword* is called only from
 *IssueDataHelper.DecryptPdfPassword*, and *DecryptPdfPassword* is called
 only from *ZinioReaderWin8.Services.IssueDataHelper.ParsePackingList*.
-*ParsePackingList* looked very promising. Here is the important part:
+Here are the most important lines of the *ParsePackingList* function:
 
 ```csharp
 IEnumerable<XElement> source = xmlTree.Descendants("trackingCode");
@@ -96,9 +96,9 @@ if (xElement != null)
 ```
 
 This code loads the XML node called *trackingCode* from some larger XML document,
-and extracts the IV and the ciphertext from it. I assumed that the XML
-was sent over the network when the user logs in or downloads metadata
-for the magazine. But what about the remaining parameters, *deviceId*
+and extracts the IV and the ciphertext from it. My assumption was that the XML
+was received over the network when the user logs in or asks for magazine's
+metadata. But what about the remaining parameters, *deviceId*
 and *uuid*? It turns out they are static values initialized in
 *ZinioReaderWin8.SettingManager.InitDefaultSettings* function:
 
@@ -158,7 +158,7 @@ request looks in practice:
 
 There are a lot of parameters here, and all of them are required. Login and
 password don't need an explanation. *deviceId* and *installationUUID* are
-needed because server has to generate an AES key derived from them.
+needed because server has to generate an AES key from them.
 *applicationName* is required for the reason I'll explain later, and the others
 are required for no apparent reason. The server responds to this request with
 the following response:
@@ -176,7 +176,7 @@ the following response:
 </singleIssue>
 ```
 
-Remember the XML document with the encrypted PDF password? This is it. It also
+Remember the XML document containing the encrypted PDF password? This is it. It also
 contains the *hostName* and *issueAssetDir*, which when combined give us the
 folder where PDF pages are located. I was slightly surprised when I found
 out that the PDF files don't require any authentication. That worried me a little,
@@ -187,9 +187,9 @@ PDF password (at least I hope it's randomly generated—it could also be an MD5 
 of something).
 
 Now I had all the parameters needed to determine the PDF password, but the code that
-I wrote was not working. Decrypted PDF password was not a human-readable string, which
+I wrote didn't work as expected. Decrypted PDF password was not a human-readable string, which
 didn't look right. Server was also generating different IV each time, but that should
-have changed only the ciphertext—password should have been the same each time. That
+have affected only the ciphertext—password should have been the same each time. That
 was not the case when I ran my code: decrypted password was different every time. There
 are only three parameters used in AES-CBC decryption: the key, the initialization vector
 and the ciphertext. That meant my decryption key was wrong. I compared my implementation
@@ -215,12 +215,12 @@ remember that I had similar problem with annotations
 [before]({{ site.baseurl }}{% post_url 2017-03-05-removing-drm-from-all-future-plc-magazines %})),
 but this time they were much more obtrusive; I had to find a way to remove them.
 
-As I mentioned in my previous posts, I'm using [UniDoc](http://unidoc.io/) for
+As I mentioned previously, I'm using [UniDoc](http://unidoc.io/) for
 decrypting and merging individual PDF pages. I was hoping that the library could
 also remove annotations. Examples section on their website didn't have what I
 needed. Unfortunately, their API [documentation](https://godoc.org/github.com/unidoc/unidoc/pdf)
-is horrible. Most functions didn't have any documentation at all, which is a shame,
-because the library itself is fantastic. I started looking for any type or function
+is almost useless: most of the functions didn't have any documentation at all, which is a shame,
+because the library itself is really useful. I started looking for any type or function
 that looked like it could have anything to do with annotations.
 
 I discovered an interesting type called *PdfObjectDictionary*. PDF file itself is a
@@ -245,9 +245,9 @@ if err != nil {
 Documentation for *GetPage* says it returns *PdfObject*, not *PdfPage*, but there
 is another function called *GetPageAsPdfPage* that actually returns *PdfPage*.
 Well, that is a very confusing API, but let's try it. But now *AddPage* call
-couldn't compile, because it accepted only a *PdfObject* and not a *PdfPage*.
-How to get the *PdfObject* out of *PdfPage*? Obviously, by trying each method
-until the program compiles! Calling *GetPageAsIndirectObject* did the job,
+couldn't compile, because it only accepts a *PdfObject* and not a *PdfPage*.
+How to get the *PdfObject* out of the *PdfPage*? Obviously, by trying each available
+method until the program compiles! Calling *GetPageAsIndirectObject* did the job,
 whatever indirect object was. The program was still doing the same thing, but
 now I had a richer API for manipulating the page. I started looking through
 autocompletion suggestions and found a field called *Annots*. Let's set it to
