@@ -35,7 +35,7 @@ their Windows desktop app from Microsoft Store. Using
 [Everything](https://www.voidtools.com/), I quickly found the folder containing
 the issue I just downloaded:
 
-![](/assets/img/listing.png)
+![](/assets/img/2017-06-06-listing.png)
 
 To my eye, that sure looks an awful lot like a bunch of PDF files—Zinio app is
 yet another glorified PDF reader after all. I tried to open one of the files,
@@ -208,7 +208,7 @@ download, decrypt and merge individual files into a single PDF.
 After opening the generated PDF file, I noticed an ugly blue square at the upper-left
 corner of each page:
 
-![](/assets/img/annotations.png)
+![](/assets/img/2017-06-06-annotations.png)
 
 Each page apparently had an useless annotation containing the page number. You might
 remember that I had similar problem with annotations
