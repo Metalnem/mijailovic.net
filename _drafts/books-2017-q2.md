@@ -303,4 +303,10 @@ the effects of the allied bombing campaigns on people), Nazi treatment of
 Jews, gypsies, homosexuals and other minorities, T4 program and wartime
 medical experiments, etc.
 
+Evans himself is a great writer; the book will keep your attention until
+the last page. He also tries to be as objective and as honest as possible,
+without being judgmental. As I said previously: if you have the time, you
+should absolutely read this trilogy—it's one of the the greatest histories
+ever written.
+
 **[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**  
