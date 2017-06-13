@@ -252,5 +252,54 @@ writing well I've found so far. Read it multiple times to absorb all it has to o
 
 **[Unwanted Advances: Sexual Paranoia Comes to Campus](https://www.amazon.com/dp/B01LYS5X4O/)**  
 **[High Performance Browser Networking](https://hpbn.co/)**  
+
 **[The Third Reich at War](https://www.amazon.com/dp/0143116711/)**  
+
+This is the third and the final part of the monumental Richard J. Evans' Third
+Reich trilogy (you can find my review of the second book in my
+[previous](https://mijailovic.net/2017/04/06/books-2017-q1/) summary of reading).
+It covers the Second World War, but mostly from the German perspective (Pacific War was not
+even mentioned, for example). That means it's not the best choice if you want to
+get a comprehensive view of World War II from a single volume
+(Anthony Beevor's [The Second World War](https://www.amazon.com/dp/B007ME5BUG/)
+could be a good option in that case). In every other way, it's magnificent.
+
+Even though this is a very long book, it contains only a small (but fantastic)
+selection of topics. After all, any single book can only scratch the surface
+of the most documented war in human history. Here are just a few examples to
+illustrate what I'm talking about:
+
+- This book talks about Operation Barbarossa in about a couple dozen pages,
+thus making it one of the better covered topics. But to even begin to understand
+what really happened in the Eastern Front, you would have to read something like
+[War Without Garlands: Operation Barbarossa 1941-1942](https://www.amazon.com/dp/B005JZ6T4M/).
+Battle of Stalingrad was also covered, but for a comprehensive understanding
+you would have to read
+[Stalingrad: The Fateful Siege: 1942-1943](https://www.amazon.com/dp/B002UZDTG0/).
+
+- Operation Overlord played the critical part in the liberation of Europe.
+It was mentioned in this book only in passing, in single sentence, but there
+is a whole book dedicated only to it:
+[Overlord: D-Day and the Battle for Normandy](https://www.amazon.com/dp/B0112OOOPE/).
+
+- Nazi concentration camps are covered in great detail, so you will actually
+get a fairly good understanding of them. But again, there is so much knowledge
+about them. You want a comprehensive history? Read
+[KL: A History of the Nazi Concentration Camps](https://www.amazon.com/dp/B00NS3NBWU/).
+You want to know more only about Operation Reinhard death camps?
+[Belzec, Sobibor, Treblinka](https://www.amazon.com/dp/B002DML0KM/) is for you.
+How just about Auschwitz?
+[Anatomy of the Auschwitz Death Camp](https://www.amazon.com/dp/025320884X/)
+is only one of the vast number of books on Auschwitz. The list goes on and on.
+
+This book paints a picture about World War II using only a small number
+of carefully selected topics. From the military standpoint, you will
+learn about occupation of Poland, invasion of Russia, Battle of Stalingrad,
+Battle of Kursk, and the final defeat of Nazi Germany, among others. But
+this book doesn't talk about military history as much as about the
+social aspects of the war: harsh living conditions in the ghettos of Poland,
+evolution of the Final Solution, life in Germany during the War (including
+the effects of the allied bombing campaigns on people), Nazi treatment of
+Jews, gypsies, homosexuals and other minorities, etc.
+
 **[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**  
