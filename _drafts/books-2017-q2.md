@@ -252,3 +252,5 @@ writing well I've found so far. Read it multiple times to absorb all it has to o
 
 **[Unwanted Advances: Sexual Paranoia Comes to Campus](https://www.amazon.com/dp/B01LYS5X4O/)**  
 **[High Performance Browser Networking](https://hpbn.co/)**  
+**[The Third Reich at War](https://www.amazon.com/dp/0143116711/)**  
+**[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**  
