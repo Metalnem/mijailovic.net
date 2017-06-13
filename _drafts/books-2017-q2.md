@@ -283,12 +283,12 @@ is a whole book dedicated only to it:
 [Overlord: D-Day and the Battle for Normandy](https://www.amazon.com/dp/B0112OOOPE/).
 
 - Nazi concentration camps are covered in great detail, so you will actually
-get a fairly good understanding of them. But again, there is so much knowledge
-about them. You want a comprehensive history? Read
+get a fairly good understanding of them. But again, there is so much more
+to learn about them. You want a comprehensive history? Read
 [KL: A History of the Nazi Concentration Camps](https://www.amazon.com/dp/B00NS3NBWU/).
 You want to know more only about Operation Reinhard death camps?
-[Belzec, Sobibor, Treblinka](https://www.amazon.com/dp/B002DML0KM/) is for you.
-How just about Auschwitz?
+[Belzec, Sobibor, Treblinka](https://www.amazon.com/dp/B002DML0KM/)
+is the book for you. How about just Auschwitz?
 [Anatomy of the Auschwitz Death Camp](https://www.amazon.com/dp/025320884X/)
 is only one of the vast number of books on Auschwitz. The list goes on and on.
 
@@ -300,6 +300,7 @@ this book doesn't talk about military history as much as about the
 social aspects of the war: harsh living conditions in the ghettos of Poland,
 evolution of the Final Solution, life in Germany during the War (including
 the effects of the allied bombing campaigns on people), Nazi treatment of
-Jews, gypsies, homosexuals and other minorities, etc.
+Jews, gypsies, homosexuals and other minorities, T4 program and wartime
+medical experiments, etc.
 
 **[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**  
