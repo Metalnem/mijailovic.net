@@ -257,7 +257,7 @@ writing well I've found so far. Read it multiple times to absorb all it has to o
 
 This is the third and the final part of the monumental Richard J. Evans' Third
 Reich trilogy (you can find my review of the second book in my
-[previous](https://mijailovic.net/2017/04/06/books-2017-q1/) summary of reading).
+[previous]({{ site.baseurl }}{% post_url 2017-04-06-books-2017-q1 %})) summary of reading).
 It covers the Second World War, but mostly from the German perspective (Pacific War was not
 even mentioned, for example). That means it's not the best choice if you want to
 get a comprehensive view of World War II from a single volume
