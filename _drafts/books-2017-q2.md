@@ -275,7 +275,7 @@ what really happened in the Eastern Front, you would have to read something like
 [War Without Garlands: Operation Barbarossa 1941-1942](https://www.amazon.com/dp/B005JZ6T4M/).
 Battle of Stalingrad was also covered, but for a comprehensive understanding
 you would have to read
-[Stalingrad: The Fateful Siege: 1942-1943](https://www.amazon.com/dp/B002UZDTG0/).
+[Stalingrad: The Fateful Siege: 1942-1943](https://www.amazon.com/dp/0140284583/).
 
 - Operation Overlord played the critical part in the liberation of Europe.
 It was mentioned in this book only in passing, in single sentence, but there
