@@ -250,7 +250,17 @@ put a lot of time into writing to really improve it. Just reading books is not
 enough, but it's still necessary, and this one is the single best resource on
 writing well I've found so far. Read it multiple times to absorb all it has to offer.
 
-**[Unwanted Advances: Sexual Paranoia Comes to Campus](https://www.amazon.com/dp/B01LYS5X4O/)**  
+**[Unwanted Advances: Sexual Paranoia Comes to Campus](https://www.amazon.com/dp/B01LYS5X4O/)**
+
+Unwanted Advances is a terrific book about the
+[insanity](http://blog.bennettandbennett.com/2016/11/alices-adventures-in-lovett-hall/)
+that [Title IX](http://blog.bennettandbennett.com/2016/11/fixing-university-justice/)
+has become in recent years. Jeff Gamso already wrote a great
+[review](http://gamso-forthedefense.blogspot.rs/2017/04/how-far-weve-fallen.html)
+of the book and I wholeheartedly agree with everything he says. I couldn't
+possible add anything useful to what he said, so this time I'll skip writing
+my own review and just forward you to his.
+
 **[High Performance Browser Networking](https://hpbn.co/)**  
 
 **[The Third Reich at War](https://www.amazon.com/dp/0143116711/)**  
@@ -310,3 +320,4 @@ should absolutely read this trilogy—it's one of the the greatest histories
 ever written.
 
 **[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**  
+**[Cracking the Coding Interview: 189 Programming Questions and Solutions](https://www.amazon.com/dp/0984782850/)**
