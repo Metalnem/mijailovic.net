@@ -320,4 +320,56 @@ should absolutely read this trilogy—it's one of the the greatest histories
 ever written.
 
 **[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**  
+
 **[Cracking the Coding Interview: 189 Programming Questions and Solutions](https://www.amazon.com/dp/0984782850/)**
+
+Software developer job interview process is hopelessly
+[broken](https://sockpuppet.org/blog/2015/03/06/the-hiring-post/)
+(for a more poetic take, you should absolutely read Kyle
+Kingsbury's wonderful trilogy on
+[technical interviews](https://aphyr.com/tags/Interviews)).
+With Google [leading](https://twitter.com/danluu/status/864135668250890240)
+the [way](https://twitter.com/danluu/status/863461948440162304), the
+situation is unlikely to change soon. Passing the programming interview
+requires the skills that are completely unrelated to the skills needed to
+actually perform good on your job. This book will help you pass the interview
+without actually learning algorithms or being able to deliver solutions
+to the real-world problems you will be facing.
+
+The problems in this book are completely disconnected from the reality,
+but that's the problem of the interview process—the author of the book
+just takes the advantage of the unfortunate state of affairs. If you
+though that the FizzBuzz was complete nonsense, wait until you see
+the multithreaded version! Lot of the problems are posed with silly and
+unrealistic restrictions, where perfectly sane solution for a problem
+is not allowed, in order to test—I have no idea what. Some problems
+promote terrible coding practices. For example, almost every solution
+in the strings chapter assumes ASCII encoding, and would be completely
+broken for Unicode.
+
+What I especially disliked about this book was the attitude that you
+should be able to rederive algorithms that some of the greatest minds
+in computer science invented. On whiteboard. In thirty minutes.
+
+>You might recognize this as the topological sort algorithm on page 632.
+We've rederived this from scratch. Most people won't know this algorithm
+and it's reasonable for an interviewer to expect you to be able to derive it.
+
+That's [Kahn's algorithm](https://en.wikipedia.org/wiki/Topological_sorting#Kahn.27s_algorithm).
+You should also be able to reinvent
+[precedence climbing](http://eli.thegreenplace.net/2012/08/02/parsing-expressions-by-precedence-climbing),
+Floyd's [Tortoise and Hare](https://en.wikipedia.org/wiki/Cycle_detection#Floyd.27s_Tortoise_and_Hare)
+algorithm, and Dijkstra's [Shunting-yard](https://en.wikipedia.org/wiki/Shunting-yard_algorithm)
+algorithm. All of the previous algorithms are described in the book like
+something that you should be able to come up with on your own (without
+mentioning the authors). That's just completely insane.
+
+If you just want to game the programming interview, but not really
+learn about algorithms, this book is a fine choice. But even in that
+is the case, better choice in my opinion would be
+[Elements of Programming Interviews](https://www.amazon.com/dp/1479274836/).
+It is strictly superior in every way, but also harder to get through.
+If you actually want to learn about algorithms, read
+[Algorithms](https://www.amazon.com/dp/0073523402/),
+[The Algorithm Design Manual](https://www.amazon.com/dp/1848000693/), or
+[Introduction to Algorithms](https://www.amazon.com/dp/0262033844/).
