@@ -34,11 +34,11 @@ Even though I love the roguelike genre (I've spent hundreds of hours
 in The Binding of Isaac, Nuclear Throne and Galak-Z), I've never played
 Spelunky, but that didn't prevent me from reading the book about it.
 
-Spelunky book was written by the game's author himself. I didn't have
-very high expectations for it, but after only a few pages I knew
-I was in for a treat. He is a game designer, but his writing puts a lot of
-professional writers to shame. Derek presents the complete history of the game
-and talks about his game-design philosophy. In today's world, where
+Spelunky book was written by the game's author himself. I began reading without
+high expectations, but after only a few pages I knew
+I was in for a treat. Derek is a game designer, but his writing puts a lot of
+professional writers to shame. He presents the complete history of the game
+and talks about his game-design philosophy. Nowadays, when
 you can get achievement for literally starting the game, games that
 don't hold your hand every step of the way give you back hope. On
 every page of this book I found some idea that made me think "This is how
@@ -80,16 +80,18 @@ services, which require the following goals to be met: stability,
 reliability, scalability, fault tolerance, catastrophe-preparedness,
 performance, monitoring, and documentation. If you already know how
 to achieve them, this book doesn't offer you anything new. If you don't,
-it will not help you implementing any of them. Some of the important
+it will not help you implement any of them. Some of the important
 topics were only mentioned in passing. For example,
 service discovery has one dedicated paragraph; you can't really do
 anything with that. Besides that, all of the book's
 topics had been previously described more in-depth in both
 [SRE Book](https://landing.google.com/sre/book.html) and
 [The Cloud Book](http://the-cloud-book.com/).
-Even though the book is very short, it's not really packed with content; James
-Hamilton talks about the most important ideas behind internet-scale services in
-[less than twenty pages](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/).
+Even though the book is very short, it's not really packed with content;
+James Hamilton talks about the most important ideas behind internet-scale
+services in less than twenty pages in his paper
+[On Designing and Deploying Internet-Scale Services](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/).
+
 One great thing about this book are checklists at
 the end of each chapter, but even they are inferior to checklists from
 The Cloud Book.
@@ -106,7 +108,7 @@ see what I'm talking about. Even though there is a lot of literature on
 the topic, most of it is in the form of academic papers, thus making it
 hard for beginners to get started in the field. During one of his Jepsen
 talks, Kyle mentioned this free online book as a good introduction to distributed
-systems. I already had it bookmarked for more than a year, but now I finally had
+systems. I had it bookmarked for more than a year, but now I finally found
 some real motivation to read it.
 
 This book only touches the surface of distributed systems. It's also very short:
@@ -182,8 +184,8 @@ century managing your credit cards responsibly, putting the money in 401(k) and 
 money into index funds would be common knowledge, but that's not the case in practice.
 Ramit tries to correct that. You will learn everything you need to know about credit cards,
 checking and savings accounts, 401(k) and Roth IRA, index and lifecycle funds, buying a house
-or a car, and much, much else. You will also learn that investing is not about picking stocks,
-and that only by using an index fund for investing, you will automatically be ahead of most professionals
+or a car, and much, much more. You will also learn that investing is not about picking stocks,
+and that by only using an index fund for investing, you will automatically be ahead of most professionals
 that actively manage funds.
 
 Everything is nicely summarized at the end of each chapter,
@@ -192,7 +194,7 @@ much shorter (you could essentially just read
 [this comment](https://news.ycombinator.com/item?id=10114707)
 for investing the right way), but because everything in it is incredibly
 important, I don't mind it that much: he had to get the point across, and that means he had
-to be detailed sometimes or say things repeatedly. As a nice bonus, he also talks about his
+to go into details sometimes or say things repeatedly. As a nice bonus, he also talks about his
 personal financial setup: which credit cards he's using, which banks he's using and what
 types of accounts he has, how does he split money between accounts automatically, etc.
 
@@ -248,7 +250,7 @@ and get the paper book to get the most out of it.
 Like in any other profession, you can't become an expert overnight. You have to
 put a lot of time into writing to really improve it. Just reading books is not
 enough, but it's still necessary, and this one is the single best resource on
-writing well I've found so far. Read it multiple times to absorb all it has to offer.
+writing well I've found so far. You should read it multiple times to absorb all it has to offer.
 
 **[Unwanted Advances: Sexual Paranoia Comes to Campus](https://www.amazon.com/dp/B01LYS5X4O/)**
 
@@ -316,7 +318,7 @@ medical experiments, etc.
 Evans himself is a great writer; the book will keep your attention until
 the last page. He also tries to be as objective and as honest as possible,
 without being judgmental. As I said previously: if you have the time, you
-should absolutely read this trilogy—it's one of the the greatest histories
+should absolutely read this trilogy—it is one of the greatest history works
 ever written.
 
 **[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**  
