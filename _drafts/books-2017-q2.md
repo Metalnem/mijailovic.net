@@ -344,7 +344,7 @@ just takes the advantage of the unfortunate state of affairs. If you
 though that the FizzBuzz was complete nonsense, wait until you see
 the multithreaded version! Lot of the problems are posed with silly and
 unrealistic restrictions, where perfectly sane solution for a problem
-is not allowed, in order to test—I have no idea what. Some problems
+is not allowed, in order to test… I have no idea what. Some problems
 promote terrible coding practices. For example, almost every solution
 in the strings chapter assumes ASCII encoding, and would be completely
 broken for Unicode.
