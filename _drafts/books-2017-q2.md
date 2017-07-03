@@ -1,3 +1,7 @@
+---
+layout: post
+title: "Books I've read in the second quarter of 2017"
+---
 **[Grammar Girl's Quick and Dirty Tips for Better Writing](https://www.amazon.com/dp/0805088318/)**
 
 Mignon Fogarty, aka Grammar Girl, is best known for her educational,
@@ -42,7 +46,7 @@ and talks about his game-design philosophy. Nowadays, when
 you can get achievement for literally starting the game, games that
 don't hold your hand every step of the way give you back hope. On
 every page of this book I found some idea that made me think "This is how
-games should be made!". This book quote best sums up Spelunky's philosophy:
+games should be made!" This book quote best sums up Spelunky's philosophy:
 
 >We can't have everything that we want all at once, though.
 We can't know what to expect and also be surprised.
@@ -56,7 +60,7 @@ game's "bugs" resulted in some fascinating new way to beat the game
 ([Solo Eggplant Run](https://www.youtube.com/watch?v=LGrPeu5NWk0)
 by Bananasaurus Rex was particularly impressive and nerve-racking).
 Spelunky can be completed in
-[less than two minutes]((https://www.youtube.com/watch?v=s2pG2loLdmY)),
+[less than two minutes](https://www.youtube.com/watch?v=s2pG2loLdmY),
 but it takes hundreds of hours to master it.
 
 You don't have to know anything about the game to enjoy this book.
@@ -91,7 +95,6 @@ Even though the book is very short, it's not really packed with content;
 James Hamilton talks about the most important ideas behind internet-scale
 services in less than twenty pages in his paper
 [On Designing and Deploying Internet-Scale Services](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/).
-
 One great thing about this book are checklists at
 the end of each chapter, but even they are inferior to checklists from
 The Cloud Book.
@@ -279,7 +282,7 @@ internet protocols (TCP, UDP, TLS), application protocols
 (HTTP/1.1, HTTP/2), and high-level browser APIs (XMLHttpRequest,
 Server-Sent Events, WebSockets, WebRTC). Even if you are familiar with
 some (or all) of the topics, you will learn something new and interesting.
-For example, I never cared a lot about how cellular networks work,
+For example, I never cared about how cellular networks work,
 but I learned a lot about them reading this book. And it’s not just
 trivia—knowing how modern mobile networks work is surprisingly relevant
 to performance. For that reason alone, this book was worth reading for me.
@@ -300,7 +303,7 @@ really be an excuse anyway).
 
 This is the third and the final part of the monumental Richard J. Evans' Third
 Reich trilogy (you can find my review of the second book in my
-[previous]({{ site.baseurl }}{% post_url 2017-04-06-books-2017-q1 %})) summary of reading).
+[previous]({{ site.baseurl }}{% post_url 2017-04-06-books-2017-q1 %}) summary of reading).
 It covers the Second World War, but mostly from the German perspective (Pacific War was not
 even mentioned, for example). That means it's not the best choice if you want to
 get a comprehensive view of World War II from a single volume
