@@ -263,9 +263,40 @@ of the book and I wholeheartedly agree with everything he says. I couldn't
 possible add anything useful to what he said, so this time I'll skip writing
 my own review and just forward you to his.
 
-**[High Performance Browser Networking](https://hpbn.co/)**  
+**[High Performance Browser Networking](https://hpbn.co/)**
 
-**[The Third Reich at War](https://www.amazon.com/dp/0143116711/)**  
+Despite the bandwidth growth, modern web can sometimes feel worse that
+it was two decades ago (as Dan Luu would say,
+[most of the web really sucks if you have a slow connection](https://danluu.com/web-bloat/)).
+With the rise of the mobile devices, web performance is more important
+than it ever was. If you want to deliver the best possible experience
+to your users, look no further—High Performance Browser Networking
+is a classic book in this field.
+
+This book talks about everything you need to know about the networking
+as a web or a mobile application developer: network types (WiFi, 3G, 4G),
+internet protocols (TCP, UDP, TLS), application protocols
+(HTTP/1.1, HTTP/2), and high-level browser APIs (XMLHttpRequest,
+Server-Sent Events, WebSockets, WebRTC). Even if you are familiar with
+some (or all) of the topics, you will learn something new and interesting.
+For example, I never cared a lot about how cellular networks work,
+but I learned a lot about them reading this book. And it’s not just
+trivia—knowing how modern mobile networks work is surprisingly relevant
+to performance. For that reason alone, this book was worth reading for me.
+
+Most people think about the bandwidth as the most important aspect of web
+performance, and incorrectly assume that their performance problems will
+sort themselves out with the increased bandwidth. What I liked the most
+about this book is that the author correctly recognizes that the
+performance bottleneck for most websites is actually latency and
+makes it one of the central topics of the book.
+
+To sum things up: if you are developing web or mobile applications,
+you should read this book. As a bonus, it’s completely free, so there
+is no excuse for not reading it (having to pay for it would not
+really be an excuse anyway).
+
+**[The Third Reich at War](https://www.amazon.com/dp/0143116711/)**
 
 This is the third and the final part of the monumental Richard J. Evans' Third
 Reich trilogy (you can find my review of the second book in my
