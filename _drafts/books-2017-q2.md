@@ -352,7 +352,33 @@ without being judgmental. As I said previously: if you have the time, you
 should absolutely read this trilogy—it is one of the greatest history works
 ever written.
 
-**[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**  
+**[Twitter and Tear Gas: The Power and Fragility of Networked Protest](https://www.amazon.com/dp/B06XR259MG/)**
+
+[Zeynep Tufekci](https://twitter.com/zeynep) is one of my favorite people
+on Twitter. She plays an incredibly important role in raising the awareness
+about effects of technology on politics and society. One of her recent
+efforts was writing an
+[open letter](http://technosociology.org/?page_id=1687)—signed by the
+world’s foremost experts on security—calling the Guardian to retract
+the irresponsible story about the alleged WhatsApp backdoor. These are just
+some of the many reasons I was super excited about her writing a book.
+
+Twitter and Tear Gas describes how social networks forever changed the
+landscape of protests, with all the good and the bad sides that
+accompanied the change. Facebook and Twitter are replacing the mainstream
+media, enabling people to bypass the government censorship, but are also
+bringing new set of problems—we have just replaced one form of censorship with
+another, where algorithms and Silicon Valley geeks can decide what is news,
+who can speak and who can't (even though that's not the main topic of the
+book, it is the most scary one to me). Technology is helping ordinary people,
+but oppressive regimes can use it, too—had Recep Tayyip Erdoğan not have
+used the FaceTime during the recent coup, it probably would have succeeded and
+the Turkey could have been a completely different country today.
+
+I was already familiar with most of the topics in the book, so I didn't
+learn that much from it, but that's not really the book's problem. The only real
+complaint I have is that some chapters are too abstract and uninformative, but
+besides that, it's a great read.
 
 **[Cracking the Coding Interview: 189 Programming Questions and Solutions](https://www.amazon.com/dp/0984782850/)**
 
