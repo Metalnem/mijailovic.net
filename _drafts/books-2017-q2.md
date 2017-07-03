@@ -265,7 +265,7 @@ my own review and just forward you to his.
 
 **[High Performance Browser Networking](https://hpbn.co/)**
 
-Despite the bandwidth growth, modern web can sometimes feel worse that
+Despite the bandwidth growth, modern web can sometimes seem worse that
 it was two decades ago (as Dan Luu would say,
 [most of the web really sucks if you have a slow connection](https://danluu.com/web-bloat/)).
 With the rise of the mobile devices, web performance is more important
@@ -292,8 +292,8 @@ performance bottleneck for most websites is actually latency and
 makes it one of the central topics of the book.
 
 To sum things up: if you are developing web or mobile applications,
-you should read this book. As a bonus, it’s completely free, so there
-is no excuse for not reading it (having to pay for it would not
+you should read this book. It’s completely free, so there
+is no excuse for not reading it (having to pay for it should not
 really be an excuse anyway).
 
 **[The Third Reich at War](https://www.amazon.com/dp/0143116711/)**
@@ -371,12 +371,12 @@ bringing new set of problems—we have just replaced one form of censorship with
 another, where algorithms and Silicon Valley geeks can decide what is news,
 who can speak and who can't (even though that's not the main topic of the
 book, it is the most scary one to me). Technology is helping ordinary people,
-but oppressive regimes can use it, too—had Recep Tayyip Erdoğan not have
-used the FaceTime during the recent coup, it probably would have succeeded and
+but oppressive regimes can use it, too—if Recep Tayyip Erdoğan had not
+used the FaceTime during the recent coup, it probably would have been successful and
 the Turkey could have been a completely different country today.
 
 I was already familiar with most of the topics in the book, so I didn't
-learn that much from it, but that's not really the book's problem. The only real
+learn much from it, but that's not really the book's fault. The only real
 complaint I have is that some chapters are too abstract and uninformative, but
 besides that, it's a great read.
 
@@ -391,7 +391,7 @@ With Google [leading](https://twitter.com/danluu/status/864135668250890240)
 the [way](https://twitter.com/danluu/status/863461948440162304), the
 situation is unlikely to change soon. Passing the programming interview
 requires the skills that are completely unrelated to the skills needed to
-actually perform good on your job. This book will help you pass the interview
+actually perform well on your job. This book will help you pass the interview
 without actually learning algorithms or being able to deliver solutions
 to the real-world problems you will be facing.
 
@@ -423,9 +423,9 @@ algorithm. All of the previous algorithms are described in the book like
 something that you should be able to come up with on your own (without
 mentioning the authors). That's just completely insane.
 
-If you just want to game the programming interview, but not really
+If your only goal is to game the programming interview, but not really
 learn about algorithms, this book is a fine choice. But even in that
-is the case, better choice in my opinion would be
+is the case, better choice, in my opinion, would be
 [Elements of Programming Interviews](https://www.amazon.com/dp/1479274836/).
 It is strictly superior in every way, but also harder to get through.
 If you actually want to learn about algorithms, read
