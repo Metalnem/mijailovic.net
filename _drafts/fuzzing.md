@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adventures in go-fuzz"
+title: "Going down the rabbit hole with go-fuzz"
 ---
 [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing)
 has been a well known automated testing technique for decades, especially
@@ -23,13 +23,13 @@ I noticed it a long time ago and immediately knew that it's pretty
 impressive library, but I didn't have the time to play with it back then.
 Ever since that, it’s GitHub page has been sitting in my bookmarks, until
 few weeks ago I found [this great article](https://medium.com/@dgryski/go-fuzz-github-com-arolek-ase-3c74d5a3150c)
-that explained go-fuzz usage step by step. Now I had no excuse for not
-being familiar with go-fuzz, so I decided to finally try it.
+that explained go-fuzz usage step by step. Now that I had no excuse for not
+being familiar with go-fuzz, I decided to finally try it.
 
 ## Getting started
 
 Other people have already written good go-fuzz tutorials, so I won't go
-into all details of using go-fuzz in this post, but I will point you
+into all the details of using go-fuzz in this post, but I will point you
 to the articles and talks that will get you up to speed quickly.
 
 The best way to get started with go-fuzz is to read Damian Gryski's
@@ -159,7 +159,7 @@ with larger initial corpus, which helped them find
 [six additional bugs](https://github.com/unidoc/unidoc/issues/81)!
 Thanks to go-fuzz, we now have much more reliable PDF library for Go.
 
-At this moment I was wondering whether I should continue play with
+At this moment I was wondering whether I should continue playing with
 go-fuzz and some different libraries, or just call it a day.
 It was a fun and useful process, so I decided to test one more library.
 
