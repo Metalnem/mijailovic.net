@@ -48,3 +48,37 @@ to a perfect technical book as possible: even though it's 1200
 pages long, you can't find a single filler sentence in it.
 If you work in software security, this book is a must-read (but
 you probably knew that already).
+
+**[Hitler: A Biography](https://www.amazon.com/dp/0393337618/)**
+
+Hitler: A Biography is an abridged version of Ian Kershaw’s
+previous two-volume biography of Hitler (even though it’s hard
+to call abridged the book that’s over 1000 pages long).
+Hitler: 1889-1936 Hubris and Hitler: 1936-1945 Nemesis were
+already the definitive reference books, but Kershaw decided
+to condense the two volumes into one (despite his initial
+reluctance) and make his magnum opus much more approachable
+to the general public. The result is the best single volume
+biography of the Nazi dictator.
+
+Never before in history has such destruction been caused by
+a single person. It’s possible that the World War II could
+have happened even without Hitler, but such amount of evil
+and inhumanity would be unimaginable without him. History of
+Hitler is the history of the worst political miscalculations
+in history. This book shows how the unique set of
+circumstances has shaped the world history, and how Hitler's
+rise to power was all but inevitable. Kershaw
+does a great job debunking common myths and misconceptions
+about Hitler, especially about the evolution of Hitler's
+ideology and his early role in the Nazi party. It's difficult
+to write a biography of a person whose personal life was
+almost nonexistent, but this book still manages to reveal
+surprising amount of detail, especially about the Hitler's
+downfall, the last few months of his life in the bunker, and
+and the gradual descend into complete paranoia and delusion.
+
+If you are interested in knowing more about Hitler (or the
+Third Reich in general), Ian Kershaw’s books are the answer;
+the only question you should ask yourself is which of the
+two versions you want to read.
