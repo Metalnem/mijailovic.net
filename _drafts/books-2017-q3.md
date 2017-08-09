@@ -82,3 +82,44 @@ If you are interested in knowing more about Hitler (or the
 Third Reich in general), Ian Kershaw’s books are the answer;
 the only question you should ask yourself is which of the
 two versions you want to read.
+
+**[Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland](https://www.amazon.com/dp/0062303023/)**
+
+Millions of people were killed during the Holocaust. Nazi
+leaders like Hitler, Himmler, Heydrich and Globocnik orchestrated
+the killings, but who were the actual perpetrators? Were they
+all fanatical Nazis, fueled by the hatred towards the Jews,
+or were they ordinary people who were just obeying the orders?
+German [Order Police](https://en.wikipedia.org/wiki/Ordnungspolizei)
+played important role in the Final Solution; they were initially
+in charge of policing the occupied territories in the East, but
+after the Operation Barbarossa they became increasingly involved
+in the mass shootings of Polish Jews. Ordinary Men is the story
+of one such unit—
+[Reserve Police Battalion 101](https://en.wikipedia.org/wiki/Reserve_Police_Battalion_101).
+
+Reserve Police Battalion 101 was a unit of around 500 people,
+directly involved in killing of at least 38000 Jews, but
+also responsible for deportations of even more Jews to
+death camps. During the first few years of war, they were
+mostly assigned to the guard duty in Poland, until one
+morning in July 1942 the orders came that 1500 Jews from
+the Józefów ghetto are to be killed. Only 12 of the men
+decided not to participate; the rest of them complied.
+This was the first of many mass shootings; it had an
+enormous emotional impact on the killers initially, but
+they adjusted to their new role soon after.
+
+Christopher Browning explains how the group of ordinary
+men could turn into hardened killers. Browning had a gold
+mine of information in the form of testimonials of
+surviving members of the battalion during the trials
+for their crimes in Hamburg several decades after the war.
+Most people think that making moral decisions the wartime
+would be easy for them, but this book shows that it's
+not so black and white. That doesn't mean that murderers
+are to be excused or forgiven, just that it's possible
+to understand their behavior.
+
+This book is one of the most terrifying books I've ever read.
+It's also one the best. Highly recommended.
