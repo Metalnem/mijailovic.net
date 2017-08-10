@@ -119,7 +119,5 @@ Most people think that making moral decisions the wartime
 would be easy for them, but this book shows that it's
 not so black and white. That doesn't mean that murderers
 are to be excused or forgiven, just that it's possible
-to understand their behavior.
-
-This book is one of the most terrifying books I've ever read.
-It's also one the best. Highly recommended.
+to understand their behavior. This book is one of the
+most terrifying books I've ever read. It's also one of the best.
