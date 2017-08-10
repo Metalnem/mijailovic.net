@@ -121,3 +121,34 @@ not so black and white. That doesn't mean that murderers
 are to be excused or forgiven, just that it's possible
 to understand their behavior. This book is one of the
 most terrifying books I've ever read. It's also one of the best.
+
+**[Ordinary Injustice: How America Holds Court](https://www.amazon.com/dp/0805092277/)**
+
+Here we have yet another "ordinary" book, in which Amy Bach
+reveals the systemic problems in the US courtrooms. The book
+shows that the main problem are not the spectacular failures
+that we see everyday in the news and treat them as exceptions,
+but rather infinite number of mundane cases where people
+are hoarded like cattle through the meat grinder that is
+US criminal justice system.
+
+No player in the system is innocent. Judges send to jail
+people charged with minor crimes, whether they are guilty or
+not, only because they cannot afford excessive bails. Defendants
+are forced to accept guilty pleas without a lawyer being present.
+Overworked and underpaid public defenders sometimes have
+only a few minutes to talk to the clients and decide whether
+to accept prosecutor's offer or risk going to trial, and all
+of that without having the facts of the case that prosecutor
+is refusing to disclose. Prosecutors don't seek justice, but
+easy victories. They also sometimes zealously prosecute people,
+turning a blind eye to the irrefutable evidence that
+the accused is actually innocent. Each of these problems is
+not the exception, but the norm.
+
+There are no easy solutions that could fix the system.
+Indigent defense needs funding, but it's never a priority.
+Prosecutors enjoy absolute immunity, but they also have
+to be accountable. For starters, people have to see
+the criminal justice system for what it really is—this
+book is a much needed eye-opener.
