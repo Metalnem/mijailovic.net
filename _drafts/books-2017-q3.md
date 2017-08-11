@@ -148,7 +148,7 @@ not the exception, but the norm.
 
 There are no easy solutions that could fix the system.
 Indigent defense needs funding, but it's never a priority.
-Prosecutors enjoy absolute immunity, but they also have
-to be accountable. For starters, people have to see
-the criminal justice system for what it really is—this
+Prosecutors have to be held accountable for their actions,
+but they enjoy absolute immunity. For starters, people have
+to see the criminal justice system for what it really is—this
 book is a much needed eye-opener.
