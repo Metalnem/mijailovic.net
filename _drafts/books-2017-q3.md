@@ -179,12 +179,12 @@ I expected from this book: collection of patterns for writing
 reliable concurrent software in Go.
 
 First half of the book introduces the concept of concurrency,
-and primitives that Go programming language offers: goroutines,
-channels, and basic synchronization primitives from the sync
+and the basic primitives Go programming language offers: goroutines,
+channels, and synchronization primitives from the sync
 package. If you are familiar with Go (and you probably are if
 you are reading this book), you will not learn anything new here.
 Second half is much more interesting, because it delivers exactly
-what I was hoping for-a collection of patterns, and how to use them
+what I was hoping for: a collection of patterns, and how to use them
 when writing software at scale. There is a lot of good stuff in here:
 cancellation, timeouts, error handling and propagation, rate
 limiting, supervisors, etc. Katherine didn't try to reinvent the wheel,
