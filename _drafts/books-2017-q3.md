@@ -152,3 +152,53 @@ Prosecutors have to be held accountable for their actions,
 but they enjoy absolute immunity. For starters, people have
 to see the criminal justice system for what it really is—this
 book is a much needed eye-opener.
+
+**[Concurrency in Go: Tools and Techniques for Developers](https://www.amazon.com/dp/1491941197/)**
+
+Concurrency in Go is the latest addition to the collection
+of Go books. I love reading good concurrency books, and I
+also really like Go, so I was naturally excited about it.
+Few weeks before the release, out of the blue, O'Reilly
+announced that they are pulling the plug on their DRM-free
+ebook store. That was quite a shock, and I assumed I would
+probably never again read a book published by O'Reilly. But
+then I discovered that all O'Reilly books are available
+DRM-free on [eBooks.com](http://www.ebooks.com/)—life as
+we know it could continue, after all.
+
+Unlike other programming languages I've been working with,
+official Go documentation offers more than enough material
+for learning the language. [A Tour of Go](https://tour.golang.org/),
+[Effective Go](https://golang.org/doc/effective_go.html),
+and [The Go Blog](https://blog.golang.org/index) cover almost
+everything you need to know. However,
+simplicity of the language is a double-edged sword-Go offers
+you really great low-level primitives, but that means you
+often have to reinvent high-level constructs. That was something
+I expected from this book: collection of patterns for writing
+reliable concurrent software in Go.
+
+First half of the book introduces the concept of concurrency,
+and primitives that Go programming language offers: goroutines,
+channels, and basic synchronization primitives from the sync
+package. If you are familiar with Go (and you probably are if
+you are reading this book), you will not learn anything new here.
+Second half is much more interesting, because it delivers exactly
+what I was hoping for-a collection of patterns, and how to use them
+when writing software at scale. There is a lot of good stuff in here:
+cancellation, timeouts, error handling and propagation, rate
+limiting, supervisors, etc. Katherine didn't try to reinvent the wheel,
+so you will learn to use [context](https://golang.org/pkg/context/)
+for cancellation, [x/time/rate](https://godoc.org/golang.org/x/time/rate)
+for rate limiting, and [github.com/pkg/errors](https://github.com/pkg/errors)
+for wrapping errors; that is a huge plus for her in my book.
+
+The books falls just a little bit short of being the definitive
+concurrency reference. Most notable is the absence of chapter
+on the Go memory model-I think every concurrency book has to
+discuss the memory model. Fortunately, it's really simple
+in the case of Go: you can read about it [here](https://golang.org/ref/mem).
+Also, the chapter about the Go runtime is good, but the best
+resources available are the two fantastic talks by Kavya Joshi:
+["go test -race" Under the Hood](https://www.youtube.com/watch?v=5erqWdlhQLA) and
+[Understanding Channels](https://www.youtube.com/watch?v=KBZlN0izeiY).
