@@ -406,7 +406,7 @@ that requirement.
 
 Opening an SQLite database safely should have been
 a very simple thing to do, but it turned into a
-week-long pointless and fun exercise. You can find
+week-long pointless, yet fun exercise. You can find
 the complete implementation of my custom VFS
 [here](https://github.com/Metalnem/sqlite-vfsdemo).
 It is just a proof of concept, so be careful if
