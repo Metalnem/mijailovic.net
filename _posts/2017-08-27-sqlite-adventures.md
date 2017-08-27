@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Adventures with SQLite and SQLITE_OPEN_EXCLUSIVE"
+date: 2017-08-27 14:45:00 +0200
 ---
 If you have some data that you can't afford to lose, having
 a good backup strategy is critical. Proper online backup
