@@ -393,7 +393,7 @@ int xOpen(sqlite3_vfs *vfs, const char *name, sqlite3_file *file, int flags, int
 As far as I'm concerned, this looks like correct and
 portable solution. Also, you should know that even
 with this custom VFS, SQLite will still open the
-database, but in read-only mode (default VFS implememtations
+database, but in read-only mode (default VFS implementations
 have a fallback to opening the database in read-only
 mode if the main open call fails for any reason).
 That's fine, though: we only wanted to be sure
