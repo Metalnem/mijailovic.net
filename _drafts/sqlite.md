@@ -124,14 +124,14 @@ with the **sqlite3_open_v2** call, but *SQLITE_OPEN_EXCLUSIVE*
 is not? Why the comment says it’s “VFS only”, and
 what is VFS, actually?
 
-[VFS](https://sqlite.org/vfs.html) stands out for
+[VFS](https://sqlite.org/vfs.html) stands for
 “Virtual File System”, and it's a portability layer
 for abstracting the file system operations across
 different operating systems. SQLite ships with
 multiple Unix and Windows implementations, but you
 can even write your own VFS if you want. But
-this doesn’t answer the our question—what does it mean
-that the flag we are interested is marked as VFS only?
+this doesn’t answer our question—what does it mean that
+the flag we are interested in is marked as VFS only?
 Let’s write a simple program to see what happens when
 we use the *SQLITE_OPEN_EXCLUSIVE* flag.
 
@@ -186,7 +186,7 @@ compilation, navigation, and searching much easier.
 The first function from the SQLite library that we
 are calling in our sample program is **sqlite3_open_v2**,
 so let’s find its definition, and follow the propagation
-of the flags from there. Its definition looks like this:
+of the flags from there. The function looks like this:
 
 ```c
 int sqlite3_open_v2(
@@ -291,11 +291,11 @@ Unlike the **sqlite3_open_v2**, **unixOpen** does handle
 *SQLITE_OPEN_EXCLUSIVE* flag correctly. And not just that,
 but the flag is actually used internally in several
 places. For example, temporary databases are created
-using this flag—it's only external users of SQLite
-who are being prevented from using the flag.
+using this flag—it's only the external users of SQLite
+who are being prevented from using it.
 
-So, where does that leaves us? We could modify the
-SQLite source code to not mask the flag, but that's
+So, where does that leave us? We could modify the
+SQLite source code to stop masking the flag, but that's
 not really an acceptable solution to this problem.
 Can we do better than that?
 
