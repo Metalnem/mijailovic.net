@@ -307,16 +307,16 @@ But for some reason I couldn't leave the job unfinished,
 so I decided it was time for the nuclear option: writing
 a custom VFS implementation.
 
-Implementing the VFS requires overriding the **sqlite3_vfs**
-[structure](https://sqlite.org/c3ref/vfs.html). It
-contains more than a dozen functions and several fields.
+Implementing the VFS requires overriding the
+[sqlite3_vfs](https://sqlite.org/c3ref/vfs.html) structure.
+It contains more than a dozen functions and several fields.
 Default implementations for Unix and Windows are
 huge and complicated; doing something like that
 from scratch would be an enormous and error-prone
 job.
 
 When you think more about it, it's not actually
-necessary to implement all these functions from
+necessary to implement all of these functions from
 scratch. Almost all of them should just be reused;
 the only one that we really have to override is
 the **xOpen** function:
@@ -369,11 +369,10 @@ flag wouldn't break some of the internal operations.
 
 Is there a way to add the flag only when we are opening the
 main database file? If your answer is yes, you are correct:
-there is an additional flag called *SQLITE_OPEN_MAIN_DB*.
 SQLite applies an additional flag for each type of file
-it creates, and the main database is one of them (you can
-see the list of all flags
-[here](https://sqlite.org/c3ref/c_open_autoproxy.html).
+it creates, and the main database is marked with the *SQLITE_OPEN_MAIN_DB*
+flag (you can see the list of all additional flags
+[here](https://sqlite.org/c3ref/c_open_autoproxy.html)).
 Armed with this knowledge, I just had to slightly modify
 my previous attempt:
 
