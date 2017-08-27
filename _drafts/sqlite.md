@@ -2,13 +2,13 @@
 layout: post
 title: "Adventures with SQLite and SQLITE_OPEN_EXCLUSIVE"
 ---
-Proper online backup solutions like [Tarsnap](https://www.tarsnap.com/)
+Proper online backup solutions such as [Tarsnap](https://www.tarsnap.com/)
 create snapshots of your data, which means you can never destroy your
 backup by accident. If you have something that you can't afford
 to lose, Tarsnap is the only online backup solution that I could
 recommend. However, Tarsnap can get very expensive for the large
 datasets. It would be insane to use it for hundreds of gigabytes
-of music, for example. Dropbox is much better choice in such case,
+of music, for example. Dropbox is a much better choice in such case,
 but it's not a really a backup solution. You could accidentally
 delete or modify some file, and notice only when it's too late
 to recover it.
@@ -18,24 +18,23 @@ That is why I recently implemented a small integrity checking
 It calculates checksums of all files in specified directories and
 stores them in an immutable SQLite database (each time the tool
 is invoked it creates the new file instead of keeping everything
-in a single database). It can also calculate the
-difference between the two databases, therefore allowing me to
-verify that no files were modified or removed (that works because my
-backup folders are append-only) in the meantime. I could have used
+in a single database). It can also calculate the difference between
+the two databases, therefore allowing me to verify that no files
+were modified or removed in the meantime. I could have used
 a simple file instead of an SQLite database, but SQLite is almost
 always a better choice for an application file format (read
 [this](https://sqlite.org/appfileformat.html) to see why). Also,
 file consistency is [hard](https://danluu.com/file-consistency/).
 
 In order to prevent my program from accidentally overwriting the
-data in some of the previous databaes, I wanted to satisfy two
+data in some of the previous databases, I wanted to satisfy two
 safety related requirements:
 
 - When comparing the two databases, I wanted to open them in
 read-only mode, thus making it impossible to destroy anything.
 - When creating the new database, I wanted to always create
 the new file, and fail if the file with the same name already
-exists. Again, this makes making destructive changes impossible.
+exists. Again, this makes doing destructive changes impossible.
 
 First requirement can easily be satisfied with both ordinary
 files and SQLite databases. Second requirement is often source
@@ -76,8 +75,8 @@ This is sometimes source of symbolic link attacks, where instead
 of opening a new file, attacker can trick you into overwriting
 some other, often security critical file. But that was not my
 main concern; I was more worried about the situation where I
-could overwrite some old database by accident, only because
-I named the new one with the same name. Is there a way to
+could overwrite some old database, only because I named the
+new one with the same name by accident. Is there a way to
 create a file only if it does not exist? Of course—that is
 exactly what the **O_EXCL** flag is for:
 
@@ -85,8 +84,8 @@ exactly what the **O_EXCL** flag is for:
 specified in conjunction with **O_CREAT**, and *pathname*
 already exists, then **open()** will fail.
 
-This does the trick for plain files. But what can we do
-when working with SQLite databases?
+This does the trick for plain files. Can we do something
+similar when working with SQLite databases?
 
 ## Safely creating a new SQLite database
 
@@ -94,7 +93,7 @@ SQLite databases are opened using the **sqlite3_open_v2**
 function (you could also use the **sqlite3_open** or
 **sqlite3_open16** [functions](https://sqlite.org/c3ref/open.html),
 but they are not as powerful as **sqlite3_open_v2**, so
-we can completely ignore them):
+we can ignore them in this discussion):
 
 ```c
 int sqlite3_open_v2(const char *filename, sqlite3 **ppDb, int flags, const char *zVfs);
@@ -178,16 +177,15 @@ have to dig deeper.
 
 The easiest way to analyze and compile the SQLite
 source is to download so called
-[amalgamation](https://www.sqlite.org/amalgamation.html),
+[amalgamation](https://www.sqlite.org/amalgamation.html).
 It is a single file called "sqlite3.c", which is just a
 concatenation of all SQLite source files. That makes
 compilation, navigation, and searching much easier.
 
 The first function from the SQLite library that we
-are calling in our sample program is the
-**sqlite3_open_v2**, so let’s find its definition,
-and follow the propagation of the flags from there.
-The function looks like this:
+are calling in our sample program is **sqlite3_open_v2**,
+so let’s find its definition, and follow the propagation
+of the flags from there. Its definition looks like this:
 
 ```c
 int sqlite3_open_v2(
@@ -267,10 +265,11 @@ where the author of the library says:
 processes, so no it does not use O_EXCL.
 
 This is a sane default choice, but it still doesn't
-say why the flag is explicitly forbidden. We have
-concluded that the *SQLITE_OPEN_EXCLUSIVE* flag
-is forbidden, but we still don't know what does it
-mean that it's VFS only, so let's learn more about that.
+say why the flag is explicitly forbidden.
+
+We have concluded that the *SQLITE_OPEN_EXCLUSIVE* flag is
+definitely not allowed, but we still don't know what does
+it mean that it's VFS only, so let's learn more about that.
 
 Function **openDatabase** doesn't open the database
 file directly—it actually opens the file using the
@@ -396,7 +395,7 @@ int xOpen(sqlite3_vfs *vfs, const char *name, sqlite3_file *file, int flags, int
 As far as I'm concerned, this looks like correct and
 portable solution. Also, you should know that even
 with this custom VFS, SQLite will still open the
-database, but in read-only mode (default VFS implemetations
+database, but in read-only mode (default VFS implememtations
 have a fallback to opening the database in read-only
 mode if the main open call fails for any reason).
 That's fine, though: we only wanted to be sure
