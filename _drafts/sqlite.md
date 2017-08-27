@@ -2,14 +2,15 @@
 layout: post
 title: "Adventures with SQLite and SQLITE_OPEN_EXCLUSIVE"
 ---
-Proper online backup solutions such as [Tarsnap](https://www.tarsnap.com/)
-create snapshots of your data, which means you can never destroy your
-backup by accident. If you have something that you can't afford
-to lose, Tarsnap is the only online backup solution that I could
-recommend. However, Tarsnap can get very expensive for the large
+If you have some data that you can't afford to lose, having
+a good backup strategy is critical. Proper online backup
+solutions such as [Tarsnap](https://www.tarsnap.com/) create
+snapshots of your data, which means you can never destroy your
+backup by accident. Tarsnap is also the only online backup solution
+that I could recommend. However, it can get very expensive for the large
 datasets. It would be insane to use it for hundreds of gigabytes
 of music, for example. Dropbox is a much better choice in such case,
-but it's not a really a backup solution. You could accidentally
+but it's not really a backup solution. You could accidentally
 delete or modify some file, and notice only when it's too late
 to recover it.
 
