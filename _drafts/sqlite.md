@@ -264,18 +264,17 @@ where the author of the library says:
 >SQLite databases are designed to be shared by two or more
 processes, so no it does not use O_EXCL.
 
-This is a sane default choice, but it still doesn't
-say why the flag is explicitly forbidden.
-
-We have concluded that the *SQLITE_OPEN_EXCLUSIVE* flag is
-definitely not allowed, but we still don't know what does
-it mean that it's VFS only, so let's learn more about that.
+This is a sane default choice, but it still doesn't say
+why the flag is explicitly forbidden. Now that we have
+concluded that the *SQLITE_OPEN_EXCLUSIVE* flag is
+definitely not allowed, let's find out what does it mean
+that it's VFS only.
 
 Function **openDatabase** doesn't open the database
 file directly—it actually opens the file using the
 function provided by the VFS implementation for the
-current operating system. Files on the Unix operating
-systems are opened using the **unixOpen** function:
+current operating system. Files on the Unix-like
+operating systems are opened using the **unixOpen** function:
 
 ```c
 static int unixOpen(
@@ -291,12 +290,12 @@ Unlike the **sqlite3_open_v2**, **unixOpen** does handle
 *SQLITE_OPEN_EXCLUSIVE* flag correctly. And not just that,
 but the flag is actually used internally in several
 places. For example, temporary databases are created
-using this flag. It's only external users of SQLite
+using this flag—it's only external users of SQLite
 who are being prevented from using the flag.
 
 So, where does that leaves us? We could modify the
 SQLite source code to not mask the flag, but that's
-not really an acceptable solution to our problem.
+not really an acceptable solution to this problem.
 Can we do better than that?
 
 ## Writing a custom VFS
@@ -337,9 +336,9 @@ around the default VFS that would just forward
 the calls to the original functions, but also
 add the *SQLITE_OPEN_EXLUSIVE* flag in the **xOpen**
 function before calling the real version.
-SQLite documentation was helpful because it contains the
-[implementation] (http://www.sqlite.org/src/doc/trunk/src/test_vfstrace.c)
-of VFS shim that writes diagnostic output for each VFS call.
+SQLite documentation was again super helpful because it contains the
+[example](http://www.sqlite.org/src/doc/trunk/src/test_vfstrace.c)
+of a VFS shim that writes diagnostic output for each VFS call.
 
 I wanted to apply the flag only when *SQLITE_OPEN_READWRITE*
 and *SQLITE_OPEN_CREATE* flags were already applied, so my
@@ -365,7 +364,7 @@ The problem with this code is that the **xOpen** function
 was not used only for creating the database: SQLite is also
 using it internally for other purposes, like creating
 the journal, write-ahead log, and many other temporary files.
-I could not guarantee that adding the *SQLITE_OPEN_EXLUSIVE*
+I couldn't guarantee that adding the *SQLITE_OPEN_EXLUSIVE*
 flag wouldn't break some of the internal operations.
 
 Is there a way to add the flag only when we are opening the
