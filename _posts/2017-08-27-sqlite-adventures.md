@@ -201,7 +201,7 @@ int sqlite3_open_v2(
 ```
 
 It's just a simple wrapper around the **openDatabase**,
-so let's continue our search there. Immediatelly at the top
+so let's continue our search there. Immediately at the top
 of the **openDatabase** is the answer to our question
 why the *SQLITE_OPEN_EXCLUSIVE* flag is being ignored:
 
