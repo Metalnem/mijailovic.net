@@ -351,8 +351,9 @@ something like this:
 int xOpen(sqlite3_vfs *vfs, const char *name, sqlite3_file *file, int flags, int *outFlags)
 {
   sqlite3_vfs *root = (sqlite3_vfs *)vfs->pAppData;
+  int test = SQLITE_OPEN_READWRITE | SQLITE_OPEN_CREATE;
 
-  if (flags & (SQLITE_OPEN_READWRITE | SQLITE_OPEN_CREATE))
+  if ((flags & test) == test)
   {
     flags |= SQLITE_OPEN_EXCLUSIVE;
   }
@@ -382,8 +383,9 @@ my previous attempt:
 int xOpen(sqlite3_vfs *vfs, const char *name, sqlite3_file *file, int flags, int *outFlags)
 {
   sqlite3_vfs *root = (sqlite3_vfs *)vfs->pAppData;
+  int test = SQLITE_OPEN_READWRITE | SQLITE_OPEN_CREATE | SQLITE_OPEN_MAIN_DB;
 
-  if (flags & (SQLITE_OPEN_READWRITE | SQLITE_OPEN_CREATE | SQLITE_OPEN_MAIN_DB))
+  if ((flags & test) == test)
   {
     flags |= SQLITE_OPEN_EXCLUSIVE;
   }
