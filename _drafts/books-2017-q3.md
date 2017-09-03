@@ -202,3 +202,37 @@ Also, the chapter about the Go runtime is good, but the best
 resources available are the two fantastic talks by Kavya Joshi:
 ["go test -race" Under the Hood](https://www.youtube.com/watch?v=5erqWdlhQLA) and
 [Understanding Channels](https://www.youtube.com/watch?v=KBZlN0izeiY).
+
+**[Pro Git](https://git-scm.com/book/en/v2)**
+
+Unlike the other version control systems, you have to
+understand Git's internals in order to use it effectively.
+Articles such as [Git from the inside out](https://maryrosecook.com/blog/post/git-from-the-inside-out)
+and [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
+provide fantastic foundations, but they are still just
+a starting point. I really don't care that much about Git, and
+I would happily spend the rest of my life knowing only
+how to commit and push code, but that's not nearly enough,
+unfortunately. To really master Git, I had to bite the
+bullet and finally read the Pro Git book.
+
+This book explains everything (and I really mean
+everything) you need to know about Git: from basic commands
+and simple branching/merging techniques, to more advanced
+concepts and ultimately Git internals. You can use this
+book as a reference, but you can also read it from cover
+to cover—it's fun and easy to read (with the exception
+of "Git and Other Systems" chapter, which you can safely
+skip unless you are currently working with some of the
+legacy version control systems). Chapters "Git Tools"
+and "Git Internals" are indispensable; section "Reset
+Demystified" explains reset command better than any
+other resource on the internet.
+
+In an ideal world, we wouldn't have to read books
+about version control systems, but we live in the
+world where we have to use Git, and that makes the
+Pro Git book a necessity (don't get me wrong—this is
+actually a great book, it's just that I would rather
+have spent few weeks of my life improving skills
+that really matter).
