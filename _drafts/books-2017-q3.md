@@ -227,7 +227,9 @@ skip unless you are currently working with some of the
 legacy version control systems). Chapters "Git Tools"
 and "Git Internals" are indispensable; section "Reset
 Demystified" explains reset command better than any
-other resource on the internet.
+other resource on the internet. You will also learn
+tons of tricks that you will never use in the real life,
+but will make you look smart in the public!
 
 In an ideal world, we wouldn't have to read books
 about version control systems, but we live in the
