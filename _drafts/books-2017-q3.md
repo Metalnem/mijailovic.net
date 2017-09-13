@@ -250,7 +250,28 @@ over the prison, taking 42 employees hostage. After four
 days of intensive negotiations, governor of New York
 Nelson Rockefeller decided that the state would take
 back the prison by force. During the chaotic and violent
-takeover, state troopers killed 43 people—33 inmates and
-10 hostages. Blood in the Water is the definitive history
-of this infamous event, and the victims' decades-long
-fight for justice.
+operation, state troopers killed 43 people—33 inmates and
+10 hostages. Hundreds of prisoners were severely beaten
+and tortured even after the takeover was complete. Blood
+in the Water is the definitive history of this infamous
+event, and the victims' decades-long fight for justice.
+
+This important historical document is the result of ten
+years of difficult research and bureaucratic hurdles.
+Despite the author's numerous FOIA requests, government
+often refused to disclose the information that should have
+been public; some of the documents were found be sheer luck
+in the county courts. Despite its importance, this book
+is not flawless.
+
+First part of the book is fascinating. It talks about
+the actual rebellion (including the negotiations and
+the takeover) in great detail. The writing is superb;
+I just couldn't put the book down. Second part of the
+book is not nearly as great as the first. It describes
+the numerous criminal and civil trials that followed
+in the decades after the uprising, but it's too long
+and too detailed, describing numerous cases that were
+very similar in nature. The book is still great, but
+flawed; it could have been perfect if only the second
+part was much shorter.
