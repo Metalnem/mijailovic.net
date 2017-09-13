@@ -272,6 +272,6 @@ book is not nearly as great as the first. It describes
 the numerous criminal and civil trials that followed
 in the decades after the uprising, but it's too long
 and too detailed, describing numerous cases that were
-very similar in nature. The book is still great, but
+very similar in nature. The book remains great, but
 flawed; it could have been perfect if only the second
 part was much shorter.
