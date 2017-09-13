@@ -238,3 +238,19 @@ Pro Git book a necessity (don't get me wrong—this is
 actually a great book, it's just that I would rather
 have spent few weeks of my life improving skills
 that really matter).
+
+**[Blood in the Water: The Attica Prison Uprising of 1971 and Its Legacy](https://www.amazon.com/dp/0375423222/)**
+
+Attica Correctional Facility has always been notorious
+for its horrible living conditions. It was a dangerous
+and overcrowded place, lacking enough food and medical
+care. Prisoners' demands for better living conditions
+culminated on September 9, 1971, when they took control
+over the prison, taking 42 employees hostage. After four
+days of intensive negotiations, governor of New York
+Nelson Rockefeller decided that the state would take
+back the prison by force. During the chaotic and violent
+takeover, state troopers killed 43 people—33 inmates and
+10 hostages. Blood in the Water is the definitive history
+of this infamous event, and the victims' decades-long
+fight for justice.
