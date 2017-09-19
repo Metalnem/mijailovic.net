@@ -275,3 +275,22 @@ and too detailed, describing numerous cases that were
 very similar in nature. The book remains great, but
 flawed; it could have been perfect if only the second
 part was much shorter.
+
+**[Reversing: Secrets of Reverse Engineering](https://www.amazon.com/dp/0764574817/)**
+
+**[The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger](https://www.amazon.com/dp/0691170819/)**
+
+Shipping container revolutionized international trade
+and made globalization possible, but it's story has
+largely been ignored. The Box is the first comprehensive
+history of arguably one of the most important inventions
+of the twentieth century.
+
+This book received mostly favorable reviews from the
+critics. They are totally deserved—the book is superbly
+researched and written. However, even though I really
+wanted to enjoy it, I just couldn't bring myself to
+care about the topic. And that's pretty much all I have
+to say about The Box; Bill Gates'
+[review](https://www.gatesnotes.com/Books/The-Box)
+is more detailed and also much more enthusiastic.
