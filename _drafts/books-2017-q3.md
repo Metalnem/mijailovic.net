@@ -278,6 +278,30 @@ part was much shorter.
 
 **[Reversing: Secrets of Reverse Engineering](https://www.amazon.com/dp/0764574817/)**
 
+I've been reading books from Thomas Ptacek's
+[application security reading list](https://www.amazon.com/gp/richpub/listmania/fullview/R2EN4JTQOCHNBA/)
+for the last several years. Almost all of them are
+the best books in their fields, and Reversing is no
+exception:
+
+>The best end-to-end treatment of the theory and
+practice of taking compiled binary software and
+working it back to its design and internal function.
+>
+> — <cite>Thomas Ptacek</cite>
+
+It's such a joy to read a book from the expert in
+the field, someone who has deep technical expertise
+and knowledge about the topic that you just can't
+find anywhere else. Reversing is similar to TAOSSA
+in that sense—you just can't find single weak chapter
+in this book. Some other authors would gently
+introduce you to reversing with some "Hello, world!"
+example, but not Eldad Eilam. He is the real deal,
+and the first thing you will learn to reverse in this
+book is nothing less than the splay tree implementation
+from the Windows kernel!
+
 **[The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger](https://www.amazon.com/dp/0691170819/)**
 
 Shipping container revolutionized international trade
