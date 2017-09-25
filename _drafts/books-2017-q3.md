@@ -335,3 +335,30 @@ care about the topic. And that's pretty much all I have
 to say about The Box; Bill Gates'
 [review](https://www.gatesnotes.com/Books/The-Box)
 is more detailed and also much more enthusiastic.
+
+**[tmux 2: Productive Mouse-Free Development](https://pragprog.com/book/bhtmux2/tmux-2)**
+
+I don't remember where the initial idea to learn tmux
+came from; my life was perfectly fine with iTerm2 tabs.
+Anyway, it's always good to learn new things, and I
+prefer to learn new things from books, even though
+it was questionable choice in this case—probably any
+tutorial would have been more than sufficient.
+But this is a very short book, so there was no harm
+in reading it—except that I completely gave up on
+tmux after reading it.
+
+I was really enthusiastic when I first installed tmux
+and created a new session with several windows. But
+only after ten pages or so I was completely overwhelmed
+by the mind-boggling amount of shortcuts that I would
+have to learn in order to use tmux effectively. I though
+that maybe I should endure the initial pain, but then
+came the chapter on copy-mode, and that was the moment
+when I completely lost my interest in tmux.
+
+The book itself is actually fine—my unrealistic
+expectations were the problem. After all, you can't
+expect miracles from the book describing software
+whose essence is memorizing hundreds of keyboard
+shortcuts.
