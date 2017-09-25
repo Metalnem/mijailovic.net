@@ -300,7 +300,24 @@ introduce you to reversing with some "Hello, world!"
 example, but not Eldad Eilam. He is the real deal,
 and the first thing you will learn to reverse in this
 book is nothing less than the splay tree implementation
-from the Windows kernel!
+from the Windows kernel! And after a few hundred pages,
+just when you think you are ready to face any real-world
+application, the author throws at you what initially looks
+like unbreakable copy protection scheme, but also shows
+you how seemingly impossible problems can be solved with
+enough dedication.
+
+The book is a bit dated, but the fundamentals of
+reversing haven't changed in the last ten years.
+It's also very dense, and requires very focused
+reader; for the first time in years I had to use
+pen and paper to work through some of the examples.
+But it's worth the trouble, because by the time you
+have completed this book, you will have acquired
+solid foundation in reverse engineering. However,
+that's only the beginning; after that, it's a lot
+of practice and hard work. Get yourself a copy of
+[Binary Ninja](https://binary.ninja/), and have fun.
 
 **[The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger](https://www.amazon.com/dp/0691170819/)**
 
