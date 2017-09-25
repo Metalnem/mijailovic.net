@@ -361,4 +361,6 @@ The book itself is actually fine—my unrealistic
 expectations were the problem. After all, you can't
 expect miracles from the book describing software
 whose essence is memorizing hundreds of keyboard
-shortcuts.
+shortcuts. But if you are kind of person who likes
+to do everything with keyboard, or configure things all
+the time, this book might be the right choice for you.
