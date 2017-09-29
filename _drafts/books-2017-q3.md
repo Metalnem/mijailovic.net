@@ -4,7 +4,7 @@ The Art of Software Security Assessment is the definitive guide
 to finding software vulnerabilities by reading source code.
 Vulnerability research is not my area of expertise, so don't
 just take my word for it—here's what actual software security
-experts have to say about it:
+experts have to say about the book:
 
 >The same way you can say "TAOCP" on a programming site and
 everyone knows you mean "Knuth", say "TOASSA" to a security
@@ -66,17 +66,17 @@ a single person. It’s possible that the World War II could
 have happened even without Hitler, but such amount of evil
 and inhumanity would be unimaginable without him. History of
 Hitler is the history of the worst political miscalculations
-in history. This book shows how the unique set of
-circumstances has shaped the world history, and how Hitler's
-rise to power was all but inevitable. Kershaw
-does a great job debunking common myths and misconceptions
-about Hitler, especially about the evolution of Hitler's
-ideology and his early role in the Nazi party. It's difficult
-to write a biography of a person whose personal life was
-almost nonexistent, but this book still manages to reveal
-surprising amount of detail, especially about the Hitler's
-downfall, the last few months of his life in the bunker, and
-and the gradual descend into complete paranoia and delusion.
+ever; this book shows how the unique set of circumstances
+has shaped the world history, and how Hitler's rise to power
+was all but inevitable. Kershaw does a great job debunking
+common myths and misconceptions about Hitler, particularly
+the ones regarding the evolution of Hitler's ideology and
+his early role in the Nazi party. It's difficult to write
+a biography of a person whose personal life was almost
+nonexistent, but this book still manages to reveal surprising
+amount of detail, especially about the Hitler's downfall,
+the last few months of his life in the bunker, and his
+descent into complete paranoia and delusion.
 
 If you are interested in knowing more about Hitler (or the
 Third Reich in general), Ian Kershaw’s books are the answer;
@@ -95,12 +95,12 @@ played important role in the Final Solution; they were initially
 in charge of policing the occupied territories in the East, but
 after the Operation Barbarossa they became increasingly involved
 in the mass shootings of Polish Jews. Ordinary Men is the story
-of one such unit—
+of one such unit:
 [Reserve Police Battalion 101](https://en.wikipedia.org/wiki/Reserve_Police_Battalion_101).
 
-Reserve Police Battalion 101 was a unit of around 500 people,
+Reserve Police Battalion 101 was the unit of around 500 people,
 directly involved in killing of at least 38000 Jews, but
-also responsible for deportations of even more Jews to
+also responsible for deportations of even more Jews to the
 death camps. During the first few years of war, they were
 mostly assigned to the guard duty in Poland, until one
 morning in July 1942 the orders came that 1500 Jews from
@@ -119,8 +119,8 @@ Most people think that making moral decisions the wartime
 would be easy for them, but this book shows that it's
 not so black and white. That doesn't mean that murderers
 are to be excused or forgiven, just that it's possible
-to understand their behavior. This book is one of the
-most terrifying books I've ever read. It's also one of the best.
+to understand their behavior. This book is one of the most
+terrifying books I've ever read. It's also one of the best.
 
 **[Ordinary Injustice: How America Holds Court](https://www.amazon.com/dp/0805092277/)**
 
@@ -171,16 +171,16 @@ official Go documentation offers more than enough material
 for learning the language. [A Tour of Go](https://tour.golang.org/),
 [Effective Go](https://golang.org/doc/effective_go.html),
 and [The Go Blog](https://blog.golang.org/index) cover almost
-everything you need to know. However,
-simplicity of the language is a double-edged sword-Go offers
-you really great low-level primitives, but that means you
-often have to reinvent high-level constructs. That was something
-I expected from this book: collection of patterns for writing
-reliable concurrent software in Go.
+everything you need to know. However, simplicity of the
+language is a double-edged sword-Go offers you really
+great low-level primitives, but that means you often
+have to reinvent high-level constructs. And that was
+something I expected from this book: collection of patterns
+for writing reliable concurrent software in Go.
 
 First half of the book introduces the concept of concurrency,
-and the basic primitives Go programming language offers: goroutines,
-channels, and synchronization primitives from the sync
+and the basic primitives of the Go programming language: goroutines,
+channels, and synchronization types from the sync
 package. If you are familiar with Go (and you probably are if
 you are reading this book), you will not learn anything new here.
 Second half is much more interesting, because it delivers exactly
@@ -195,11 +195,11 @@ for wrapping errors; that is a huge plus for her in my book.
 
 The books falls just a little bit short of being the definitive
 concurrency reference. Most notable is the absence of chapter
-on the Go memory model-I think every concurrency book has to
-discuss the memory model. Fortunately, it's really simple
-in the case of Go: you can read about it [here](https://golang.org/ref/mem).
-Also, the chapter about the Go runtime is good, but the best
-resources available are the two fantastic talks by Kavya Joshi:
+on the Go memory model-I think that's something every concurrency
+book has to discuss. Fortunately, it's really simple
+in the case of Go: just read about it [here](https://golang.org/ref/mem).
+Also, the chapter about the Go runtime is good, but not nearly
+as good as the two fantastic talks by Kavya Joshi:
 ["go test -race" Under the Hood](https://www.youtube.com/watch?v=5erqWdlhQLA) and
 [Understanding Channels](https://www.youtube.com/watch?v=KBZlN0izeiY).
 
@@ -229,7 +229,7 @@ and "Git Internals" are indispensable; section "Reset
 Demystified" explains reset command better than any
 other resource on the internet. You will also learn
 tons of tricks that you will never use in the real life,
-but will make you look smart in the public!
+but that will make you look smart in the public!
 
 In an ideal world, we wouldn't have to read books
 about version control systems, but we live in the
@@ -290,14 +290,14 @@ working it back to its design and internal function.
 >
 > — <cite>Thomas Ptacek</cite>
 
-It's such a joy to read a book from the expert in
+It's such a joy reading a book from the expert in
 the field, someone who has deep technical expertise
 and knowledge about the topic that you just can't
 find anywhere else. Reversing is similar to TAOSSA
 in that sense—you just can't find single weak chapter
 in this book. Some other authors would gently
 introduce you to reversing with some "Hello, world!"
-example, but not Eldad Eilam. He is the real deal,
+toy example, but not Eldad Eilam. He is the real deal,
 and the first thing you will learn to reverse in this
 book is nothing less than the splay tree implementation
 from the Windows kernel! And after a few hundred pages,
@@ -362,5 +362,6 @@ expectations were the problem. After all, you can't
 expect miracles from the book describing software
 whose essence is memorizing hundreds of keyboard
 shortcuts. But if you are kind of person who likes
-to do everything with keyboard, or configure things all
-the time, this book might be the right choice for you.
+to do everything with keyboard, or configure things
+until everything is to their liking, this book might
+be the right choice for you.
