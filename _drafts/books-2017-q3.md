@@ -52,7 +52,7 @@ you probably knew that already).
 
 Hitler: A Biography is an abridged version of Ian Kershaw’s
 previous two-volume biography of Hitler (even though it’s hard
-to call abridged the book that’s over 1000 pages long).
+to call abridged a book that’s over 1000 pages long).
 Hitler: 1889-1936 Hubris and Hitler: 1936-1945 Nemesis were
 already the definitive reference books, but Kershaw decided
 to condense the two volumes into one (despite his initial
@@ -63,7 +63,7 @@ biography of the Nazi dictator.
 Never before in history has such destruction been caused by
 a single person. It’s possible that the World War II could
 have happened even without Hitler, but such amount of evil
-and inhumanity would be unimaginable without him. History of
+and inhumanity would have been unimaginable without him. History of
 Hitler is the history of the worst political miscalculations
 ever; this book shows how the unique set of circumstances
 has shaped the world history, and how Hitler's rise to power
@@ -97,7 +97,7 @@ in the mass shootings of Polish Jews. Ordinary Men is the story
 of one such unit:
 [Reserve Police Battalion 101](https://en.wikipedia.org/wiki/Reserve_Police_Battalion_101).
 
-Reserve Police Battalion 101 was the unit of around 500 people,
+Reserve Police Battalion 101 was the unit of around 500 men,
 directly involved in killing of at least 38000 Jews, but
 also responsible for deportations of even more Jews to the
 death camps. During the first few years of war, they were
@@ -131,11 +131,11 @@ but rather infinite number of mundane cases where people
 are hoarded like cattle through the meat grinder that is
 US criminal justice system.
 
-No player in the system is innocent. Judges send to jail
-people charged with minor crimes, whether they are guilty or
-not, only because they cannot afford excessive bails. Defendants
-are forced to accept guilty pleas without a lawyer being present.
-Overworked and underpaid public defenders sometimes have
+No player in the system is innocent. People charged with minor
+crimes are being sent to jail, whether they are guilty or not,
+only because they cannot afford excessive bails imposed by judges.
+Defendants are forced to accept guilty pleas without a lawyer being
+present. Overworked and underpaid public defenders sometimes have
 only a few minutes to talk to the clients and decide whether
 to accept prosecutor's offer or risk going to trial, and all
 of that without having the facts of the case that prosecutor
@@ -194,7 +194,7 @@ for wrapping errors; that is a huge plus for her in my book.
 
 The books falls just a little bit short of being the definitive
 concurrency reference. Most notable is the absence of chapter
-on the Go memory model-I think that's something every concurrency
+on the Go memory model—I think that's something every concurrency
 book has to discuss. Fortunately, it's really simple
 in the case of Go: just read about it [here](https://golang.org/ref/mem).
 Also, the chapter about the Go runtime is good, but not nearly
@@ -235,7 +235,7 @@ about version control systems, but we live in the
 world where we have to use Git, and that makes the
 Pro Git book a necessity (don't get me wrong—this is
 actually a great book, it's just that I would rather
-have spent few weeks of my life improving skills
+have spent those few weeks of my life improving skills
 that really matter).
 
 **[Blood in the Water: The Attica Prison Uprising of 1971 and Its Legacy](https://www.amazon.com/dp/0375423222/)**
@@ -312,7 +312,7 @@ It's also very dense, and requires very focused
 reader; for the first time in years I had to use
 pen and paper to work through some of the examples.
 But it's worth the trouble, because by the time you
-have completed this book, you will have acquired
+complete this book, you will have acquired
 solid foundation in reverse engineering. However,
 that's only the beginning; after that, it's a lot
 of practice and hard work. Get yourself a copy of
