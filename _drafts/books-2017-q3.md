@@ -2,8 +2,7 @@
 
 The Art of Software Security Assessment is the definitive guide
 to finding software vulnerabilities by reading source code.
-Vulnerability research is not my area of expertise, so don't
-just take my word for it—here's what actual software security
+Vulnerability research is not my area of expertise, so here's what actual software security
 experts have to say about the book:
 
 >The same way you can say "TAOCP" on a programming site and
@@ -126,7 +125,7 @@ terrifying books I've ever read. It's also one of the best.
 
 Here we have yet another "ordinary" book, in which Amy Bach
 reveals the systemic problems in the US courtrooms. The book
-shows that the main problem are not the spectacular failures
+shows that the main problem is not the spectacular failures
 that we see everyday in the news and treat them as exceptions,
 but rather infinite number of mundane cases where people
 are hoarded like cattle through the meat grinder that is
@@ -229,7 +228,7 @@ and "Git Internals" are indispensable; section "Reset
 Demystified" explains reset command better than any
 other resource on the internet. You will also learn
 tons of tricks that you will never use in the real life,
-but that will make you look smart in the public!
+but which will make you look smart in the public!
 
 In an ideal world, we wouldn't have to read books
 about version control systems, but we live in the
@@ -242,7 +241,7 @@ that really matter).
 **[Blood in the Water: The Attica Prison Uprising of 1971 and Its Legacy](https://www.amazon.com/dp/0375423222/)**
 
 Attica Correctional Facility has always been notorious
-for its horrible living conditions. It was a dangerous
+for its horrible living conditions. It was (and still is) a dangerous
 and overcrowded place, lacking enough food and medical
 care. Prisoners' demands for better living conditions
 culminated on September 9, 1971, when they took control
@@ -271,7 +270,7 @@ I just couldn't put the book down. Second part of the
 book is not nearly as great as the first. It describes
 the numerous criminal and civil trials that followed
 in the decades after the uprising, but it's too long
-and too detailed, describing numerous cases that were
+and too detailed, describing many cases that were
 very similar in nature. The book remains great, but
 flawed; it could have been perfect if only the second
 part was much shorter.
@@ -281,7 +280,7 @@ part was much shorter.
 I've been reading books from Thomas Ptacek's
 [application security reading list](https://www.amazon.com/gp/richpub/listmania/fullview/R2EN4JTQOCHNBA/)
 for the last several years. Almost all of them are
-the best books in their fields, and Reversing is no
+the best books in their respective fields, and Reversing is no
 exception:
 
 >The best end-to-end treatment of the theory and
@@ -332,7 +331,7 @@ critics. They are totally deserved—the book is superbly
 researched and written. However, even though I really
 wanted to enjoy it, I just couldn't bring myself to
 care about the topic. And that's pretty much all I have
-to say about The Box; Bill Gates'
+to say about The Box—Bill Gates'
 [review](https://www.gatesnotes.com/Books/The-Box)
 is more detailed and also much more enthusiastic.
 
