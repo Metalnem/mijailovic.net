@@ -2,6 +2,21 @@
 
 **[KL: A History of the Nazi Concentration Camps](https://www.amazon.com/dp/B00NS3NBWU/)**
 
+This book is the first comprehensive history of the Nazi
+KL system, covering everything between the founding of
+Dachau in 1933 and the final liberation of camps in 1945.
+Early camps were only slightly worse than the ordinary
+prisons; public executions didn't happen before 1938, and
+even then they required the official death sentence from
+the judge. Only after the war had begun situation started
+to deteriorate dramatically for the prisoners. Today,
+death camps are often equated with Auschwitz, but millions
+of Jews were killed in the Operation Reinhard death camps
+before Auschwitz became the center of the Holocaust.
+If you are a casual reader, this book might be too long
+and too detailed for you, but if you want to understand
+the KL system as a whole, look no further.
+
 **[Serious Cryptography: A Practical Introduction to Modern Encryption](https://www.nostarch.com/seriouscrypto)**
 
 Jean-Philippe Aumasson’s book on modern cryptography may
