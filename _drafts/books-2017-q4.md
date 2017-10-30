@@ -16,4 +16,21 @@ A must-read for all crypto nerds.
 
 **[Crypto 101](https://www.crypto101.io/)**
 
+This hidden gem is the extended version of Laurens Van
+Houtven’s PyCon US 2013 [talk](https://www.youtube.com/watch?v=3rmCGsCYJF8)
+with the same name. It will teach you cryptography by
+showing you how to break it; in that sense, it's very
+similar to the [Cryptopals](https://cryptopals.com/).
+Unfortunately, it's not finished, and it will likely
+never be. For example, here is the complete chapter
+on elliptic curve cryptography:
+
+>**9.4 Elliptic curve cryptography**
+>
+>TODO: This
+
+Crypto 101 is a great read even in its current state.
+If lvh ever completes it, it will probably become my
+favorite crypto book of all times.
+
 **[Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made](https://www.amazon.com/dp/B01NAKSWW1/)**
