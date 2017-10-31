@@ -45,7 +45,7 @@ on elliptic curve cryptography:
 >TODO: This
 
 Crypto 101 is a great read even in its current state.
-If lvh ever completes it, it will probably become my
-favorite crypto book of all times.
+If [lvh](https://www.lvh.io/) ever completes it, it
+will probably become my favorite crypto book of all times.
 
 **[Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made](https://www.amazon.com/dp/B01NAKSWW1/)**
