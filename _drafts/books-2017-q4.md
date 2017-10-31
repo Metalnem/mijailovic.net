@@ -49,3 +49,17 @@ If [lvh](https://www.lvh.io/) ever completes it, it
 will probably become my favorite crypto book of all times.
 
 **[Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made](https://www.amazon.com/dp/B01NAKSWW1/)**
+
+In Blood, Sweat, and Pixels, Kotaku game journalist
+Jason Schreier tells fascinating behind-the-scenes
+stories of video game development. Entertainment
+industry is cruel; despite what the title says,
+there is nothing triumphant about making video
+games. Whether you are a solo developer or just
+a part of some huge studio, your life will almost
+invariably consist of months and months of 100-hour
+work weeks that will ultimately lead to burnout. By
+focusing only on highly successful games, the book
+paints a slightly distorted picture of reality, but
+that's the only complaint I have about this great book.
+Every person interested in video games should read it.
