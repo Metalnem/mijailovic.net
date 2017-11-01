@@ -63,3 +63,7 @@ focusing only on highly successful games, the book
 paints a slightly distorted picture of reality, but
 that's the only complaint I have about this great book.
 Every person interested in video games should read it.
+
+**[Soviet Bus Stops](http://fuel-design.com/publishing/soviet-bus-stops/)**
+
+![](soviet.jpg)
