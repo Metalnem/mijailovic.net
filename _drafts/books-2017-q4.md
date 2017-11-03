@@ -92,6 +92,20 @@ Every person interested in video games should read it.
 
 **[Soviet Bus Stops](http://fuel-design.com/publishing/soviet-bus-stops/)**
 
+Although I don't know anything about architecture,
+something about Soviet buildings really fascinates
+me; the most beautiful book that I have in my
+library is Frédéric Chaubin's
+[Cosmic Communist Constructions Photographed](https://www.amazon.com/dp/3836525194/).
+Soviet Bus Stops is another stunning book showing
+the strange world of Soviet architecture. The title
+says everything—it's a collection of wonderful
+photographs of bus stops unlike any others you've
+seen previously. Most of these masterpieces are
+currently decaying in the middle of nowhere, which
+makes them even more captivating. Beautiful, amazing
+book.
+
 ![](soviet.jpg)
 
 **[The Like Switch: An Ex-FBI Agent’s Guide to Influencing, Attracting, and Winning People Over](https://www.amazon.com/dp/1476754489/)**
