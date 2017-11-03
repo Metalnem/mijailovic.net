@@ -93,3 +93,5 @@ Every person interested in video games should read it.
 **[Soviet Bus Stops](http://fuel-design.com/publishing/soviet-bus-stops/)**
 
 ![](soviet.jpg)
+
+**[The Like Switch: An Ex-FBI Agent’s Guide to Influencing, Attracting, and Winning People Over](https://www.amazon.com/dp/1476754489/)**
