@@ -1,5 +1,31 @@
 **[HBR Guide to Better Business Writing](https://www.amazon.com/dp/B00B0YPJ0G/)**
 
+Bryan A. Garner is a genius, and the ultimate authority
+on English language grammar and usage. His book Garner's
+Modern English Usage is the essential reference for any
+serious writer. HBR Guide to Better Business Writing is
+much smaller in scope, but its target audience is much
+larger. Don't let the title fool you—this is not
+a business-specific book. Not only will it help you
+write better in general but also your communication
+skills will improve. Here's the author's promise
+to the reader:
+
+>You'll get better at:
+>- Pushing past writer’s block.
+>- Motivating readers to act.
+>- Organizing your ideas.
+>- Expressing your main points clearly.
+>- Cutting to the chase.
+>- Holding readers' attention.
+>- Writing concise, useful summaries.
+>- Trimming the fat from your documents.
+>- Striking the right tone.
+>- Avoiding grammar gaffes.
+
+I highly recommend this book to everyone—it's by far
+the best book for improving your everyday writing.
+
 **[KL: A History of the Nazi Concentration Camps](https://www.amazon.com/dp/B00NS3NBWU/)**
 
 This book is the first comprehensive history of the Nazi
