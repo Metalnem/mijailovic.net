@@ -109,3 +109,7 @@ book.
 ![](soviet.jpg)
 
 **[The Like Switch: An Ex-FBI Agent’s Guide to Influencing, Attracting, and Winning People Over](https://www.amazon.com/dp/1476754489/)**
+
+**[Man's Search for Meaning](https://www.amazon.com/dp/B009U9S6FI/)**
+
+**[The Campus Rape Frenzy: The Attack on Due Process at America’s Universities](https://www.amazon.com/dp/B01N1XNTYI/)**
