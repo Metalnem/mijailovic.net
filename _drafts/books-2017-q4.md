@@ -110,6 +110,82 @@ book.
 
 **[The Like Switch: An Ex-FBI Agent’s Guide to Influencing, Attracting, and Winning People Over](https://www.amazon.com/dp/1476754489/)**
 
+Every now and then I read some book about the psychology
+of influence. My personal favorite in the field is Dale
+Carnegie's classic How to How to Win Friends & Influence
+People. The Like Switch is somewhat similar to it, but
+with same important differences. While Carnegie's book
+tries to make you genuinely care more about other people,
+The Like Switch is more about getting what you want from
+them. The differences between the two approaches can
+sometimes be very subtle, but are still noticeable
+(this book is also a reminder why you should never
+talk to police, despite their seemingly friendly
+attitude). Nevertheless, The Like Switch is a good read,
+full of interesting ideas that you can apply immediately.
+
 **[Man's Search for Meaning](https://www.amazon.com/dp/B009U9S6FI/)**
 
+Viktor Frankl is a Holocaust survivor, and the founder
+of [logotherapy](https://en.wikipedia.org/wiki/Logotherapy),
+the school of psychotherapy based on a premise that the
+main motivational force behind humans is their search
+for meaning. First part of this book chronicles authors's
+experiences in Nazi concentration camps, while the second
+part describes the logotherapy itself. What I liked about
+the book is that Frankl doesn't talk about some single,
+abstract meaning of life in general—he states that each
+person has some specific meaning. What I didn't like is
+that he offers simplistic answers to very complex problems.
+While will to meaning is an interesting philosophy, I don't
+think it makes a good psychotherapy. It's based on anecdotal
+evidence, and in my opinion is a downright dangerous way to
+treat people with depression. Anyway, this is still a good
+book, albeit one that I disagree with.
+
 **[The Campus Rape Frenzy: The Attack on Due Process at America’s Universities](https://www.amazon.com/dp/B01N1XNTYI/)**
+
+Rape is a serious crime, and should be treated as such.
+But on today's college campuses, it's been reduced to a
+meaningless word. Sexual assault is handled by a bunch of
+amateurs without any real investigative power. Accusers are
+automatically labeled as "victims" or "survivors", in some
+cases even after their fictional stories collapsed under
+scrutiny. Constitutional protections that play the critical
+role in the criminal justice system, such as due process,
+right to have the assistance of counsel, double jeopardy,
+and cross-examination, no longer apply. Presumption of
+innocence? Tough luck:
+
+>If there are 10 people who have been accused, and under a
+>reasonable likelihood standard maybe one or two did it,
+>it seems better to get rid of all 10 people.
+>
+> — <cite>Rep. Jared Polis</cite>
+
+Authors KC Johnson and Stuart Taylor Jr. are among the
+rare voices of reason in the crazy atmosphere of rape
+hysteria. They completely demolish most of the accepted
+"wisdom", such as the "one in five" sex assault myth.
+The book is exceptionally well researched, covering
+more than four dozen cases of innocent men being
+convicted by the college tribunals, showing that the
+injustice is the norm, and not just a handful of
+isolated cases. My favorite non-fiction book in years.
+
+**[A Listener's Guide to Free Improvisation](https://www.amazon.com/dp/022635380X/)**
+
+After several years of listening to free jazz, I still
+can't articulate what exactly I love about it. It often
+lacks some standard elements that you expect in music,
+such as rhythm, harmony, or melody. That's maybe why it
+sounds impenetrable to newcomers. John Corbett's book
+tries to teach people how to listen to improvised music.
+It's short and enjoyable read, but I'm not sure if the
+complete beginners can appreciate what it has to offer.
+Free improvisation is best experienced live, but unless
+you live in Chicago, Berlin, or London, you are probably
+out of luck. The book also offers a great selection of
+albums that you could listen to if you decide to give
+free improvisation a try. Recommended read for all
+open-minded music lovers.
