@@ -189,3 +189,11 @@ out of luck. The book also offers a great selection of
 albums that you could listen to if you decide to give
 free improvisation a try. Recommended read for all
 open-minded music lovers.
+
+**[The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws](https://www.amazon.com/dp/1118026470/)**
+
+**[Attacking Network Protocols: A Hacker's Guide to Capture, Analysis, and Exploitation](https://www.nostarch.com/networkprotocols)**
+
+**[Gulag: A History](https://www.amazon.com/dp/1400034094/)**
+
+**[Bird Watching for Cats: An Entertainment Guide for Indoor Felines](https://www.amazon.com/dp/1572231890/)**
