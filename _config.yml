@@ -12,5 +12,5 @@ theme: minima
 
 exclude: [CNAME, Gemfile, LICENSE, README.md]
 
-gems:
+plugins:
   - jekyll-feed
