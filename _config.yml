@@ -3,7 +3,8 @@ email: nemanja@mijailovic.net
 
 baseurl: ""
 url: "https://mijailovic.net"
-github_username: metalnem
+github_username: Metalnem
+rss: RSS
 
 permalink: /:year/:month/:day/:title/
 
