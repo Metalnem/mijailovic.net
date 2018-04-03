@@ -9,10 +9,7 @@ instagram_username: insta_macak
 rss: RSS
 
 permalink: /:year/:month/:day/:title/
-
 markdown: kramdown
-theme: minima
-
 exclude: [CNAME, Gemfile, LICENSE, README.md]
 
 plugins:
