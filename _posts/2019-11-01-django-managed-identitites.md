@@ -3,7 +3,6 @@ layout: post
 title: "Using Azure managed identities with Azure blob storage backend for Django"
 date: 2019-11-01 20:35:00 +0200
 ---
-
 *Dedicated to Bakir and Milica*
 
 My best friend and my wife are making a website with Django,
