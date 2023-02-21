@@ -77,7 +77,7 @@ your input stream in an `XmlReader`:
 ```csharp
 using var reader = XmlReader.Create(stream);
 var serializer = new XmlSerializer(typeof(Foo));
-T value = (T)serializer.Deserialize(stream);
+T value = (T)serializer.Deserialize(reader);
 ```
 
 Sadly, this does not protect you against `StackOverflowException` at all. At this point, you (justifiably) think
@@ -91,7 +91,7 @@ become a member of an elite group of people who know how to limit the recursion 
 var quotas = new XmlDictionaryReaderQuotas { MaxDepth = 32 };
 using var reader = XmlDictionaryReader.CreateTextReader(stream, quotas);
 var serializer = new XmlSerializer(typeof(Foo));
-T value = (T)serializer.Deserialize(stream);
+T value = (T)serializer.Deserialize(reader);
 ```
 
 If you are somehow doing this, congratulations—you are not vulnerable to `StackOverflowException`! Not only are
