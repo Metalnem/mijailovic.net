@@ -59,7 +59,7 @@ figuring out how to do that resembles finding a needle in a haystack. If you are
 library by following the official documentation, you will almost certainly write something like this:
 
 ```csharp
-var serializer = new XmlSerializer(typeof(Foo));
+var serializer = new XmlSerializer(typeof(T));
 T value = (T)serializer.Deserialize(stream);
 ```
 
@@ -76,7 +76,7 @@ your input stream in an `XmlReader`:
 
 ```csharp
 using var reader = XmlReader.Create(stream);
-var serializer = new XmlSerializer(typeof(Foo));
+var serializer = new XmlSerializer(typeof(T));
 T value = (T)serializer.Deserialize(reader);
 ```
 
@@ -90,7 +90,7 @@ become a member of an elite group of people who know how to limit the recursion 
 ```csharp
 var quotas = new XmlDictionaryReaderQuotas { MaxDepth = 32 };
 using var reader = XmlDictionaryReader.CreateTextReader(stream, quotas);
-var serializer = new XmlSerializer(typeof(Foo));
+var serializer = new XmlSerializer(typeof(T));
 T value = (T)serializer.Deserialize(reader);
 ```
 
