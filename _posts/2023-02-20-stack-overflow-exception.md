@@ -132,6 +132,14 @@ That wouldn't be too terrible on its own, because many other libraries had faced
 fixed it. The real problem here is that when I reported this to Microsoft Security Response Center, they just
 didn't care. Verdict: avoid.
 
+**Update (Mar 22, 2023):** I might have been too harsh when I said that MSRC didn't care
+about my report. Here is the full story: I reported the issue as denial of service in
+[Microsoft Orleans](https://learn.microsoft.com/en-us/dotnet/orleans/overview) using Bond
+deserializer. The report was evaluated in the context of Orleans, and since Orleans
+is not intended to be publicly accessible (as described in the
+[official documentation](https://learn.microsoft.com/en-us/dotnet/orleans/resources/frequently-asked-questions#can-i-connect-to-orleans-silos-from-the-public-internet)),
+MSRC determined that Orleans users are not exposed to denial of service by design.
+
 ## Summary
 
 If you don't like reading and you just want me to tell you how to be safe, here's a pretty table for you.
