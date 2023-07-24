@@ -106,7 +106,7 @@ and as you know from the previous section, libFuzzer satisfies that requirement.
 ## Fuzzing .NET Core standard library
 
 My initial attempts to fuzz the .NET Core standard library (aka base-class library or BCL) failed,
-because I though that modifying mixed-mode assemblies was impossible (and all official .NET assemblies
+because I thought that modifying mixed-mode assemblies was impossible (and all official .NET assemblies
 are built as mixed-mode assemblies). But I really wanted to find bugs in the .NET standard library, so
 I ultimately figured out how to fuzz it by doing some godawful hacks like downloading the IL-only,
 nightly packages from a special NuGet feed used by the .NET team, and building the .NET runtime repo
