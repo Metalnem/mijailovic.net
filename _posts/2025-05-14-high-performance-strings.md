@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "High-perfomance string formatting in .NET"
+title: "High-performance string formatting in .NET"
 image: /assets/img/2025-05-14-high-performance-strings-preview.png
 date: 2025-05-14 14:00:00 +0200
 ---
